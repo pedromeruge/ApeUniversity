@@ -1,0 +1,2580 @@
+fileFormatVersion: 2
+guid: 86a90e7145b944a80bc5620f3acbc999
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7944107578241723165
+    second: icon_recycled_0
+  - first:
+      213: 1302802840664665453
+    second: icon_recycled_1
+  - first:
+      213: -8366415864998054873
+    second: icon_recycled_2
+  - first:
+      213: 1776709211204563980
+    second: icon_recycled_3
+  - first:
+      213: 887305308538451570
+    second: icon_recycled_4
+  - first:
+      213: 5397789579428991377
+    second: icon_recycled_5
+  - first:
+      213: -7017977547877765549
+    second: icon_recycled_6
+  - first:
+      213: -1101549540878265700
+    second: icon_recycled_7
+  - first:
+      213: 1726514946122696608
+    second: icon_recycled_8
+  - first:
+      213: 6026955077585833735
+    second: icon_recycled_9
+  - first:
+      213: -8976409679175805946
+    second: icon_recycled_10
+  - first:
+      213: -9121734049330104235
+    second: icon_recycled_11
+  - first:
+      213: 3259719983366433063
+    second: icon_recycled_12
+  - first:
+      213: -5412203329428330744
+    second: icon_recycled_13
+  - first:
+      213: -1944961017384387999
+    second: icon_recycled_14
+  - first:
+      213: -9035413748411151211
+    second: icon_recycled_15
+  - first:
+      213: 2602099190862580684
+    second: icon_recycled_16
+  - first:
+      213: -7327661778571048854
+    second: icon_recycled_17
+  - first:
+      213: -5057992606793514039
+    second: icon_recycled_18
+  - first:
+      213: -1000203611081753022
+    second: icon_recycled_19
+  - first:
+      213: -2838998005262641153
+    second: icon_recycled_20
+  - first:
+      213: -4187617711823729644
+    second: icon_recycled_21
+  - first:
+      213: 6217462863149218153
+    second: icon_recycled_22
+  - first:
+      213: 8993904959802865736
+    second: icon_recycled_23
+  - first:
+      213: 6256098422104960277
+    second: icon_recycled_24
+  - first:
+      213: -8186305948260607951
+    second: icon_recycled_25
+  - first:
+      213: -137385741566571657
+    second: icon_recycled_26
+  - first:
+      213: -4709922468096621603
+    second: icon_recycled_27
+  - first:
+      213: -7752026309399402659
+    second: icon_recycled_28
+  - first:
+      213: -1190902567256671558
+    second: icon_recycled_29
+  - first:
+      213: -2646656783913677343
+    second: icon_recycled_30
+  - first:
+      213: 1805925395942146101
+    second: icon_recycled_31
+  - first:
+      213: 1604985571546979064
+    second: icon_recycled_32
+  - first:
+      213: -6186146493121324286
+    second: icon_recycled_33
+  - first:
+      213: 7003258451525077552
+    second: icon_recycled_34
+  - first:
+      213: 8077919162205956308
+    second: icon_recycled_35
+  - first:
+      213: -7826974344277269923
+    second: icon_recycled_36
+  - first:
+      213: -910871757682053866
+    second: icon_recycled_37
+  - first:
+      213: -7397701848671037740
+    second: icon_recycled_38
+  - first:
+      213: -7418151856984731292
+    second: icon_recycled_39
+  - first:
+      213: 1210018766563511738
+    second: icon_recycled_40
+  - first:
+      213: 6129972125767458310
+    second: icon_recycled_41
+  - first:
+      213: -1592477978606923748
+    second: icon_recycled_42
+  - first:
+      213: -7747364297445567146
+    second: icon_recycled_43
+  - first:
+      213: 7731822095809839841
+    second: icon_recycled_44
+  - first:
+      213: -8160752577498170821
+    second: icon_recycled_45
+  - first:
+      213: -911280771946431664
+    second: icon_recycled_46
+  - first:
+      213: -7475483324209717979
+    second: icon_recycled_47
+  - first:
+      213: 3966666847484331342
+    second: icon_recycled_48
+  - first:
+      213: 4453328656624876527
+    second: icon_recycled_49
+  - first:
+      213: -3019592884251033168
+    second: icon_recycled_50
+  - first:
+      213: -8225182321549001132
+    second: icon_recycled_51
+  - first:
+      213: 1126594699177761641
+    second: icon_recycled_52
+  - first:
+      213: -5128010835778505982
+    second: icon_recycled_53
+  - first:
+      213: -7108876933564457378
+    second: icon_recycled_54
+  - first:
+      213: -8018264999572567610
+    second: icon_recycled_55
+  - first:
+      213: 8818138656245487943
+    second: icon_recycled_56
+  - first:
+      213: -546028418720016666
+    second: icon_recycled_57
+  - first:
+      213: -3076424179321960743
+    second: icon_recycled_58
+  - first:
+      213: -1041496638756933974
+    second: icon_recycled_59
+  - first:
+      213: 1972630926433068273
+    second: icon_recycled_60
+  - first:
+      213: 1078051264643704189
+    second: icon_recycled_61
+  - first:
+      213: 4173519967452063551
+    second: icon_recycled_62
+  - first:
+      213: 4345936832941289661
+    second: icon_recycled_63
+  - first:
+      213: 7112369326440001573
+    second: icon_recycled_64
+  - first:
+      213: -4697017036662019489
+    second: icon_recycled_65
+  - first:
+      213: -310143283932007621
+    second: icon_recycled_66
+  - first:
+      213: 5163213030080288253
+    second: icon_recycled_67
+  - first:
+      213: 4732621051412911067
+    second: icon_recycled_68
+  - first:
+      213: 3056964884817713140
+    second: icon_recycled_69
+  - first:
+      213: -3061464377661047266
+    second: icon_recycled_70
+  - first:
+      213: -8362662591391196407
+    second: icon_recycled_71
+  - first:
+      213: -7979067068204329940
+    second: icon_recycled_72
+  - first:
+      213: -7625605223202293986
+    second: icon_recycled_73
+  - first:
+      213: 4157659732721163849
+    second: icon_recycled_74
+  - first:
+      213: 1011947547784092217
+    second: icon_recycled_75
+  - first:
+      213: 4165378971320807652
+    second: icon_recycled_76
+  - first:
+      213: 118777470704688080
+    second: icon_recycled_77
+  - first:
+      213: 5064405883358872564
+    second: icon_recycled_78
+  - first:
+      213: 7823950141887314781
+    second: icon_recycled_79
+  - first:
+      213: -3880602536822289014
+    second: icon_recycled_80
+  - first:
+      213: -4519333701460842103
+    second: icon_recycled_81
+  - first:
+      213: -2119665398398918798
+    second: icon_recycled_82
+  - first:
+      213: -1471626964582771768
+    second: icon_recycled_83
+  - first:
+      213: 7075031871953708525
+    second: icon_recycled_84
+  - first:
+      213: 3361657957607181999
+    second: icon_recycled_85
+  - first:
+      213: -3766635522283414797
+    second: icon_recycled_86
+  - first:
+      213: -5226737045031807283
+    second: icon_recycled_87
+  - first:
+      213: -445988724214870962
+    second: icon_recycled_88
+  - first:
+      213: 670486429459612074
+    second: icon_recycled_89
+  - first:
+      213: 2458840078609165069
+    second: icon_recycled_90
+  - first:
+      213: 3501335806937127633
+    second: icon_recycled_91
+  - first:
+      213: 7961185835713649504
+    second: icon_recycled_92
+  - first:
+      213: -3795477028909653850
+    second: icon_recycled_93
+  - first:
+      213: 6375669487540710058
+    second: icon_recycled_94
+  - first:
+      213: -9220724359264287288
+    second: icon_recycled_95
+  - first:
+      213: 2992404649205699208
+    second: icon_recycled_96
+  - first:
+      213: 6554988573039926519
+    second: icon_recycled_97
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: icon_recycled_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 225
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e4d96d4f3cd0c190800000000000000
+      internalID: -7944107578241723165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_1
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 224
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6def22f74c741210800000000000000
+      internalID: 1302802840664665453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_2
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 226
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7243993191584eb80800000000000000
+      internalID: -8366415864998054873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_3
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 223
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c04330b3d9328a810800000000000000
+      internalID: 1776709211204563980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_4
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 223
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 276b0ca1a77505c00800000000000000
+      internalID: 887305308538451570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_5
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 224
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1919b26160dc8ea40800000000000000
+      internalID: 5397789579428991377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_6
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 223
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35e24116a922b9e90800000000000000
+      internalID: -7017977547877765549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 227
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c92d471678286b0f0800000000000000
+      internalID: -1101549540878265700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_8
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 223
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a7cb0f2230d5f710800000000000000
+      internalID: 1726514946122696608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_9
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 224
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70f8dbcf5bb04a350800000000000000
+      internalID: 6026955077585833735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_10
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 224
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6041952b4f26d6380800000000000000
+      internalID: -8976409679175805946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_11
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 191
+        width: 33
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 558f71e0637196180800000000000000
+      internalID: -9121734049330104235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 191
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7296ccbdd0adc3d20800000000000000
+      internalID: 3259719983366433063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_13
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 191
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 807ec393fbdf3e4b0800000000000000
+      internalID: -5412203329428330744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_14
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 191
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16a32d0724c1205e0800000000000000
+      internalID: -1944961017384387999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_15
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 195
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59cc5474113cb9280800000000000000
+      internalID: -9035413748411151211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_16
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 194
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccb02b57d638c1420800000000000000
+      internalID: 2602099190862580684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_17
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 193
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a68c01e9f6aee4a90800000000000000
+      internalID: -7327661778571048854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_18
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 195
+        width: 34
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c34583c5866ec9b0800000000000000
+      internalID: -5057992606793514039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_19
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 195
+        width: 34
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24eb8627d109e12f0800000000000000
+      internalID: -1000203611081753022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_20
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 213
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff7174a1b5ad998d0800000000000000
+      internalID: -2838998005262641153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_21
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 215
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41ccc97c0e792e5c0800000000000000
+      internalID: -4187617711823729644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_22
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 212
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9693132588dd84650800000000000000
+      internalID: 6217462863149218153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_23
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 192
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8487ca0c8e4c0dc70800000000000000
+      internalID: 8993904959802865736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_24
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 193
+        width: 33
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51da2716e5022d650800000000000000
+      internalID: 6256098422104960277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_25
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 193
+        width: 33
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 138524bec16646e80800000000000000
+      internalID: -8186305948260607951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_26
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 160
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77b88bc5568e71ef0800000000000000
+      internalID: -137385741566571657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_27
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 160
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd34871387ef2aeb0800000000000000
+      internalID: -4709922468096621603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_28
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 160
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5724c2c4254b6490800000000000000
+      internalID: -7752026309399402659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_29
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 160
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abab09cbc60197fe0800000000000000
+      internalID: -1190902567256671558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_30
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 160
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ed82787daf254bd0800000000000000
+      internalID: -2646656783913677343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_31
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 160
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5300df3549fef0910800000000000000
+      internalID: 1805925395942146101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_32
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 160
+        width: 13
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fa5fadafdd064610800000000000000
+      internalID: 1604985571546979064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_33
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 160
+        width: 13
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20b99f44a84662aa0800000000000000
+      internalID: -6186146493121324286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_34
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 160
+        width: 13
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03a8761f472903160800000000000000
+      internalID: 7003258451525077552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_35
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 160
+        width: 13
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d86b9beda88a1070800000000000000
+      internalID: 8077919162205956308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_36
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 160
+        width: 13
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d52e14f8d40016390800000000000000
+      internalID: -7826974344277269923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_37
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 160
+        width: 13
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61dec6f56feeb53f0800000000000000
+      internalID: -910871757682053866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_38
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 129
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d656b30d55165990800000000000000
+      internalID: -7397701848671037740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_39
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 129
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 461558a603e6d0990800000000000000
+      internalID: -7418151856984731292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_40
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 129
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abd039048a9dac010800000000000000
+      internalID: 1210018766563511738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_41
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 129
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60e5a6f9b29021550800000000000000
+      internalID: 6129972125767458310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_42
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 129
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c10908c37b166e9e0800000000000000
+      internalID: -1592477978606923748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_43
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 129
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65596310835db7490800000000000000
+      internalID: -7747364297445567146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_44
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 131
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e2034f2b33fc4b60800000000000000
+      internalID: 7731822095809839841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_45
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 131
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3a3e5ea4ce2fbe80800000000000000
+      internalID: -8160752577498170821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_46
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 131
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05b3d7157fa7a53f0800000000000000
+      internalID: -911280771946431664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_47
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 131
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52d9f10068fb14890800000000000000
+      internalID: -7475483324209717979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_48
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 131
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e454f924b7e6c0730800000000000000
+      internalID: 3966666847484331342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_49
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 131
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feb713681d66dcd30800000000000000
+      internalID: 4453328656624876527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_50
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 96
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b18bef25404816d0800000000000000
+      internalID: -3019592884251033168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_51
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 97
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45ebf37e1484add80800000000000000
+      internalID: -8225182321549001132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_52
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 96
+        width: 13
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96b1452f8e772af00800000000000000
+      internalID: 1126594699177761641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_53
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 99
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20371117055a5d8b0800000000000000
+      internalID: -5128010835778505982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_54
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 95
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5e1ce6e712385d90800000000000000
+      internalID: -7108876933564457378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_55
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 95
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c98789277669b090800000000000000
+      internalID: -8018264999572567610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_56
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 95
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74917a92362506a70800000000000000
+      internalID: 8818138656245487943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_57
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 95
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e6dce0db0e1c68f0800000000000000
+      internalID: -546028418720016666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_58
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 97
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d6871d22885e45d0800000000000000
+      internalID: -3076424179321960743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_59
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 98
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aae212c335cdb81f0800000000000000
+      internalID: -1041496638756933974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_60
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 98
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f42efa4061306b10800000000000000
+      internalID: 1972630926433068273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_61
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 98
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d75afb6d9e106fe00800000000000000
+      internalID: 1078051264643704189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_62
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 67
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f37eaf25c425be930800000000000000
+      internalID: 4173519967452063551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_63
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 66
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db070c7168edf4c30800000000000000
+      internalID: 4345936832941289661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_64
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 67
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52037dd283634b260800000000000000
+      internalID: 7112369326440001573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_65
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 66
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5a6dc914e7d0deb0800000000000000
+      internalID: -4697017036662019489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_66
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 65
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3372c3935622bbf0800000000000000
+      internalID: -310143283932007621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_67
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 65
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df59a9d15ea67a740800000000000000
+      internalID: 5163213030080288253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_68
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 65
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd3900295c5ada140800000000000000
+      internalID: 4732621051412911067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_69
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 64
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f71762cd558c6a20800000000000000
+      internalID: 3056964884817713140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_70
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 64
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1e300d6e5e7385d0800000000000000
+      internalID: -3061464377661047266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_71
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 64
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90b1eaf2eaad1fb80800000000000000
+      internalID: -8362662591391196407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_72
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 64
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c24d9a0c6c8a44190800000000000000
+      internalID: -7979067068204329940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_73
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 64
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e17f9a1a3786c2690800000000000000
+      internalID: -7625605223202293986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_74
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 31
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94e5ac9af79f2b930800000000000000
+      internalID: 4157659732721163849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_75
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 31
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93a9ff4eee82b0e00800000000000000
+      internalID: 1011947547784092217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_76
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 31
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e07574fa166ec930800000000000000
+      internalID: 4165378971320807652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_77
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 31
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0db1ca4fa7bf5a100800000000000000
+      internalID: 118777470704688080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_78
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 0
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f3010c8152684640800000000000000
+      internalID: 5064405883358872564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_79
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 32
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5b7f837331449c60800000000000000
+      internalID: 7823950141887314781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_80
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 31
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8d4a369d84552ac0800000000000000
+      internalID: -3880602536822289014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_81
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 33
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 989a9f661f91841c0800000000000000
+      internalID: -4519333701460842103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_82
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 31
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27fdeb5fc8f6592e0800000000000000
+      internalID: -2119665398398918798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_83
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 32
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c3582e921bb39be0800000000000000
+      internalID: -1471626964582771768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_84
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 0
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de52e5e90009f2260800000000000000
+      internalID: 7075031871953708525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_85
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 32
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fae8a830a1207ae20800000000000000
+      internalID: 3361657957607181999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_86
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 0
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3faddefe2f83abbc0800000000000000
+      internalID: -3766635522283414797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_87
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 32
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc611889956e677b0800000000000000
+      internalID: -5226737045031807283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_88
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 32
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4cc7574e978fc9f0800000000000000
+      internalID: -445988724214870962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_89
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa109aeeadb0e4900800000000000000
+      internalID: 670486429459612074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_90
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 3
+        width: 33
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0b2ef4260e8f1220800000000000000
+      internalID: 2458840078609165069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_91
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 0
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dad7d39d5e379030800000000000000
+      internalID: 3501335806937127633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_92
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 1
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06b55906650db7e60800000000000000
+      internalID: 7961185835713649504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_93
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 0
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a06fa260c1c35bc0800000000000000
+      internalID: -3795477028909653850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_94
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaa29228e9dea7850800000000000000
+      internalID: 6375669487540710058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_95
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c5c24a7c08690080800000000000000
+      internalID: -9220724359264287288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_96
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 2
+        width: 33
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 882122c8c28278920800000000000000
+      internalID: 2992404649205699208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_recycled_97
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 0
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fc1aca906ff7fa50800000000000000
+      internalID: 6554988573039926519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
