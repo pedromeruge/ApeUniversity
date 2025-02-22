@@ -15,6 +15,14 @@ public class PlayerMovement : MonoBehaviour
     private bool isFacingRight = true;
     private bool isAirborn = false;
 
+    //Coyote time
+    [SerializeField] private float coyoteTime = 0.2f;
+    private float coyoteTimeCounter = 0f;
+
+    //Jump buffering
+    [SerializeField] private float jumpBufferTime = 0.1f;
+    private float jumpBufferTimeCounter = 0f;
+
     // Animations for player
     public Animator animator;
 
@@ -24,6 +32,7 @@ public class PlayerMovement : MonoBehaviour
         rb.linearVelocity = new Vector2(horizontal * speed, rb.linearVelocity.y);
         bool grounded = isGrounded();
         
+        //calculate player airborn status
         if (isAirborn && grounded && rb.linearVelocity.y <= 0.1f) { // if player was jumping and is now grounded, means he has landed
             isAirborn = false;
             onLanding();
@@ -33,26 +42,45 @@ public class PlayerMovement : MonoBehaviour
             onFalling();
         }
 
+        //flip player based on direction
         if (horizontal > 0f && !isFacingRight) {
             Flip();
         } else if (horizontal < 0f && isFacingRight) {
             Flip();
         }
+
+        //coyote time calculation
+        if (grounded) {
+            coyoteTimeCounter = coyoteTime;
+        } else {
+            coyoteTimeCounter -= Time.deltaTime;
+        }
+
+
+        //jump buffer time calculation
+        jumpBufferTimeCounter -= Time.deltaTime;
+
+        if (jumpBufferTimeCounter > 0f && coyoteTimeCounter > 0f) { // if player has pressed jump button in normal/buffer time or in coyote time, he can jump
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
+            isAirborn = true;
+            jumpBufferTimeCounter = 0f; // reset jump buffer time
+            animator.SetBool("isJumping", true);
+            // print("Started jumping");
+        }
     }
 
     public void Jump(InputAction.CallbackContext context) {
-        // context performed because we only care if button is pressed, not if it is held down
-        if (context.performed && isGrounded()) { 
-            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
-            isAirborn = true;
-            animator.SetBool("isJumping", true);
-            // print("Started jumping");
+        // context performed because we only care when button starts being pressed, not if it is held down
+        if (context.performed) {
+            jumpBufferTimeCounter = jumpBufferTime; // if player presses jump button, start the jump buffer time
         }
 
         // if when the button is released, the player is still going up, means the player held onto the button for long, so we reduce the velocity
         // this way, holding the button longer means the player jumps higher, releasing faster means he jumps less
         if (context.canceled && rb.linearVelocity.y > 0f) { 
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, rb.linearVelocity.y * 0.5f);
+
+            coyoteTimeCounter = 0f; // if player releases the button, coyote time is over, no double jumping allowed
         }
     }
     private bool isGrounded() {
