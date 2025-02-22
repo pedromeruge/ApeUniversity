@@ -46,7 +46,7 @@ public class PlayerMovement : MonoBehaviour
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
             isAirborn = true;
             animator.SetBool("isJumping", true);
-            print("Started jumping");
+            // print("Started jumping");
         }
 
         // if when the button is released, the player is still going up, means the player held onto the button for long, so we reduce the velocity
@@ -69,12 +69,12 @@ public class PlayerMovement : MonoBehaviour
 
     public void onLanding() {
         animator.SetBool("isJumping", false);
-        print("Landed");
+        // print("Landed");
     }
 
     private void onFalling() {
         animator.SetBool("isJumping", true);
-        print("Falling");
+        // print("Falling");
     }
 
     // keep track of horizontal input, as user moves left or right
