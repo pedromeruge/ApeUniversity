@@ -13,13 +13,24 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float jumpForce = 16f;
 
     private bool isFacingRight = true;
+    private bool isAirborn = false;
+
+    // Animations for player
+    public Animator animator;
 
     // Update is called once per frame
     void Update()
     {
         rb.linearVelocity = new Vector2(horizontal * speed, rb.linearVelocity.y);
-        if (isGrounded() && rb.linearVelocity.y <= 0) {
-            rb.linearVelocity = new Vector2(horizontal * speed, rb.linearVelocity.y);
+        bool grounded = isGrounded();
+        
+        if (isAirborn && grounded && rb.linearVelocity.y <= 0.1f) { // if player was jumping and is now grounded, means he has landed
+            isAirborn = false;
+            onLanding();
+        }
+        else if (!grounded && rb.linearVelocity.y < -0.1f) { // if player is not grounded and is going down, means he is falling
+            isAirborn = true;
+            onFalling();
         }
 
         if (horizontal > 0f && !isFacingRight) {
@@ -33,6 +44,9 @@ public class PlayerMovement : MonoBehaviour
         // context performed because we only care if button is pressed, not if it is held down
         if (context.performed && isGrounded()) { 
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
+            isAirborn = true;
+            animator.SetBool("isJumping", true);
+            print("Started jumping");
         }
 
         // if when the button is released, the player is still going up, means the player held onto the button for long, so we reduce the velocity
@@ -53,8 +67,19 @@ public class PlayerMovement : MonoBehaviour
 
     }
 
+    public void onLanding() {
+        animator.SetBool("isJumping", false);
+        print("Landed");
+    }
+
+    private void onFalling() {
+        animator.SetBool("isJumping", true);
+        print("Falling");
+    }
+
     // keep track of horizontal input, as user moves left or right
     public void Move(InputAction.CallbackContext context) {
         horizontal = context.ReadValue<Vector2>().x;
+        animator.SetFloat("Speed", Mathf.Abs(horizontal));
     }
 }

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 4fe02f2239163482a82324b61fe5562a
+guid: be26eaad85ba74a908cec667da9deda0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 574492248617852129
-    second: TempleTileset_0
+      213: -1635119059196159038
+    second: frame_4_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: TempleTileset_0
+      name: frame_4_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 22
         y: 0
-        width: 1280
-        height: 1600
+        width: 79
+        height: 98
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1ec151508a109f700800000000000000
-      internalID: 574492248617852129
+      spriteID: 2cb542ff0e3ee49e0800000000000000
+      internalID: -1635119059196159038
       vertices: []
       indices: 
       edges: []
