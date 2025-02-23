@@ -24,7 +24,7 @@ public class PlayerMovement : MonoBehaviour
     private float jumpBufferTimeCounter = 0f;
 
     // Animations for player
-    public Animator animator;
+    [SerializeField] private Animator animator;
 
     // Update is called once per frame
     void Update()
