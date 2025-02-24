@@ -1,14 +1,11 @@
 using UnityEngine;
 
-public class Player : MonoBehaviour, IDamageable
+public class Player : BaseDamageable
 {
     public PlayerStats playerStats;
 
     // Animations for player
     [SerializeField] private Animator animator;
-
-    //Rigidbody 2d
-    [SerializeField] private Rigidbody2D rb;
 
     private void OnEnable()
     {
@@ -29,19 +26,15 @@ public class Player : MonoBehaviour, IDamageable
         }
     }
 
-    public void TakeDamage(int damage = -1)
+    public override void TakeDamage(int damage = -1)
     {
         bool isDead = playerStats.modifyLives(damage);
+        CallDamageFlash(); // blink effect
         if (isDead) {
             animator.SetBool("isDead", true);
         }
         else {
             animator.SetTrigger("isHurt");
         }
-    }
-
-    public Rigidbody2D GetRigidbody()
-    {
-        return rb;
     }
 }

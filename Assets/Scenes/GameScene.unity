@@ -131,8 +131,9 @@ GameObject:
   - component: {fileID: 74599936}
   - component: {fileID: 74599935}
   - component: {fileID: 74599934}
-  - component: {fileID: 74599933}
   - component: {fileID: 74599931}
+  - component: {fileID: 74599938}
+  - component: {fileID: 74599937}
   m_Layer: 0
   m_Name: Spikes
   m_TagString: Untagged
@@ -167,34 +168,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b18768856d6e943089d9f4ccda60e638, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  livesDamage: 1
---- !u!50 &74599933
-Rigidbody2D:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 74599929}
-  m_BodyType: 1
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 1
-  m_SleepingMode: 1
-  m_CollisionDetection: 1
-  m_Constraints: 7
+  damage: 1
+  spikeTilemap: {fileID: 74599936}
 --- !u!19719996 &74599934
 TilemapCollider2D:
   m_ObjectHideFlags: 0
@@ -227,7 +202,7 @@ TilemapCollider2D:
     m_Bits: 4294967295
   m_IsTrigger: 1
   m_UsedByEffector: 0
-  m_CompositeOperation: 0
+  m_CompositeOperation: 1
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_MaximumTileChangeCount: 1000
@@ -449,6 +424,104 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!66 &74599937
+CompositeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 74599929}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_GeometryType: 1
+  m_GenerationType: 0
+  m_EdgeRadius: 0
+  m_ColliderPaths:
+  - m_Collider: {fileID: 74599934}
+    m_ColliderPaths:
+    - - X: 40000000
+        Y: -40000000
+      - X: 20000000
+        Y: -40000000
+      - X: 20000000
+        Y: -43437500
+      - X: 40000000
+        Y: -43437500
+    - - X: 120000000
+        Y: -50000000
+      - X: 100000000
+        Y: -50000000
+      - X: 100000000
+        Y: -53437500
+      - X: 120000000
+        Y: -53437500
+  m_CompositePaths:
+    m_Paths:
+    - - {x: 3.999971, y: -4.34375}
+      - {x: 3.999971, y: -4}
+      - {x: 2, y: -4.000029}
+      - {x: 2.0000293, y: -4.34375}
+    - - {x: 11.99997, y: -5.34375}
+      - {x: 11.99997, y: -5}
+      - {x: 10, y: -5.000029}
+      - {x: 10.00003, y: -5.34375}
+  m_VertexDistance: 0.0005
+  m_OffsetDistance: 0.00005
+  m_UseDelaunayMesh: 0
+  m_CompositeGameObject: {fileID: 74599929}
+--- !u!50 &74599938
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 74599929}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 1
+  m_SleepingMode: 1
+  m_CollisionDetection: 1
+  m_Constraints: 7
 --- !u!1 &182361900
 GameObject:
   m_ObjectHideFlags: 0
@@ -14600,7 +14673,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 2100000, guid: 8a76c909851904f5586944d227ac2d0d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -14698,6 +14771,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerStats: {fileID: 1612024944}
   animator: {fileID: 1612024942}
+  rb: {fileID: 1612024938}
 --- !u!114 &1612024944
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14710,7 +14784,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e7ff122cb936486990004f2ce3ed7d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxLives: 10
+  maxLives: 20
 --- !u!1 &1749478940
 GameObject:
   m_ObjectHideFlags: 0
