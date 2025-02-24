@@ -7,14 +7,17 @@ public class Player : MonoBehaviour, IDamageable
     // Animations for player
     [SerializeField] private Animator animator;
 
+    //Rigidbody 2d
+    [SerializeField] private Rigidbody2D rb;
+
     private void OnEnable()
     {
-        ObstacleEvent.OnObstacleHit += OnObstacleHit;
+        BaseObstacle.OnObstacleHit += OnObstacleHit;
     }
 
     private void OnDisable()
     {
-        ObstacleEvent.OnObstacleHit -= OnObstacleHit;
+        BaseObstacle.OnObstacleHit -= OnObstacleHit;
     }
 
     private void OnObstacleHit(IDamageable target, int damage)
@@ -33,9 +36,12 @@ public class Player : MonoBehaviour, IDamageable
             animator.SetBool("isDead", true);
         }
         else {
-            Debug.Log("Triggering Hurt Animation");
             animator.SetTrigger("isHurt");
-            animator.SetBool("isHurt_0", true);
         }
+    }
+
+    public Rigidbody2D GetRigidbody()
+    {
+        return rb;
     }
 }
