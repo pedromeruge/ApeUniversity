@@ -247,7 +247,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      tile_cave_platform_0: 8107003309064228536
+      tile_cave_platform_1: 3117632025947246472
+      tile_cave_platform_2: -8361395579288356015
+      tile_cave_platform_3: 2188054433451213864
+      tile_cave_platform_4: 1822336980383454169
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

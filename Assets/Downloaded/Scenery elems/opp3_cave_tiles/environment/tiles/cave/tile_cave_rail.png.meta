@@ -472,7 +472,21 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      tile_cave_rail_0: -7399693007689288242
+      tile_cave_rail_1: 8165808592125002934
+      tile_cave_rail_10: -824393235665044241
+      tile_cave_rail_11: -8799836278436155581
+      tile_cave_rail_12: -2412613365163801380
+      tile_cave_rail_13: -3861234254961756615
+      tile_cave_rail_2: 7868594278506198565
+      tile_cave_rail_3: 6707190466940781127
+      tile_cave_rail_4: -4013866812051838929
+      tile_cave_rail_5: -5510134201628825639
+      tile_cave_rail_6: -8186905881252215385
+      tile_cave_rail_7: 8502526292980813628
+      tile_cave_rail_8: -4992810057668191358
+      tile_cave_rail_9: -7321521895170968127
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

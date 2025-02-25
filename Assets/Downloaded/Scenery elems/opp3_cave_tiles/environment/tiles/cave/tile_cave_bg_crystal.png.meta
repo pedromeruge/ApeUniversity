@@ -272,7 +272,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      tile_cave_bg_crystal_0: -6437761932514582244
+      tile_cave_bg_crystal_1: -9169945455608027202
+      tile_cave_bg_crystal_2: -1585888288855075318
+      tile_cave_bg_crystal_3: 8127270796780762745
+      tile_cave_bg_crystal_4: 5244749095939630614
+      tile_cave_bg_crystal_5: 7519985676383502599
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

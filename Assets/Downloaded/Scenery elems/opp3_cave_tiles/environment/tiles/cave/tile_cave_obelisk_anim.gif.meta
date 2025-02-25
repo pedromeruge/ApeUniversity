@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      tile_cave_obelisk_anim_0: -8648393424145189184
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      obj_largemushroom_bounce_anim_0: -1150957688907095972
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

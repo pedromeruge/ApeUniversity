@@ -697,7 +697,30 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      fx_particles_jungle_0: -4803840930270727167
+      fx_particles_jungle_1: -8031366685640179210
+      fx_particles_jungle_10: 282865157548535741
+      fx_particles_jungle_11: 983123792118498317
+      fx_particles_jungle_12: 9142951286288351327
+      fx_particles_jungle_13: -1497221860280560153
+      fx_particles_jungle_14: -1924079678096621761
+      fx_particles_jungle_15: 650130139736653018
+      fx_particles_jungle_16: -5247230904077257202
+      fx_particles_jungle_17: -3841225242224229703
+      fx_particles_jungle_18: -3958042235980272144
+      fx_particles_jungle_19: 3749574080039527829
+      fx_particles_jungle_2: -3435255498024938411
+      fx_particles_jungle_20: 3722785291289695863
+      fx_particles_jungle_21: -2977085788986306511
+      fx_particles_jungle_22: -2769460494326247230
+      fx_particles_jungle_3: -6634012286338021112
+      fx_particles_jungle_4: -4454546621664505107
+      fx_particles_jungle_5: 5703841126876630302
+      fx_particles_jungle_6: 7433979295005843496
+      fx_particles_jungle_7: -2401090537107553228
+      fx_particles_jungle_8: -8244014733902389398
+      fx_particles_jungle_9: 4281128908923865951
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

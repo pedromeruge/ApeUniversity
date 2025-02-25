@@ -172,7 +172,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Adventurer_Flying_0: 3239511472449961738
+      Adventurer_Flying_1: 3227277206293131537
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
