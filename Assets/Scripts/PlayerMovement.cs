@@ -9,6 +9,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private LayerMask groundLayer;
 
     private float horizontal;
+    private float lastHorizontalInput = 0f;
     [SerializeField] private float speed = 8f;
     [SerializeField] private float jumpForce = 16f;
 
@@ -32,6 +33,11 @@ public class PlayerMovement : MonoBehaviour
         rb.linearVelocity = new Vector2(horizontal * speed, rb.linearVelocity.y);
         bool grounded = isGrounded();
         
+        //calculate horizontal input, if player is not emoting
+        if (!animator.GetCurrentAnimatorStateInfo(0).IsName("Player_emote")) {
+            horizontal = lastHorizontalInput;
+            animator.SetFloat("Speed", Mathf.Abs(horizontal));
+        } 
         //calculate player airborn status
         if (isAirborn && grounded && rb.linearVelocity.y <= 0.1f) { // if player was jumping and is now grounded, means he has landed
             isAirborn = false;
@@ -56,7 +62,6 @@ public class PlayerMovement : MonoBehaviour
             coyoteTimeCounter -= Time.deltaTime;
         }
 
-
         //jump buffer time calculation
         jumpBufferTimeCounter -= Time.deltaTime;
 
@@ -70,6 +75,10 @@ public class PlayerMovement : MonoBehaviour
     }
 
     public void Jump(InputAction.CallbackContext context) {
+        if (animator.GetCurrentAnimatorStateInfo(0).IsName("Player_emote")) { // if any animation playing, don't allow movement
+            return;
+        }
+
         // context performed because we only care when button starts being pressed, not if it is held down
         if (context.performed) {
             jumpBufferTimeCounter = jumpBufferTime; // if player presses jump button, start the jump buffer time
@@ -107,7 +116,22 @@ public class PlayerMovement : MonoBehaviour
 
     // keep track of horizontal input, as user moves left or right
     public void Move(InputAction.CallbackContext context) {
-        horizontal = context.ReadValue<Vector2>().x;
-        animator.SetFloat("Speed", Mathf.Abs(horizontal));
+        float horizontal = context.ReadValue<Vector2>().x;
+        lastHorizontalInput = horizontal; // keep track of last horizontal input, so player can resume movevent after finishing emotes, even if pressing the left key when he was still emoting
+
+        if (!animator.GetCurrentAnimatorStateInfo(0).IsName("Player_emote")) { // if any animation playing, don't allow movement
+            horizontal = context.ReadValue<Vector2>().x;
+            animator.SetFloat("Speed", Mathf.Abs(horizontal));
+        }
+    }
+
+    public void playEmote(InputAction.CallbackContext context) {
+        if (context.performed && horizontal == 0 && !isAirborn) { // if player is idle
+            animator.SetTrigger("playEmote");
+        }
+
+        if (context.canceled) { // prevent stacking of emotes
+            animator.ResetTrigger("playEmote");
+        }
     }
 }

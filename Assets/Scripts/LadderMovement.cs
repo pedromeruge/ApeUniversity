@@ -9,14 +9,18 @@ public class LadderMovement : MonoBehaviour
     private bool isClimbing = false; // is already climbing
     private float vertical;
 
+    // Animations for player
+    [SerializeField] private Animator animator;
+
     void Start()
     {
         initialGravityScale = rb.gravityScale; //asign the initial gravity scale to a variable, to return to it later after leaving a ladder
     }
     void Update()
     {
-        if (isOnLadder && Mathf.Abs(vertical) > 0f) {
+        if (isOnLadder && Mathf.Abs(vertical) > 0f && !animator.GetCurrentAnimatorStateInfo(0).IsName("Player_emote")) { // if player on ladder and pressing up or down and not emoting
             isClimbing = true;
+            animator.SetBool("isClimbing", true);
         }
     }
 
@@ -48,10 +52,12 @@ public class LadderMovement : MonoBehaviour
             // print("exited Ladder trigger");
             isOnLadder = false;
             isClimbing = false;
+            animator.SetBool("isClimbing", false);
         }
     }
 
     public void Climb(InputAction.CallbackContext context) {
+        
         vertical = context.ReadValue<Vector2>().y;
     }
 }

@@ -7,6 +7,7 @@ public abstract class BaseDamageable : MonoBehaviour, IDamageable
 
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private SpriteRenderer spriteRenderer;
+    [ColorUsage(true, true)]
     [SerializeField] private Color flashColor = Color.white;
     [SerializeField] private float flashDuration = 0.25f;
     [SerializeField] private int numberOfFlashes = 4;
