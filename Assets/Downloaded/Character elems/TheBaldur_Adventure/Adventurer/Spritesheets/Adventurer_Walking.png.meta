@@ -272,7 +272,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Adventurer_Walking_0: 7102939843117003431
+      Adventurer_Walking_1: 3570505830277207038
+      Adventurer_Walking_2: 8580273145598582594
+      Adventurer_Walking_3: 5662847200408966566
+      Adventurer_Walking_4: 4166429926924480426
+      Adventurer_Walking_5: 814433786103323815
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

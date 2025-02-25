@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      fx_bling_anim_0: 5108908723254839282
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -247,7 +247,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      obj_wallshroom_0: 421377551384008408
+      obj_wallshroom_1: 5838425238777008497
+      obj_wallshroom_2: -2673843711955552435
+      obj_wallshroom_3: -3492107094406665611
+      obj_wallshroom_4: -2722030591146301469
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

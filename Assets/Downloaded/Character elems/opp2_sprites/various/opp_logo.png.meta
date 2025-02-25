@@ -422,7 +422,19 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      opp_logo_0: 2869744596307021785
+      opp_logo_1: -2204988786469496689
+      opp_logo_10: 5731479328043844866
+      opp_logo_11: 4508122372052855710
+      opp_logo_2: -262863106738201688
+      opp_logo_3: -3996454663444175080
+      opp_logo_4: -1098046383973220284
+      opp_logo_5: 8903126617780497536
+      opp_logo_6: 7572050425097185438
+      opp_logo_7: 2756513916419309837
+      opp_logo_8: 2071945786726012232
+      opp_logo_9: -3745770865694621135
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

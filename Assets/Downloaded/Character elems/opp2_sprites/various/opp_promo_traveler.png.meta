@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      opp_promo_traveler_0: -668796554740857698
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

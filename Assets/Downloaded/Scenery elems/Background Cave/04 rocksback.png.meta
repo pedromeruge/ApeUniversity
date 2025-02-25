@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      04 rocksback_0: 8614696300881993170
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

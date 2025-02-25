@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      obj_largemushroom_explode_anim_0: -7716175928757956374
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
