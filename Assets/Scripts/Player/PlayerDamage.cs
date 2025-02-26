@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Player : BaseDamageable
+public class PlayerDamage : BaseDamageable
 {
     public PlayerStats playerStats;
 
