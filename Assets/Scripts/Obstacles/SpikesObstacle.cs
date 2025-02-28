@@ -24,7 +24,6 @@ public class SpikesObstacle: BaseObstacle
             // Vector3 cellCenter = spikeTilemap.GetCellCenterWorld(cellCoordinate); //get the center of the specific cell that was hit
 
             Vector2 vel = damageable.GetRigidbody().linearVelocity;
-            // Debug.Log("Velocity: " + vel);
             if (vel.y < 0 && Mathf.Abs(vel.y) > Mathf.Abs(vel.x)) {
                 //Only trigger hit collider if the object has more downward velocity than horizontal
                 Hit(damageable);
