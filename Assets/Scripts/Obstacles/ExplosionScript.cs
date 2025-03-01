@@ -4,54 +4,70 @@ using UnityEngine.Tilemaps;
 using System.Collections;
 public class ExplosionScript : MonoBehaviour
 {
-    [SerializeField] private int countdown = 2;
+    [SerializeField] private float countdown = 2.0f;
     [SerializeField] private float explosionRadius = 1.0f;
 
     [SerializeField] LayerMask layerMask;
 
-    [SerializeField] Tilemap tilemap; // tilemap of mines, to pinpoint which mine exploded
+    [SerializeField] AnimationCurve flashAnim;
 
-    void Awake()
-    {
-        if (tilemap == null) {
-            tilemap = GetComponent<Tilemap>();
-        }
-        if (tilemap == null)
-        {
-            Debug.LogWarning("Tilemap not found for mines");
+    [ColorUsage(true, true)]
+    [SerializeField] Color flashColor;
+
+    [SerializeField] GameObject explosionFxPrefab;
+
+    [SerializeField] float cameraShakeDuration = 1.2f;
+    [SerializeField] float cameraShakeStrength = 10.0f;
+    private Renderer spriteRenderer;
+
+    void Awake() {
+
+        spriteRenderer = GetComponent<Renderer>();
+        if (spriteRenderer == null) {
+            Debug.LogError("Mine sprite not found");
         }
     }
 
     void OnTriggerEnter2D(Collider2D collider)
     {
-        // Vector3 hitPosition = collider.bounds.center; // center position of the object that collided with the bomb, at the time of collision
-        // Get the bottom-center of the mine's collider
-        Vector3 hitPosition = new Vector3(collider.bounds.center.x, collider.bounds.min.y, collider.bounds.center.z);
-        Debug.Log("collider Center: " + hitPosition + " collider bounds: " + collider.bounds);
-        Vector3Int tilePosition = tilemap.WorldToCell(hitPosition);
-        Vector3 tileCenter = tilemap.GetCellCenterWorld(tilePosition); // get center of specific tile that was triggered
-        Debug.Log("tileCenter: " + tileCenter);
         Debug.Log(collider.name + " entered explosion");
-        StartCoroutine(countdownExplosion(countdown, tilePosition));
+        StartCoroutine(countdownExplosion(countdown));
     }
 
-    IEnumerator countdownExplosion(int seconds, Vector3Int tilePosition) {
+    IEnumerator countdownExplosion(float seconds) {
+        StartCoroutine(SpriteEffects.ColorFlasher(spriteRenderer, flashAnim, flashColor, seconds));
         yield return new WaitForSeconds(seconds);
-        Vector3 tileCenter = tilemap.GetCellCenterWorld(tilePosition); // get center of specific tile that was triggered
-        Debug.Log("Explosion at: " + tileCenter);
-        checkOverlap(tileCenter);
-        tilemap.SetTile(tilePosition, null); // remove specific mine triggered
-        Debug.DrawLine(new Vector3(tileCenter.x - 0.2f, tileCenter.y + 0.2f, tileCenter.z), new Vector3(tileCenter.x + 0.2f, tileCenter.y - 0.2f, tileCenter.z), Color.red, 100); // Adjust radius as needed
 
+        Vector3 tileCenter = this.transform.position;
+
+        playExplosionFx(tileCenter);
+        checkOverlapAndDestroy(tileCenter);
+        destroySelf(tileCenter);
+
+        Debug.DrawLine(new Vector3(tileCenter.x - 0.2f, tileCenter.y + 0.2f, tileCenter.z), new Vector3(tileCenter.x + 0.2f, tileCenter.y - 0.2f, tileCenter.z), Color.red, 100); // Adjust radius as needed
     }
 
-    void checkOverlap(Vector3 minePosition) {
+    // play the explosion FX that appears in front of the bomb
+    void playExplosionFx(Vector3 minePosition) {
+        GameObject explosionFxInstance = Instantiate(explosionFxPrefab, minePosition + explosionFxPrefab.transform.position, Quaternion.identity); // load explosion prefab // add prefab position to set correct z value
+        CameraShake.Shake(cameraShakeDuration, cameraShakeStrength); // shake camera
+        Animator animator = explosionFxInstance.GetComponent<Animator>();
+        float explosionDuration = animator.GetCurrentAnimatorStateInfo(0).length;
+        Destroy(explosionFxInstance, explosionDuration); // destroy object after animation finishes
+    }
+
+    void checkOverlapAndDestroy(Vector3 minePosition) {
         Collider2D[] colliders = Physics2D.OverlapCircleAll(minePosition, explosionRadius, layerMask);
         foreach (Collider2D collider in colliders) {
             Debug.Log("Explosion hit: " + collider.name);
             destroyTerrain(collider, minePosition);
             hitDamageable(collider, minePosition);
         }
+    }
+
+    void destroySelf(Vector3 minePosition) {
+        // destroy the prefab
+        Destroy(this.gameObject); 
     }
 
     bool hitDamageable(Collider2D collider, Vector3 minePosition) {
@@ -93,22 +109,6 @@ public class ExplosionScript : MonoBehaviour
     void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.red; // Set explosion radius color to red
-
-        // Loop through all tiles within the tilemap bounds
-        BoundsInt bounds = tilemap.cellBounds;
-        for (int x = bounds.xMin; x < bounds.xMax; x++)
-        {
-            for (int y = bounds.yMin; y < bounds.yMax; y++)
-            {
-                Vector3Int tilePosition = new Vector3Int(x, y, 0);
-                TileBase tile = tilemap.GetTile(tilePosition);
-
-                if (tile != null) // if there is actually a tile
-                {
-                    Vector3 tileCenter = tilemap.GetCellCenterWorld(tilePosition);
-                    Gizmos.DrawWireSphere(tileCenter, explosionRadius); // Adjust radius as needed
-                }
-            }
-        }
+        Gizmos.DrawWireSphere(transform.position, explosionRadius); // Adjust radius as needed
     }
 }
