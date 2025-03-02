@@ -9,12 +9,12 @@ public class PlayerDamage : BaseDamageable
 
     private void OnEnable()
     {
-        BaseObstacle.OnObstacleHit += OnObstacleHit;
+        EventObstacle.OnObstacleHit += OnObstacleHit;
     }
 
     private void OnDisable()
     {
-        BaseObstacle.OnObstacleHit -= OnObstacleHit;
+        EventObstacle.OnObstacleHit -= OnObstacleHit;
     }
 
     private void OnObstacleHit(IDamageable target, int damage)

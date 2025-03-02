@@ -1,7 +1,5 @@
 using UnityEngine;
-using System;
 using UnityEngine.Tilemaps;
-using System.Collections;
 public class BaseExplosive : MonoBehaviour, IExplosive
 {
     [SerializeField] private float explosionRadius = 1.0f;
@@ -13,11 +11,31 @@ public class BaseExplosive : MonoBehaviour, IExplosive
     [SerializeField] float cameraShakeDuration = 1.2f;
     [SerializeField] float cameraShakeStrength = 10.0f;
 
+    //also immediately destroy the bomb, when another explosion occurs near
+    private void OnEnable()
+    {
+        EventExplode.OnExplode += HandleExplode;
+    }
+
+    private void OnDisable()
+    {
+        EventExplode.OnExplode -= HandleExplode;
+    }
+
+    private void HandleExplode(IExplosive target)
+    {
+        // Ensure the event is intended for this player instance.
+        if ((Object) target == this)
+        {
+            Explode();
+        }
+    }
+
     public void Explode() {
         Vector3 objPos = transform.position;
         playExplosionFx(objPos);
-        checkOverlapAndDestroy(objPos);
         destroySelf(objPos);
+        checkOverlapAndDestroy(objPos);
 
         Debug.DrawLine(new Vector3(objPos.x - 0.2f, objPos.y + 0.2f, objPos.z), new Vector3(objPos.x + 0.2f, objPos.y - 0.2f, objPos.z), Color.red, 100); // Adjust radius as needed
     }
@@ -35,8 +53,9 @@ public class BaseExplosive : MonoBehaviour, IExplosive
         Collider2D[] colliders = Physics2D.OverlapCircleAll(objPos, explosionRadius, layerMask);
         foreach (Collider2D collider in colliders) {
             Debug.Log("Explosion hit: " + collider.name);
-            destroyTerrain(collider, objPos);
+            triggerExplosive(collider, objPos);
             hitDamageable(collider, objPos);
+            destroyTerrain(collider, objPos);
         }
     }
 
@@ -51,38 +70,30 @@ public class BaseExplosive : MonoBehaviour, IExplosive
             return false;
         }
 
-        // Hit(damageable);
+        EventObstacle.Hit(damageable, 1);
 
         return true;
     }
 
     //based on "Findable_Shelf" at https://discussions.unity.com/t/remove-tiles-given-a-point-and-a-radius/756324/6
-    void destroyTerrain(Collider2D collider, Vector3 objPos) {
-        Tilemap tilemap = collider.GetComponent<Tilemap>();
-        Debug.Log("tilemap: " + tilemap);
-        if (tilemap != null) {
-            Debug.Log("got here");
-            int explosionRadiusCapped = Mathf.CeilToInt(explosionRadius); // expand the search area to guarantee it covers all potential surrounding tiles
-            Debug.Log("got here 2");
-
-            for (int x = -explosionRadiusCapped; x < explosionRadiusCapped; x++)
-            {
-                for (int y = -explosionRadiusCapped; y < explosionRadiusCapped; y++) //find the box
-                {
-                    Vector3Int tilePosWorld = tilemap.WorldToCell(new Vector2(objPos.x + x, objPos.y + y));
-                    Vector3 tilePosCenter = tilemap.GetCellCenterWorld(tilePosWorld); // get center of specific tile that is being exploded
-                    Debug.Log("got here 3" + tilePosCenter + objPos + Vector3.Distance(objPos, tilePosCenter));
-
-                    if (Vector2.Distance(objPos, tilePosCenter) <= explosionRadius) //check distance to make it a circle
-                    {
-                        Debug.Log("got here 5");
-                        tilemap.SetTile(tilePosWorld, null);
-                        Debug.DrawLine(new Vector3(tilePosCenter.x - 0.2f, tilePosCenter.y - 0.2f, tilePosCenter.z), new Vector3(tilePosCenter.x + 0.2f, tilePosCenter.y + 0.2f, tilePosCenter.z), Color.green, 100); // Adjust radius as needed
-
-                    }
-                }
-            }
+    bool destroyTerrain(Collider2D collider, Vector3 objPos) {
+        IDestructible destructible = collider.GetComponent<IDestructible>();
+        if (destructible == null) {
+            return false;
         }
+        EventDestroy.Destroy(destructible, objPos, explosionRadius);
+        return true;
+    }
+
+    //trigger any other explosive objects nearby, without giving explosion cooldown
+    bool triggerExplosive(Collider2D collider, Vector3 objPos) {
+        IExplosive explosive = collider.GetComponent<IExplosive>();
+        if (explosive == null || (Object)explosive == this)
+        {
+            return false;
+        }
+        EventExplode.Explode(explosive);
+        return true;
     }
 
     //debug explosion radius

@@ -2,16 +2,14 @@ using UnityEngine;
 using System;
 using UnityEngine.Tilemaps;
 
-public class SpikesObstacle: BaseObstacle
+public class SpikesObstacle: MonoBehaviour
 {
     [SerializeField] 
     private int damage = 1;
 
     [SerializeField]
     private Tilemap spikeTilemap; // reference to the tilemap that contains the spikes
-    private void Awake() {
-        this.livesDamage = damage;
-    }
+
     
     private void OnTriggerEnter2D(Collider2D collider)
     {   
@@ -26,7 +24,7 @@ public class SpikesObstacle: BaseObstacle
             Vector2 vel = damageable.GetRigidbody().linearVelocity;
             if (vel.y < 0 && Mathf.Abs(vel.y) > Mathf.Abs(vel.x)) {
                 //Only trigger hit collider if the object has more downward velocity than horizontal
-                Hit(damageable);
+                EventObstacle.Hit(damageable, damage);
             }
         }
     }
