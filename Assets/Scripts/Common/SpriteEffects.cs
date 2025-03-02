@@ -6,7 +6,7 @@ public class SpriteEffects
     // assumes renderer has material 
     public static IEnumerator ColorFlasher(Renderer renderer, AnimationCurve flashAnim, Color flashColor, float flashDuration) {
         Debug.Log("renderer: " + renderer + "material: " + renderer.sharedMaterial + "name: " + renderer.sharedMaterial.name);
-        if (renderer == null && renderer.sharedMaterial.name != "DamageFlash") {
+        if (renderer == null || renderer.sharedMaterial.name != "DamageFlash") {
             Debug.LogWarning("renderer does not have flash material, cannot flash color");
             yield break;
         }

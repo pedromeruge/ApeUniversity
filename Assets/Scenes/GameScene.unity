@@ -119,6 +119,37 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &40129579
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 40129580}
+  m_Layer: 0
+  m_Name: Bombs
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &40129580
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 40129579}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1513179724}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &74599929
 GameObject:
   m_ObjectHideFlags: 0
@@ -14518,6 +14549,63 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefabTilemap: {fileID: 924494471}
   prefab: {fileID: 598947728854716358, guid: 088333c4c05c04d69b3fa1df29bbad0f, type: 3}
+--- !u!1 &977868091
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 977868093}
+  - component: {fileID: 977868092}
+  m_Layer: 8
+  m_Name: Items logic
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &977868092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 977868091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 554b0b2d4ee844cc581f298437606e92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosionRadius: 1.8
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 577
+  explosionFxPrefab: {fileID: 480227836981032412, guid: 2b246fda13d3c45c199dc5c6476e697a, type: 3}
+  cameraShakeDuration: 0.6
+  cameraShakeStrength: 15
+  playerStats: {fileID: 1612024944}
+  playerTransform: {fileID: 1612024940}
+  bombPrefab: {fileID: 153024068009683084, guid: 607d9430377124434b71560a6ed15634, type: 3}
+  parent: {fileID: 40129579}
+  throwForce: 8
+  throwAngle: 45
+--- !u!4 &977868093
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 977868091}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1612024940}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1122904239
 GameObject:
   m_ObjectHideFlags: 0
@@ -15152,6 +15240,38 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1513179723
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1513179724}
+  m_Layer: 0
+  m_Name: Items
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1513179724
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1513179723}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 40129580}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1534838051
 GameObject:
   m_ObjectHideFlags: 0
@@ -15532,6 +15652,22 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 35d95db1-9ba8-4f6c-bc98-f401fa2e4f42
     m_ActionName: Player/Emote3
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 977868092}
+        m_TargetAssemblyTypeName: BombThrowScript, Assembly-CSharp
+        m_MethodName: ThrowBomb
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: dfcc8ff9-481d-4d7c-85af-801a67a936ad
+    m_ActionName: 'Player/Attack2[/Mouse/rightButton,/Keyboard/q]'
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: Keyboard&Mouse
   m_DefaultActionMap: Player
@@ -15680,6 +15816,7 @@ Transform:
   m_Children:
   - {fileID: 422009748}
   - {fileID: 2103271257}
+  - {fileID: 977868093}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1612024941
@@ -15752,6 +15889,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxLives: 20
   maxMonkeys: 5
+  maxBombs: 20
 --- !u!1 &1649629592
 GameObject:
   m_ObjectHideFlags: 0
@@ -16204,3 +16342,4 @@ SceneRoots:
   - {fileID: 1649629593}
   - {fileID: 1534838053}
   - {fileID: 860798332}
+  - {fileID: 1513179724}

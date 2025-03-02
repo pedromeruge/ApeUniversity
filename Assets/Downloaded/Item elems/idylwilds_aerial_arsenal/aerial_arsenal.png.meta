@@ -1,0 +1,2834 @@
+fileFormatVersion: 2
+guid: 964aba0b3ea75468a9be49d75f65a074
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4008275167373210815
+    second: aerial_arsenal_0
+  - first:
+      213: 6966388643601970548
+    second: aerial_arsenal_1
+  - first:
+      213: -6741211291010301557
+    second: aerial_arsenal_2
+  - first:
+      213: 4862497242670641882
+    second: aerial_arsenal_3
+  - first:
+      213: 870421967665242896
+    second: aerial_arsenal_4
+  - first:
+      213: 2415172555181192927
+    second: aerial_arsenal_5
+  - first:
+      213: 1451224649801199943
+    second: aerial_arsenal_6
+  - first:
+      213: -6548253990641451108
+    second: aerial_arsenal_7
+  - first:
+      213: 7296432757813283289
+    second: aerial_arsenal_8
+  - first:
+      213: 1248431106559410348
+    second: aerial_arsenal_9
+  - first:
+      213: 8330674402707671461
+    second: aerial_arsenal_10
+  - first:
+      213: 8150094872683685323
+    second: aerial_arsenal_11
+  - first:
+      213: -3548240982256982085
+    second: aerial_arsenal_12
+  - first:
+      213: -5719997283563510319
+    second: aerial_arsenal_13
+  - first:
+      213: -5894894672694369771
+    second: aerial_arsenal_14
+  - first:
+      213: 9024867931910798162
+    second: aerial_arsenal_15
+  - first:
+      213: 825966322561079993
+    second: aerial_arsenal_16
+  - first:
+      213: -4023724815976459152
+    second: aerial_arsenal_17
+  - first:
+      213: -1295551140827222382
+    second: aerial_arsenal_18
+  - first:
+      213: 5996633389359312493
+    second: aerial_arsenal_19
+  - first:
+      213: -7914158583899785353
+    second: aerial_arsenal_20
+  - first:
+      213: 1181296917135480122
+    second: aerial_arsenal_21
+  - first:
+      213: 6343366301843532650
+    second: aerial_arsenal_22
+  - first:
+      213: -6659945944915961646
+    second: aerial_arsenal_23
+  - first:
+      213: 976118561431711238
+    second: aerial_arsenal_24
+  - first:
+      213: -203294535415901031
+    second: aerial_arsenal_25
+  - first:
+      213: -5772307664383002165
+    second: aerial_arsenal_26
+  - first:
+      213: -3313372343784640120
+    second: aerial_arsenal_27
+  - first:
+      213: -801657035714718988
+    second: aerial_arsenal_28
+  - first:
+      213: 6666128285472171552
+    second: aerial_arsenal_29
+  - first:
+      213: 3518669804058082971
+    second: aerial_arsenal_30
+  - first:
+      213: 3182470300275503477
+    second: aerial_arsenal_31
+  - first:
+      213: -6362887140661444628
+    second: aerial_arsenal_32
+  - first:
+      213: -8075578136332954297
+    second: aerial_arsenal_33
+  - first:
+      213: 639959063529769667
+    second: aerial_arsenal_34
+  - first:
+      213: 782572210415281364
+    second: aerial_arsenal_35
+  - first:
+      213: -975598452737625939
+    second: aerial_arsenal_36
+  - first:
+      213: -3394466324625350897
+    second: aerial_arsenal_37
+  - first:
+      213: -7312909071532136955
+    second: aerial_arsenal_38
+  - first:
+      213: 8727017048253533660
+    second: aerial_arsenal_39
+  - first:
+      213: -5148943051832516551
+    second: aerial_arsenal_40
+  - first:
+      213: -4574694810600380207
+    second: aerial_arsenal_41
+  - first:
+      213: -6391707152779199287
+    second: aerial_arsenal_42
+  - first:
+      213: -8109655586066154798
+    second: aerial_arsenal_43
+  - first:
+      213: -271091737853154843
+    second: aerial_arsenal_44
+  - first:
+      213: -5160916901109973287
+    second: aerial_arsenal_45
+  - first:
+      213: 4612508815728875884
+    second: aerial_arsenal_46
+  - first:
+      213: -4398177252484933461
+    second: aerial_arsenal_47
+  - first:
+      213: -7900721390346013551
+    second: aerial_arsenal_48
+  - first:
+      213: 1103611562482869582
+    second: aerial_arsenal_49
+  - first:
+      213: 6461668195519593916
+    second: aerial_arsenal_50
+  - first:
+      213: 8768775676566074340
+    second: aerial_arsenal_51
+  - first:
+      213: 8617736043761794915
+    second: aerial_arsenal_52
+  - first:
+      213: 3969457431862681065
+    second: aerial_arsenal_53
+  - first:
+      213: 6951946982366229735
+    second: aerial_arsenal_54
+  - first:
+      213: -9214109355422794125
+    second: aerial_arsenal_55
+  - first:
+      213: -4179586851083225304
+    second: aerial_arsenal_56
+  - first:
+      213: 4232524366079503332
+    second: aerial_arsenal_57
+  - first:
+      213: -856930834911191764
+    second: aerial_arsenal_58
+  - first:
+      213: 8001320483620351391
+    second: aerial_arsenal_59
+  - first:
+      213: 2719985381998310871
+    second: aerial_arsenal_60
+  - first:
+      213: 1844553988220360814
+    second: aerial_arsenal_61
+  - first:
+      213: -3652098780183845403
+    second: aerial_arsenal_62
+  - first:
+      213: 2909409098867782694
+    second: aerial_arsenal_63
+  - first:
+      213: 2676702705629055573
+    second: aerial_arsenal_64
+  - first:
+      213: -3616620438688683525
+    second: aerial_arsenal_65
+  - first:
+      213: -2035124897983233025
+    second: aerial_arsenal_66
+  - first:
+      213: 6381418818049281044
+    second: aerial_arsenal_67
+  - first:
+      213: 8298238867267117283
+    second: aerial_arsenal_68
+  - first:
+      213: 1504333162565621946
+    second: aerial_arsenal_69
+  - first:
+      213: -6951593810102822356
+    second: aerial_arsenal_70
+  - first:
+      213: -3126923836520976432
+    second: aerial_arsenal_71
+  - first:
+      213: -1745698821101844341
+    second: aerial_arsenal_72
+  - first:
+      213: 3467140731161392058
+    second: aerial_arsenal_73
+  - first:
+      213: 3259725739813819519
+    second: aerial_arsenal_74
+  - first:
+      213: -4210839030370367998
+    second: aerial_arsenal_75
+  - first:
+      213: -7467334262464471429
+    second: aerial_arsenal_76
+  - first:
+      213: -3490169309953961284
+    second: aerial_arsenal_77
+  - first:
+      213: -1677076676702617785
+    second: aerial_arsenal_78
+  - first:
+      213: -446594753661435656
+    second: aerial_arsenal_79
+  - first:
+      213: -7063391260992361937
+    second: aerial_arsenal_80
+  - first:
+      213: 805795974583863194
+    second: aerial_arsenal_81
+  - first:
+      213: 6092124292258453865
+    second: aerial_arsenal_82
+  - first:
+      213: -5485151885891699375
+    second: aerial_arsenal_83
+  - first:
+      213: 7754092031247523975
+    second: aerial_arsenal_84
+  - first:
+      213: 2777106133655256749
+    second: aerial_arsenal_85
+  - first:
+      213: 8091041706682113385
+    second: aerial_arsenal_86
+  - first:
+      213: -7830315093805801134
+    second: aerial_arsenal_87
+  - first:
+      213: -7222487885572358035
+    second: aerial_arsenal_88
+  - first:
+      213: 9064626392947136337
+    second: aerial_arsenal_89
+  - first:
+      213: 6178072301681362589
+    second: aerial_arsenal_90
+  - first:
+      213: 6060034455486533798
+    second: aerial_arsenal_91
+  - first:
+      213: -5456660030185637771
+    second: aerial_arsenal_92
+  - first:
+      213: 8590427267038915360
+    second: aerial_arsenal_93
+  - first:
+      213: 6296076398912135536
+    second: aerial_arsenal_94
+  - first:
+      213: -1931179436614356186
+    second: aerial_arsenal_95
+  - first:
+      213: -3682536674982292713
+    second: aerial_arsenal_96
+  - first:
+      213: 6114424596932029878
+    second: aerial_arsenal_97
+  - first:
+      213: 8038709023256836005
+    second: aerial_arsenal_98
+  - first:
+      213: 4023830062553818919
+    second: aerial_arsenal_99
+  - first:
+      213: -8381839281630743585
+    second: aerial_arsenal_100
+  - first:
+      213: -3285907730712110908
+    second: aerial_arsenal_101
+  - first:
+      213: -642763260520478156
+    second: aerial_arsenal_102
+  - first:
+      213: -152400921279137071
+    second: aerial_arsenal_103
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 96
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: aerial_arsenal_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb4bc49270140a730800000000000000
+      internalID: 4008275167373210815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 475f535df859da060800000000000000
+      internalID: 6966388643601970548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b818a7b1c086272a0800000000000000
+      internalID: -6741211291010301557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad233b6ca7f0b7340800000000000000
+      internalID: 4862497242670641882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 013226bfa2c541c00800000000000000
+      internalID: 870421967665242896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd6f8de84aa648120800000000000000
+      internalID: 2415172555181192927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 741f0bc4129c32410800000000000000
+      internalID: 1451224649801199943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_7
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 417
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9f38cc80bdef15a0800000000000000
+      internalID: -6548253990641451108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d90cf06fe2224560800000000000000
+      internalID: 7296432757813283289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_9
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 384
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca085091a71535110800000000000000
+      internalID: 1248431106559410348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a984d04b308c9370800000000000000
+      internalID: 8330674402707671461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_11
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 387
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc52b0c0b14fa1170800000000000000
+      internalID: 8150094872683685323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_12
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb7e61340ad12cec0800000000000000
+      internalID: -3548240982256982085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_13
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 385
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d56ff4c6cc7e90b0800000000000000
+      internalID: -5719997283563510319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_14
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 512a5b51780213ea0800000000000000
+      internalID: -5894894672694369771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_15
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 386
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25b7b5a7195ce3d70800000000000000
+      internalID: 9024867931910798162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 352
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ba50b48efb667b00800000000000000
+      internalID: 825966322561079993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_17
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 353
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0749cc5399bd828c0800000000000000
+      internalID: -4023724815976459152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_18
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 352
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29e24aef917450ee0800000000000000
+      internalID: -1295551140827222382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_19
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 352
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6e220dcb42583350800000000000000
+      internalID: 5996633389359312493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_20
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 223
+        width: 20
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7777b8ee2b24b2290800000000000000
+      internalID: -7914158583899785353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_21
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a35df10994fc46010800000000000000
+      internalID: 1181296917135480122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_22
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6b219dfa0a280850800000000000000
+      internalID: 6343366301843532650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_23
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 353
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d81bf1f27e1393a0800000000000000
+      internalID: -6659945944915961646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_24
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 353
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60e6dc0f8aedb8d00800000000000000
+      internalID: 976118561431711238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_25
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 255
+        width: 20
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 994d1c772b0cd2df0800000000000000
+      internalID: -203294535415901031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_26
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 322
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc9bf2223c4a4efa0800000000000000
+      internalID: -5772307664383002165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_27
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 332
+        width: 34
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 881fc1888698402d0800000000000000
+      internalID: -3313372343784640120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_28
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 322
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f218826c21ffd4f0800000000000000
+      internalID: -801657035714718988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_29
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 322
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 026a0c26b58d28c50800000000000000
+      internalID: 6666128285472171552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_30
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 331
+        width: 34
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9e76c84b83d4d030800000000000000
+      internalID: 3518669804058082971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_31
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 321
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 571f62c60e76a2c20800000000000000
+      internalID: 3182470300275503477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_32
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 290
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cef39fa8bdb72b7a0800000000000000
+      internalID: -6362887140661444628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_33
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 294
+        width: 34
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74596f3a878cdef80800000000000000
+      internalID: -8075578136332954297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_34
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 288
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cacb7ca06791e800800000000000000
+      internalID: 639959063529769667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_35
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 290
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d425e477414cda00800000000000000
+      internalID: 782572210415281364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_36
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 294
+        width: 34
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da0372d406af572f0800000000000000
+      internalID: -975598452737625939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_37
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 289
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0f1ea6ccde64e0d0800000000000000
+      internalID: -3394466324625350897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_38
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 258
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5066894e1f3538a90800000000000000
+      internalID: -7312909071532136955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_39
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 265
+        width: 34
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdd0ee584c79c1970800000000000000
+      internalID: 8727017048253533660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_40
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 259
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 930aeca13974b88b0800000000000000
+      internalID: -5148943051832516551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_41
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 259
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d8675abe4b6380c0800000000000000
+      internalID: -4574694810600380207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_42
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 266
+        width: 34
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ccb54295381c47a0800000000000000
+      internalID: -6391707152779199287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_43
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 259
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dab3c51637b47f80800000000000000
+      internalID: -8109655586066154798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 226
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e928bf2083ec3cf0800000000000000
+      internalID: -271091737853154843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_45
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 231
+        width: 34
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9deb7021c6db068b0800000000000000
+      internalID: -5160916901109973287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_46
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 224
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6990ec645ce20040800000000000000
+      internalID: 4612508815728875884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_47
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 226
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba89e66671986f2c0800000000000000
+      internalID: -4398177252484933461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_48
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 232
+        width: 34
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 194781b51cffa5290800000000000000
+      internalID: -7900721390346013551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_49
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 224
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e452ecf6ed0d05f00800000000000000
+      internalID: 1103611562482869582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_50
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 223
+        width: 17
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbd726a0df47ca950800000000000000
+      internalID: 6461668195519593916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_51
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 192
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e37ec4d403f0b970800000000000000
+      internalID: 8768775676566074340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_52
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 192
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36f7088e549589770800000000000000
+      internalID: 8617736043761794915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_53
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 200
+        width: 32
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ed9531d088561730800000000000000
+      internalID: 3969457431862681065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_54
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e4b94d82f64a7060800000000000000
+      internalID: 6951946982366229735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_55
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 192
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37ebb641c58e02080800000000000000
+      internalID: -9214109355422794125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_56
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 197
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8277a4147ef1ff5c0800000000000000
+      internalID: -4179586851083225304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_57
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 197
+        width: 32
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ebaa5f6c72fcba30800000000000000
+      internalID: 4232524366079503332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_58
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 197
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2d1a0422f19b14f0800000000000000
+      internalID: -856930834911191764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_59
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9d6f3846966a0f60800000000000000
+      internalID: 8001320483620351391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_60
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d5b3483b445fb520800000000000000
+      internalID: 2719985381998310871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_61
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 160
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6897e4541c299910800000000000000
+      internalID: 1844553988220360814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_62
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 161
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e521825283215dc0800000000000000
+      internalID: -3652098780183845403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_63
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 624bd44292c406820800000000000000
+      internalID: 2909409098867782694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_64
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55ac852ddee852520800000000000000
+      internalID: 2676702705629055573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_65
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 161
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf92b886fde2fcdc0800000000000000
+      internalID: -3616620438688683525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_66
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 163
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff3082610b8c1c3e0800000000000000
+      internalID: -2035124897983233025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_67
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 129
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41c02d4da9a5f8850800000000000000
+      internalID: 6381418818049281044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_68
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 129
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e0ebc8a844492370800000000000000
+      internalID: 8298238867267117283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_69
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 129
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab850928a0770e410800000000000000
+      internalID: 1504333162565621946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_70
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 129
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2a5406c24af68f90800000000000000
+      internalID: -6951593810102822356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_71
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0df277c765fea94d0800000000000000
+      internalID: -3126923836520976432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_72
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b88086bdb2806c7e0800000000000000
+      internalID: -1745698821101844341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_73
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 131
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab3b9231022cd1030800000000000000
+      internalID: 3467140731161392058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_74
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 131
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f74dcc22a4fdc3d20800000000000000
+      internalID: 3259725739813819519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_75
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 101
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2068c6c36381095c0800000000000000
+      internalID: -4210839030370367998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_76
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 101
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7e93ba4d03be5890800000000000000
+      internalID: -7467334262464471429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_77
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 101
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb2593a118d609fc0800000000000000
+      internalID: -3490169309953961284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_78
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 101
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74f3c08e5a3d9b8e0800000000000000
+      internalID: -1677076676702617785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_79
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 100
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f0057d00706dc9f0800000000000000
+      internalID: -446594753661435656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_80
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 100
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2aa3f2521bc9fd90800000000000000
+      internalID: -7063391260992361937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_81
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 100
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a97c28a6b23ce2b00800000000000000
+      internalID: 805795974583863194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_82
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 100
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 969d79f24c29b8450800000000000000
+      internalID: 6092124292258453865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_83
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 69
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15d7c5edb63d0e3b0800000000000000
+      internalID: -5485151885891699375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_84
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 68
+        width: 27
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78022369e911c9b60800000000000000
+      internalID: 7754092031247523975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_85
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 70
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dae741890534a8620800000000000000
+      internalID: 2777106133655256749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_86
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 67
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96d58a56097294070800000000000000
+      internalID: 8091041706682113385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_87
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 68
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2516352b8e1255390800000000000000
+      internalID: -7830315093805801134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_88
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 65
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d60c5e1d88194cb90800000000000000
+      internalID: -7222487885572358035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_89
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 69
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1579e3d8da50ccd70800000000000000
+      internalID: 9064626392947136337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_90
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 67
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d96c56a860cecb550800000000000000
+      internalID: 6178072301681362589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_91
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 36
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a017e5da31991450800000000000000
+      internalID: 6060034455486533798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_92
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 46
+        width: 25
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57876b8fc9c0644b0800000000000000
+      internalID: -5456660030185637771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_93
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 43
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02b2fa8d514573770800000000000000
+      internalID: 8590427267038915360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_94
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 37
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 071e0e37028206750800000000000000
+      internalID: 6296076398912135536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_95
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 35
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 623ff03c8821335e0800000000000000
+      internalID: -1931179436614356186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_96
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 35
+        width: 25
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 713155fa76005ecc0800000000000000
+      internalID: -3682536674982292713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_97
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 35
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bd6b0a76cccad450800000000000000
+      internalID: 6114424596932029878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_98
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 34
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a773f7044b3f8f60800000000000000
+      internalID: 8038709023256836005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_99
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 5
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 727ee0b6f1487d730800000000000000
+      internalID: 4023830062553818919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_100
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 4
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd3fbfd0599bdab80800000000000000
+      internalID: -8381839281630743585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_101
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 1
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c8d132145c1662d0800000000000000
+      internalID: -3285907730712110908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_102
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 3
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43a410658327417f0800000000000000
+      internalID: -642763260520478156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aerial_arsenal_103
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 3
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1daf6b76b2092edf0800000000000000
+      internalID: -152400921279137071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      aerial_arsenal_0: 4008275167373210815
+      aerial_arsenal_1: 6966388643601970548
+      aerial_arsenal_10: 8330674402707671461
+      aerial_arsenal_100: -8381839281630743585
+      aerial_arsenal_101: -3285907730712110908
+      aerial_arsenal_102: -642763260520478156
+      aerial_arsenal_103: -152400921279137071
+      aerial_arsenal_11: 8150094872683685323
+      aerial_arsenal_12: -3548240982256982085
+      aerial_arsenal_13: -5719997283563510319
+      aerial_arsenal_14: -5894894672694369771
+      aerial_arsenal_15: 9024867931910798162
+      aerial_arsenal_16: 825966322561079993
+      aerial_arsenal_17: -4023724815976459152
+      aerial_arsenal_18: -1295551140827222382
+      aerial_arsenal_19: 5996633389359312493
+      aerial_arsenal_2: -6741211291010301557
+      aerial_arsenal_20: -7914158583899785353
+      aerial_arsenal_21: 1181296917135480122
+      aerial_arsenal_22: 6343366301843532650
+      aerial_arsenal_23: -6659945944915961646
+      aerial_arsenal_24: 976118561431711238
+      aerial_arsenal_25: -203294535415901031
+      aerial_arsenal_26: -5772307664383002165
+      aerial_arsenal_27: -3313372343784640120
+      aerial_arsenal_28: -801657035714718988
+      aerial_arsenal_29: 6666128285472171552
+      aerial_arsenal_3: 4862497242670641882
+      aerial_arsenal_30: 3518669804058082971
+      aerial_arsenal_31: 3182470300275503477
+      aerial_arsenal_32: -6362887140661444628
+      aerial_arsenal_33: -8075578136332954297
+      aerial_arsenal_34: 639959063529769667
+      aerial_arsenal_35: 782572210415281364
+      aerial_arsenal_36: -975598452737625939
+      aerial_arsenal_37: -3394466324625350897
+      aerial_arsenal_38: -7312909071532136955
+      aerial_arsenal_39: 8727017048253533660
+      aerial_arsenal_4: 870421967665242896
+      aerial_arsenal_40: -5148943051832516551
+      aerial_arsenal_41: -4574694810600380207
+      aerial_arsenal_42: -6391707152779199287
+      aerial_arsenal_43: -8109655586066154798
+      aerial_arsenal_44: -271091737853154843
+      aerial_arsenal_45: -5160916901109973287
+      aerial_arsenal_46: 4612508815728875884
+      aerial_arsenal_47: -4398177252484933461
+      aerial_arsenal_48: -7900721390346013551
+      aerial_arsenal_49: 1103611562482869582
+      aerial_arsenal_5: 2415172555181192927
+      aerial_arsenal_50: 6461668195519593916
+      aerial_arsenal_51: 8768775676566074340
+      aerial_arsenal_52: 8617736043761794915
+      aerial_arsenal_53: 3969457431862681065
+      aerial_arsenal_54: 6951946982366229735
+      aerial_arsenal_55: -9214109355422794125
+      aerial_arsenal_56: -4179586851083225304
+      aerial_arsenal_57: 4232524366079503332
+      aerial_arsenal_58: -856930834911191764
+      aerial_arsenal_59: 8001320483620351391
+      aerial_arsenal_6: 1451224649801199943
+      aerial_arsenal_60: 2719985381998310871
+      aerial_arsenal_61: 1844553988220360814
+      aerial_arsenal_62: -3652098780183845403
+      aerial_arsenal_63: 2909409098867782694
+      aerial_arsenal_64: 2676702705629055573
+      aerial_arsenal_65: -3616620438688683525
+      aerial_arsenal_66: -2035124897983233025
+      aerial_arsenal_67: 6381418818049281044
+      aerial_arsenal_68: 8298238867267117283
+      aerial_arsenal_69: 1504333162565621946
+      aerial_arsenal_7: -6548253990641451108
+      aerial_arsenal_70: -6951593810102822356
+      aerial_arsenal_71: -3126923836520976432
+      aerial_arsenal_72: -1745698821101844341
+      aerial_arsenal_73: 3467140731161392058
+      aerial_arsenal_74: 3259725739813819519
+      aerial_arsenal_75: -4210839030370367998
+      aerial_arsenal_76: -7467334262464471429
+      aerial_arsenal_77: -3490169309953961284
+      aerial_arsenal_78: -1677076676702617785
+      aerial_arsenal_79: -446594753661435656
+      aerial_arsenal_8: 7296432757813283289
+      aerial_arsenal_80: -7063391260992361937
+      aerial_arsenal_81: 805795974583863194
+      aerial_arsenal_82: 6092124292258453865
+      aerial_arsenal_83: -5485151885891699375
+      aerial_arsenal_84: 7754092031247523975
+      aerial_arsenal_85: 2777106133655256749
+      aerial_arsenal_86: 8091041706682113385
+      aerial_arsenal_87: -7830315093805801134
+      aerial_arsenal_88: -7222487885572358035
+      aerial_arsenal_89: 9064626392947136337
+      aerial_arsenal_9: 1248431106559410348
+      aerial_arsenal_90: 6178072301681362589
+      aerial_arsenal_91: 6060034455486533798
+      aerial_arsenal_92: -5456660030185637771
+      aerial_arsenal_93: 8590427267038915360
+      aerial_arsenal_94: 6296076398912135536
+      aerial_arsenal_95: -1931179436614356186
+      aerial_arsenal_96: -3682536674982292713
+      aerial_arsenal_97: 6114424596932029878
+      aerial_arsenal_98: 8038709023256836005
+      aerial_arsenal_99: 4023830062553818919
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
