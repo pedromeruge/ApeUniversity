@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      throwingpotiongreen_0: 2468620228904756756
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

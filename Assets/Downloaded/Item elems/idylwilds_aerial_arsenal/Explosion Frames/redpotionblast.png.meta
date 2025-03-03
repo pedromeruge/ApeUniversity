@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      redpotionblast_0: -3874115096411270171
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

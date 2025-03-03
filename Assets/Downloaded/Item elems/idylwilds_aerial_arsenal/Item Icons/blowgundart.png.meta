@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      blowgundart_0: 3109570093294167028
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

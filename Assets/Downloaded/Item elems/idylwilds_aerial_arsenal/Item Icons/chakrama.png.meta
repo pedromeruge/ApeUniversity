@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      chakrama_0: -5803273652735668060
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

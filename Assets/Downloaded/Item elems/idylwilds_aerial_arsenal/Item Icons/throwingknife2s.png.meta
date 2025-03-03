@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      throwingknife2s_0: -2976197562546486124
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

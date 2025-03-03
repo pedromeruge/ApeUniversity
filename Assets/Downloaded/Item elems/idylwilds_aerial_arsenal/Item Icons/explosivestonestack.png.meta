@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      explosivestonestack_0: 6597604935296233560
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
