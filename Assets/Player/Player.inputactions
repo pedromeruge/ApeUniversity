@@ -33,7 +33,7 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Use",
+                    "name": "UseBackpackItem",
                     "type": "Button",
                     "id": "dfcc8ff9-481d-4d7c-85af-801a67a936ad",
                     "expectedControlType": "",
@@ -43,6 +43,15 @@
                 },
                 {
                     "name": "Attack1",
+                    "type": "Button",
+                    "id": "f9854f81-2f27-48ce-b25b-e6ec503c3e95",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Attack2",
                     "type": "Button",
                     "id": "af25e18f-2c39-4f56-bb0f-ed1498d89580",
                     "expectedControlType": "",
@@ -369,18 +378,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": ";Gamepad",
-                    "action": "Use",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "ea2145ee-985f-41e5-9e38-813c4afec923",
-                    "path": "<Mouse>/leftButton",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": ";Keyboard&Mouse",
-                    "action": "Use",
+                    "action": "UseBackpackItem",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -391,7 +389,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "XR",
-                    "action": "Use",
+                    "action": "UseBackpackItem",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -402,7 +400,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard&Mouse",
-                    "action": "Use",
+                    "action": "UseBackpackItem",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -413,7 +411,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": ";Gamepad",
-                    "action": "Attack1",
+                    "action": "Attack2",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -424,7 +422,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": ";Keyboard&Mouse",
-                    "action": "Attack1",
+                    "action": "Attack2",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -435,7 +433,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "XR",
-                    "action": "Attack1",
+                    "action": "Attack2",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -443,6 +441,17 @@
                     "name": "",
                     "id": "646adf90-424d-4507-a512-f0e8c51c451d",
                     "path": "<Keyboard>/t",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse",
+                    "action": "Attack2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a2af1cd7-3b21-4fb8-8f31-ef609a4c03e2",
+                    "path": "<Keyboard>/shift",
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard&Mouse",

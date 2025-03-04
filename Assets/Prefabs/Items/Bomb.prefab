@@ -126,9 +126,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   explosionRadius: 2
+  explosionKnockbackForce: 4
   layerMask:
     serializedVersion: 2
-    m_Bits: 577
+    m_Bits: 1601
   explosionFxPrefab: {fileID: 480227836981032412, guid: 506b748618c8b4fe4bdd5ba7cde561c0, type: 3}
   cameraShakeDuration: 0.6
   cameraShakeStrength: 15

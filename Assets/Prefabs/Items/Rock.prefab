@@ -12,7 +12,8 @@ GameObject:
   - component: {fileID: 401035721423443416}
   - component: {fileID: 787884741353379938}
   - component: {fileID: 8636834390078794024}
-  - component: {fileID: 6853665679962738070}
+  - component: {fileID: 9036002208121686645}
+  - component: {fileID: 4062486287124565695}
   m_Layer: 10
   m_Name: Rock
   m_TagString: Untagged
@@ -102,11 +103,11 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 0.5
+  m_Mass: 0.2
   m_LinearDamping: 0
   m_AngularDamping: 2
   m_GravityScale: 2
-  m_Material: {fileID: 6200000, guid: 8c91c4fd6c7e34d9a9c6ae0ee84c2265, type: 2}
+  m_Material: {fileID: 6200000, guid: 0c1a12333bad94f2bbca1d6644e38d09, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -153,7 +154,7 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: -0.005508378, y: -0.0058500543}
   m_Radius: 0.08558671
---- !u!114 &6853665679962738070
+--- !u!114 &9036002208121686645
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -162,6 +163,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 149334802101102894}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4b1b094b9296a42c48f296f8c9fc7b97, type: 3}
+  m_Script: {fileID: 11500000, guid: 32bc253b03fd44551a64e157716203b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  throwForce: 25
+  throwRotation: 1
+  throwAngle: 5
+--- !u!114 &4062486287124565695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 149334802101102894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98c88ebf1cf1944cc8e7c4b93bb92a2e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

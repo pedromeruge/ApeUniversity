@@ -48,6 +48,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   explosionRadius: 2.2
+  explosionKnockbackForce: 7
   layerMask:
     serializedVersion: 2
     m_Bits: 833

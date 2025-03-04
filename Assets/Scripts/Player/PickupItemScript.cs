@@ -30,13 +30,13 @@ public class PickupItemsScripts : MonoBehaviour
 
     public void Pickup(InputAction.CallbackContext context) {
         GameObject itemToPickup = null;
-        if (context.performed) {
+        if (context.performed && currentPickup == null) {
             itemToPickup = findClosestPickup();
             if (itemToPickup != null) {
                 IPickupable pickupObj = itemToPickup.GetComponent<IPickupable>();
                 pickupObj.OnPickup(defaultPickObjectParent);
                 currentPickup = pickupObj;
-                Debug.Log("Picked up: " + itemToPickup.name);
+                // Debug.Log("Picked up: " + itemToPickup.name);
             }
         }
     }
@@ -45,6 +45,15 @@ public class PickupItemsScripts : MonoBehaviour
         if (context.performed && currentPickup != null) {
             currentPickup.OnDrop(defaultDropObjectParent);
             currentPickup = null;
+        }
+    }
+
+    public void Use(InputAction.CallbackContext context) {
+        if (context.performed && currentPickup != null) {
+            bool itemDropped = currentPickup.OnUse(defaultDropObjectParent, this.transform.parent.gameObject); // hardcoded player parent, could be better ...
+            if (itemDropped) {
+                currentPickup = null;
+            }
         }
     }
 
