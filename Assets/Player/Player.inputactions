@@ -24,7 +24,7 @@
                     "initialStateCheck": true
                 },
                 {
-                    "name": "Attack1",
+                    "name": "Pickup",
                     "type": "Button",
                     "id": "6c2ab1b8-8984-453a-af3d-a3c78ae1679a",
                     "expectedControlType": "",
@@ -33,9 +33,36 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Attack2",
+                    "name": "UseBackpackItem",
                     "type": "Button",
                     "id": "dfcc8ff9-481d-4d7c-85af-801a67a936ad",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Attack1",
+                    "type": "Button",
+                    "id": "f9854f81-2f27-48ce-b25b-e6ec503c3e95",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Attack2",
+                    "type": "Button",
+                    "id": "af25e18f-2c39-4f56-bb0f-ed1498d89580",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Drop",
+                    "type": "Button",
+                    "id": "0b801c25-7d87-4070-977f-64dcbdd5e0a3",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -296,18 +323,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": ";Gamepad",
-                    "action": "Attack1",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "05f6913d-c316-48b2-a6bb-e225f14c7960",
-                    "path": "<Mouse>/leftButton",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": ";Keyboard&Mouse",
-                    "action": "Attack1",
+                    "action": "Pickup",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -318,7 +334,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": ";Touch",
-                    "action": "Attack1",
+                    "action": "Pickup",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -329,7 +345,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Joystick",
-                    "action": "Attack1",
+                    "action": "Pickup",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -340,7 +356,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "XR",
-                    "action": "Attack1",
+                    "action": "Pickup",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -351,7 +367,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard&Mouse",
-                    "action": "Attack1",
+                    "action": "Pickup",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -362,18 +378,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": ";Gamepad",
-                    "action": "Attack2",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "ea2145ee-985f-41e5-9e38-813c4afec923",
-                    "path": "<Mouse>/rightButton",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": ";Keyboard&Mouse",
-                    "action": "Attack2",
+                    "action": "UseBackpackItem",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -384,7 +389,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "XR",
-                    "action": "Attack2",
+                    "action": "UseBackpackItem",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -395,7 +400,95 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard&Mouse",
+                    "action": "UseBackpackItem",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b53ba41b-c131-4841-af1c-78c71371cd82",
+                    "path": "<Gamepad>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Gamepad",
                     "action": "Attack2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "01d934d2-2990-42b1-b18a-00cbb38171ca",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard&Mouse",
+                    "action": "Attack2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f895a667-a7ca-4c27-bf5b-df0eea453394",
+                    "path": "<XRController>/{SecondaryAction}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "XR",
+                    "action": "Attack2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "646adf90-424d-4507-a512-f0e8c51c451d",
+                    "path": "<Keyboard>/t",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse",
+                    "action": "Attack2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a2af1cd7-3b21-4fb8-8f31-ef609a4c03e2",
+                    "path": "<Keyboard>/shift",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse",
+                    "action": "Attack1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "57e60083-1ea6-442c-9d86-1f9f85316d2c",
+                    "path": "<Gamepad>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Gamepad",
+                    "action": "Drop",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "843cb999-65cc-4c6d-9a47-ff8df6f2edad",
+                    "path": "<XRController>/{SecondaryAction}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "XR",
+                    "action": "Drop",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1c13ed0d-002f-4099-8a74-61a5460a20cc",
+                    "path": "<Keyboard>/g",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse",
+                    "action": "Drop",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },

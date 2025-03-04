@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.Tilemaps;
 
 // flag a tilemap as destructible by explosives
-public class DestructibleTilemap : MonoBehaviour, IDestructible
+public class isDestructibleTilemap : MonoBehaviour, IDestructible
 {
     private void OnEnable()
     {

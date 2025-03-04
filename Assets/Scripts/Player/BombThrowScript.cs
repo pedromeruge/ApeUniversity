@@ -9,6 +9,7 @@ public class BombThrowScript : BaseExplosive
     [SerializeField] private GameObject parent; // parent object under which all bomb items will be instantiated
     [SerializeField] private float throwForce = 10.0f;
     [SerializeField] private float throwAngle = 45.0f;
+    [SerializeField] private float throwRotation = 50.0f;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
 
     public void ThrowBomb(InputAction.CallbackContext context) {
@@ -28,7 +29,7 @@ public class BombThrowScript : BaseExplosive
 
             // apply intial force to bomb
             bombRigidbody.linearVelocity = new Vector2(throwForce * Mathf.Cos(throwAngle * Mathf.Deg2Rad) * playerTransform.localScale.x, throwForce * Mathf.Sin(throwAngle * Mathf.Deg2Rad));
-            bombRigidbody.angularVelocity = 50f;
+            bombRigidbody.angularVelocity = throwRotation;
             //update player state
             playerStats.modifyBombs(-1);
         }

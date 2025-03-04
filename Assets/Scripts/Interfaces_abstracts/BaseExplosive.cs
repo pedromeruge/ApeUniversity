@@ -4,6 +4,7 @@ public class BaseExplosive : MonoBehaviour, IExplosive
 {
     [SerializeField] private float explosionRadius = 1.0f;
 
+    [SerializeField] private float explosionKnockbackForce = 10.0f;
     [SerializeField] LayerMask layerMask;
 
     [SerializeField] GameObject explosionFxPrefab;
@@ -52,10 +53,11 @@ public class BaseExplosive : MonoBehaviour, IExplosive
     void checkOverlapAndDestroy(Vector3 objPos) {
         Collider2D[] colliders = Physics2D.OverlapCircleAll(objPos, explosionRadius, layerMask);
         foreach (Collider2D collider in colliders) {
-            Debug.Log("Explosion hit: " + collider.name);
+            // Debug.Log("Explosion hit: " + collider.name);
             triggerExplosive(collider, objPos);
             hitDamageable(collider, objPos);
             destroyTerrain(collider, objPos);
+            knockbackObjects(collider, objPos);
         }
     }
 
@@ -94,6 +96,16 @@ public class BaseExplosive : MonoBehaviour, IExplosive
         }
         EventExplode.Explode(explosive);
         return true;
+    }
+
+    void knockbackObjects(Collider2D collider, Vector3 objPos) {
+        IKnockbackable knockbackableObj = collider.GetComponent<IKnockbackable>();
+        if (knockbackableObj == null) {
+            return;
+        }
+        // Debug.Log("Knocking back: " + collider.name);
+        Vector3 knockbackForce = (knockbackableObj.getTransform().position - objPos) * explosionKnockbackForce;
+        knockbackableObj.Knockback(knockbackForce);
     }
 
     //debug explosion radius
