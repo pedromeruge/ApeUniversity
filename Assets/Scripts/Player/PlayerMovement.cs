@@ -24,6 +24,8 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float jumpBufferTime = 0.1f;
     private float jumpBufferTimeCounter = 0f;
 
+    // Platform falling
+
     // Animations for player
     [SerializeField] private Animator animator;
 
