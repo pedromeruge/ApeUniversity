@@ -1,26 +1,26 @@
 using UnityEngine;
 
-public class CatchableScript : BaseCatchable
+public class MonkeyCatchableScript : BaseHittable
 {
     private void OnEnable()
     {
-        PlayerCatchScript.OnEntityCaught += OnEntityCaught;
+        PlayerHitScript.OnEntityHit += OnEntityHit;
     }
 
     private void OnDisable()
     {
-        PlayerCatchScript.OnEntityCaught -= OnEntityCaught;
+        PlayerHitScript.OnEntityHit -= OnEntityHit;
     }
 
-    private void OnEntityCaught(ICatchable target)
+    private void OnEntityHit(IHittable target)
     {
         // Ensure the event is intended for this player instance.
         if ((Object) target == this) {
-            OnCaught();
+            OnHit();
         }
     }
 
-    public override void OnCaught()
+    public override void OnHit()
     {
         Destroy(this.gameObject);
     }

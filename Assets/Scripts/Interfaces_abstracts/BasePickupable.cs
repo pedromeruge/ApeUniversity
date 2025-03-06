@@ -6,12 +6,13 @@ public abstract class BasePickupable : MonoBehaviour, IPickupable
 {
     protected Collider2D pickupCollider;
     protected Rigidbody2D pickupRb;
-    void Awake()
+
+    protected Vector3 pickupHandLocalPosition = Vector3.zero; // vector to add onto the player's hand position when picking up the object, so it looks like it's being held
+    protected void Awake()
     {
         pickupCollider = this.GetComponent<Collider2D>();
         pickupRb = this.GetComponent<Rigidbody2D>();
     }
-    
     
     public abstract bool OnUse(GameObject dropParent, GameObject playerParent);
     
@@ -26,7 +27,7 @@ public abstract class BasePickupable : MonoBehaviour, IPickupable
         this.transform.SetParent(playerHandParent.transform, true);
 
         // Reposition the object to the center of the player's hand
-        this.transform.localPosition = Vector3.zero;
+        this.transform.localPosition = pickupHandLocalPosition;
         this.transform.localRotation = Quaternion.identity;
 
     }

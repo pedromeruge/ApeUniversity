@@ -8,14 +8,14 @@ public class PlaceItemPrefabs : MonoBehaviour
     [SerializeField] private GameObject prefab; // object prefab to replace each tile with
     void Start()
     {
-        ConvertMinesToPrefabs();
+        ConvertItemsToPrefabs();
     }
 
-    void ConvertMinesToPrefabs()
+    void ConvertItemsToPrefabs()
     {
         if (prefabTilemap == null || prefab == null)
         {
-            Debug.LogError("MinePlacer: Missing references to Tilemap or Prefab!");
+            Debug.LogError("ItemPlacer: Missing references to Tilemap or Prefab!");
             return;
         }
 

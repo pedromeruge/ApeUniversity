@@ -36,7 +36,7 @@ public class PickupItemsScripts : MonoBehaviour
                 IPickupable pickupObj = itemToPickup.GetComponent<IPickupable>();
                 pickupObj.OnPickup(defaultPickObjectParent);
                 currentPickup = pickupObj;
-                // Debug.Log("Picked up: " + itemToPickup.name);
+                Debug.Log("Picked up: " + itemToPickup.name);
             }
         }
     }

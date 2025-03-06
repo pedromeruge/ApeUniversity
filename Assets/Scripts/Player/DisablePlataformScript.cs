@@ -9,14 +9,12 @@ public class DisablePlataformScript : MonoBehaviour
     private bool collidingWithPlatform = false;
     private void Awake() {
         playerCollider = GetComponent<Collider2D>();
-        Debug.Log("Player collider: " + playerCollider);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Platform"))
         {
-            Debug.Log("Colliding with platform");
             collidingWithPlatform = true;
         }
     }
@@ -25,15 +23,12 @@ public class DisablePlataformScript : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Platform"))
         {   
-            Debug.Log("Stopped colliding with platform");
-
             collidingWithPlatform = false;
         }
     }
 
     private IEnumerator DisablePlataform()
     {
-        Debug.Log("Disabling platform");
         Physics2D.IgnoreCollision(playerCollider, platformCollider);
         yield return new WaitForSeconds(disableTime);
         Physics2D.IgnoreCollision(playerCollider, platformCollider, false);
@@ -41,7 +36,6 @@ public class DisablePlataformScript : MonoBehaviour
 
     public void FallOfPlataform(InputAction.CallbackContext context) {
         float vertical = context.ReadValue<Vector2>().y;
-        Debug.Log("Vertical: " + vertical);
         if (context.performed && vertical < 0f && collidingWithPlatform) {
             StartCoroutine(DisablePlataform());
         }

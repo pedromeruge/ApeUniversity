@@ -56,7 +56,7 @@ public class BaseExplosive : MonoBehaviour, IExplosive
             // Debug.Log("Explosion hit: " + collider.name);
             triggerExplosive(collider, objPos);
             hitDamageable(collider, objPos);
-            destroyTerrain(collider, objPos);
+            signalDestructibles(collider, objPos);
             knockbackObjects(collider, objPos);
         }
     }
@@ -78,7 +78,7 @@ public class BaseExplosive : MonoBehaviour, IExplosive
     }
 
     //based on "Findable_Shelf" at https://discussions.unity.com/t/remove-tiles-given-a-point-and-a-radius/756324/6
-    bool destroyTerrain(Collider2D collider, Vector3 objPos) {
+    bool signalDestructibles(Collider2D collider, Vector3 objPos) {
         IDestructible destructible = collider.GetComponent<IDestructible>();
         if (destructible == null) {
             return false;
