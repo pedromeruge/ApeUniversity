@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class CatchableScript : BaseCatchable
 {
+
+    [SerializeField] private Animator anim;
     private void OnEnable()
     {
         PlayerCatchScript.OnEntityCaught += OnEntityCaught;
@@ -22,7 +24,14 @@ public class CatchableScript : BaseCatchable
 
     public override void OnCaught()
     {
-        Destroy(this.gameObject);
+        if (anim == null)
+        {
+            Debug.LogError("Animator is not assigned!", this);
+            return;
+        }
+        anim.SetBool("isRunning",false);
+        anim.SetBool("isDead",true);
+        Destroy(this.gameObject,5f);
     }
 }
 
