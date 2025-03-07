@@ -1,0 +1,2629 @@
+fileFormatVersion: 2
+guid: d3549d17a0ed84699a78865b5341509a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4191328360811949028
+    second: items-orescrystalsingots-transparent_0
+  - first:
+      213: 5918005158648764934
+    second: items-orescrystalsingots-transparent_1
+  - first:
+      213: -951852107929109118
+    second: items-orescrystalsingots-transparent_2
+  - first:
+      213: -263435899427379639
+    second: items-orescrystalsingots-transparent_3
+  - first:
+      213: -4222065141324261874
+    second: items-orescrystalsingots-transparent_4
+  - first:
+      213: -6112491896816918283
+    second: items-orescrystalsingots-transparent_5
+  - first:
+      213: 1533473250832102296
+    second: items-orescrystalsingots-transparent_6
+  - first:
+      213: 4922552491523174072
+    second: items-orescrystalsingots-transparent_7
+  - first:
+      213: -5897459711811802756
+    second: items-orescrystalsingots-transparent_8
+  - first:
+      213: -6918521406019265138
+    second: items-orescrystalsingots-transparent_9
+  - first:
+      213: -1089870110794010697
+    second: items-orescrystalsingots-transparent_10
+  - first:
+      213: -108579834202149127
+    second: items-orescrystalsingots-transparent_11
+  - first:
+      213: 4992668112419250955
+    second: items-orescrystalsingots-transparent_12
+  - first:
+      213: -6022189236277349028
+    second: items-orescrystalsingots-transparent_13
+  - first:
+      213: 5144133265926188902
+    second: items-orescrystalsingots-transparent_14
+  - first:
+      213: -5263356522526806692
+    second: items-orescrystalsingots-transparent_15
+  - first:
+      213: 8668152057802028465
+    second: items-orescrystalsingots-transparent_16
+  - first:
+      213: 1922466429150437629
+    second: items-orescrystalsingots-transparent_17
+  - first:
+      213: -3828084742913531994
+    second: items-orescrystalsingots-transparent_18
+  - first:
+      213: 5856926811172136735
+    second: items-orescrystalsingots-transparent_19
+  - first:
+      213: -7245186291401411965
+    second: items-orescrystalsingots-transparent_20
+  - first:
+      213: 5773596592657995733
+    second: items-orescrystalsingots-transparent_21
+  - first:
+      213: 9078934187255497849
+    second: items-orescrystalsingots-transparent_22
+  - first:
+      213: -1249230306236047310
+    second: items-orescrystalsingots-transparent_23
+  - first:
+      213: -1503556245244542133
+    second: items-orescrystalsingots-transparent_24
+  - first:
+      213: 1912045520641953463
+    second: items-orescrystalsingots-transparent_25
+  - first:
+      213: -6954798149955658894
+    second: items-orescrystalsingots-transparent_26
+  - first:
+      213: 2320849569461723575
+    second: items-orescrystalsingots-transparent_27
+  - first:
+      213: 2986661264671827620
+    second: items-orescrystalsingots-transparent_28
+  - first:
+      213: -2758471937347865620
+    second: items-orescrystalsingots-transparent_29
+  - first:
+      213: 7787299797406795766
+    second: items-orescrystalsingots-transparent_30
+  - first:
+      213: -5074997198615709425
+    second: items-orescrystalsingots-transparent_31
+  - first:
+      213: -1522844652872143968
+    second: items-orescrystalsingots-transparent_32
+  - first:
+      213: 7499902020093460301
+    second: items-orescrystalsingots-transparent_33
+  - first:
+      213: 6027455148587061776
+    second: items-orescrystalsingots-transparent_34
+  - first:
+      213: 8703461977942340724
+    second: items-orescrystalsingots-transparent_35
+  - first:
+      213: 5597483383285264705
+    second: items-orescrystalsingots-transparent_36
+  - first:
+      213: 5610877158371555816
+    second: items-orescrystalsingots-transparent_37
+  - first:
+      213: 4820680766530892116
+    second: items-orescrystalsingots-transparent_38
+  - first:
+      213: 217641126721172421
+    second: items-orescrystalsingots-transparent_39
+  - first:
+      213: -1831031370774405939
+    second: items-orescrystalsingots-transparent_40
+  - first:
+      213: -5917140444772010263
+    second: items-orescrystalsingots-transparent_41
+  - first:
+      213: 7743712794155701893
+    second: items-orescrystalsingots-transparent_42
+  - first:
+      213: -1174891918180668544
+    second: items-orescrystalsingots-transparent_43
+  - first:
+      213: 497815212292464420
+    second: items-orescrystalsingots-transparent_44
+  - first:
+      213: 8283269432946307055
+    second: items-orescrystalsingots-transparent_45
+  - first:
+      213: 5749884822987231969
+    second: items-orescrystalsingots-transparent_46
+  - first:
+      213: -7924608472576088044
+    second: items-orescrystalsingots-transparent_47
+  - first:
+      213: -2231019325446057594
+    second: items-orescrystalsingots-transparent_48
+  - first:
+      213: 9186897488927181703
+    second: items-orescrystalsingots-transparent_49
+  - first:
+      213: 5922965743900235098
+    second: items-orescrystalsingots-transparent_50
+  - first:
+      213: 3128243753392760172
+    second: items-orescrystalsingots-transparent_51
+  - first:
+      213: 5842796696343307821
+    second: items-orescrystalsingots-transparent_52
+  - first:
+      213: -7807605156288304371
+    second: items-orescrystalsingots-transparent_53
+  - first:
+      213: -764843453595347858
+    second: items-orescrystalsingots-transparent_54
+  - first:
+      213: -3155859492835498492
+    second: items-orescrystalsingots-transparent_55
+  - first:
+      213: 3088986066901587799
+    second: items-orescrystalsingots-transparent_56
+  - first:
+      213: -5788706117304517130
+    second: items-orescrystalsingots-transparent_57
+  - first:
+      213: -7123499416856381127
+    second: items-orescrystalsingots-transparent_58
+  - first:
+      213: -5697602136467165649
+    second: items-orescrystalsingots-transparent_59
+  - first:
+      213: 1761344858475890760
+    second: items-orescrystalsingots-transparent_60
+  - first:
+      213: -919678872428821419
+    second: items-orescrystalsingots-transparent_61
+  - first:
+      213: -5566931427449530156
+    second: items-orescrystalsingots-transparent_62
+  - first:
+      213: 216799876510896567
+    second: items-orescrystalsingots-transparent_63
+  - first:
+      213: 3180052030631537554
+    second: items-orescrystalsingots-transparent_64
+  - first:
+      213: -3060246127171658583
+    second: items-orescrystalsingots-transparent_65
+  - first:
+      213: 1344020981787352916
+    second: items-orescrystalsingots-transparent_66
+  - first:
+      213: 5595785107679796994
+    second: items-orescrystalsingots-transparent_67
+  - first:
+      213: -5663206433017483416
+    second: items-orescrystalsingots-transparent_68
+  - first:
+      213: -6173602495858421594
+    second: items-orescrystalsingots-transparent_69
+  - first:
+      213: -5188920022255057811
+    second: items-orescrystalsingots-transparent_70
+  - first:
+      213: -5622392567503958479
+    second: items-orescrystalsingots-transparent_71
+  - first:
+      213: -2609831126376559619
+    second: items-orescrystalsingots-transparent_72
+  - first:
+      213: 8902233286223903005
+    second: items-orescrystalsingots-transparent_73
+  - first:
+      213: 2911009778818517147
+    second: items-orescrystalsingots-transparent_74
+  - first:
+      213: -1066116796743548457
+    second: items-orescrystalsingots-transparent_75
+  - first:
+      213: -3233526591479709017
+    second: items-orescrystalsingots-transparent_76
+  - first:
+      213: -3725473204540514371
+    second: items-orescrystalsingots-transparent_77
+  - first:
+      213: 6792215392671738517
+    second: items-orescrystalsingots-transparent_78
+  - first:
+      213: -8223258919474553396
+    second: items-orescrystalsingots-transparent_79
+  - first:
+      213: 1891321229804453425
+    second: items-orescrystalsingots-transparent_80
+  - first:
+      213: 1586036040747268116
+    second: items-orescrystalsingots-transparent_81
+  - first:
+      213: -5497181904069799147
+    second: items-orescrystalsingots-transparent_82
+  - first:
+      213: -6033209772345725959
+    second: items-orescrystalsingots-transparent_83
+  - first:
+      213: 5763299148194103016
+    second: items-orescrystalsingots-transparent_84
+  - first:
+      213: -322293200576751421
+    second: items-orescrystalsingots-transparent_85
+  - first:
+      213: -1532237243008550119
+    second: items-orescrystalsingots-transparent_86
+  - first:
+      213: -1397652500407049640
+    second: items-orescrystalsingots-transparent_87
+  - first:
+      213: 1397653144386557515
+    second: items-orescrystalsingots-transparent_88
+  - first:
+      213: -5919285726541052043
+    second: items-orescrystalsingots-transparent_89
+  - first:
+      213: 1141363162979504311
+    second: items-orescrystalsingots-transparent_90
+  - first:
+      213: 893170747337198566
+    second: items-orescrystalsingots-transparent_91
+  - first:
+      213: -566581280611124505
+    second: items-orescrystalsingots-transparent_92
+  - first:
+      213: -6642988805140216112
+    second: items-orescrystalsingots-transparent_93
+  - first:
+      213: -7281848402689847273
+    second: items-orescrystalsingots-transparent_94
+  - first:
+      213: -7099224433899526001
+    second: items-orescrystalsingots-transparent_95
+  - first:
+      213: 1170394459177305134
+    second: items-orescrystalsingots-transparent_96
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1498ccff0965d5c0800000000000000
+      internalID: -4191328360811949028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60a503c365af02250800000000000000
+      internalID: 5918005158648764934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28dbd2c0d875ac2f0800000000000000
+      internalID: -951852107929109118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 946ab89f176185cf0800000000000000
+      internalID: -263435899427379639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e06dec89f163865c0800000000000000
+      internalID: -4222065141324261874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f026c551011c2ba0800000000000000
+      internalID: -6112491896816918283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89339640ccdf74510800000000000000
+      internalID: 1533473250832102296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bee375096b605440800000000000000
+      internalID: 4922552491523174072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c79a74063a3082ea0800000000000000
+      internalID: -5897459711811802756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_9
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8d1947ef697cff90800000000000000
+      internalID: -6918521406019265138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bfaeca98e000e0f0800000000000000
+      internalID: -1089870110794010697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fe2c90573f3e7ef0800000000000000
+      internalID: -108579834202149127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b036b2a2235894540800000000000000
+      internalID: 4992668112419250955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_13
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c55f189ebc2ec6ca0800000000000000
+      internalID: -6022189236277349028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_14
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66fecc853f1a36740800000000000000
+      internalID: 5144133265926188902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_15
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5ded84112dc4f6b0800000000000000
+      internalID: -5263356522526806692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b57c58ee567b4870800000000000000
+      internalID: 8668152057802028465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_17
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df0202a1809fdaa10800000000000000
+      internalID: 1922466429150437629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_18
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6afdb885539efdac0800000000000000
+      internalID: -3828084742913531994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_19
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f17606747ebf74150800000000000000
+      internalID: 5856926811172136735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_20
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3823d71647de37b90800000000000000
+      internalID: -7245186291401411965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_21
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d719cdd28fef1050800000000000000
+      internalID: 5773596592657995733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_22
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97483828a8adefd70800000000000000
+      internalID: 9078934187255497849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_23
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 230e52ab7a7d9aee0800000000000000
+      internalID: -1249230306236047310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_24
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b430166af8b422be0800000000000000
+      internalID: -1503556245244542133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_25
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7be8d344543f88a10800000000000000
+      internalID: 1912045520641953463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_26
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27b59534ee79b7f90800000000000000
+      internalID: -6954798149955658894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_27
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b162e41360553020800000000000000
+      internalID: 2320849569461723575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_28
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a6ee21a890c27920800000000000000
+      internalID: 2986661264671827620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_29
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce33f735360f7b9d0800000000000000
+      internalID: -2758471937347865620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_30
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f747e728eb021c60800000000000000
+      internalID: 7787299797406795766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_31
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f097864bfecf199b0800000000000000
+      internalID: -5074997198615709425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0abe3794bd4cddae0800000000000000
+      internalID: -1522844652872143968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_33
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4fb7eda621051860800000000000000
+      internalID: 7499902020093460301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_34
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0129127d582d5a350800000000000000
+      internalID: 6027455148587061776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_35
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4743f575e88e8c870800000000000000
+      internalID: 8703461977942340724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_36
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 141bed8fa714ead40800000000000000
+      internalID: 5597483383285264705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_37
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e9f61f3c07dddd40800000000000000
+      internalID: 5610877158371555816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_38
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 451b1a8bd9f76e240800000000000000
+      internalID: 4820680766530892116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_39
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c33bbe9377350300800000000000000
+      internalID: 217641126721172421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_40
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcc15646baed696e0800000000000000
+      internalID: -1831031370774405939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_41
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e67447ad1812eda0800000000000000
+      internalID: -5917140444772010263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_42
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5865c4222c1377b60800000000000000
+      internalID: 7743712794155701893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_43
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08b2d577602f1bfe0800000000000000
+      internalID: -1174891918180668544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_44
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42f5a7c4c4898e600800000000000000
+      internalID: 497815212292464420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_45
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fefad91a9a514f270800000000000000
+      internalID: 8283269432946307055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_46
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e2509548c1bbcf40800000000000000
+      internalID: 5749884822987231969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_47
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4182d00a492260290800000000000000
+      internalID: -7924608472576088044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68191c37eb3d901e0800000000000000
+      internalID: -2231019325446057594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_49
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78bce67879a6e7f70800000000000000
+      internalID: 9186897488927181703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_50
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a551bfd76f9923250800000000000000
+      internalID: 5922965743900235098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_51
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c656fcb9e11c96b20800000000000000
+      internalID: 3128243753392760172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_52
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d266e5c83a8c51150800000000000000
+      internalID: 5842796696343307821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_53
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0b6de01a70d5a390800000000000000
+      internalID: -7807605156288304371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_54
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e649aa76eeab265f0800000000000000
+      internalID: -764843453595347858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_55
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 406ee7003822434d0800000000000000
+      internalID: -3155859492835498492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_56
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 757dcc136784eda20800000000000000
+      internalID: 3088986066901587799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_57
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fdfee8c4726aafa0800000000000000
+      internalID: -5788706117304517130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_58
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 939b294b50f342d90800000000000000
+      internalID: -7123499416856381127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_59
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2e2e584b0d0ee0b0800000000000000
+      internalID: -5697602136467165649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_60
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8488a6811dd817810800000000000000
+      internalID: 1761344858475890760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_61
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 554c27d20f4ac33f0800000000000000
+      internalID: -919678872428821419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_62
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d899e19c594eb2b0800000000000000
+      internalID: -5566931427449530156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_63
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b1d7cac65a320300800000000000000
+      internalID: 216799876510896567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29b6d052970d12c20800000000000000
+      internalID: 3180052030631537554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_65
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ac1ba87c52d785d0800000000000000
+      internalID: -3060246127171658583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_66
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45f5b1646fbe6a210800000000000000
+      internalID: 1344020981787352916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_67
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20fdcae58e838ad40800000000000000
+      internalID: 5595785107679796994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_68
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86f294e01cf3861b0800000000000000
+      internalID: -5663206433017483416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_69
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a0d4e93d35f25aa0800000000000000
+      internalID: -6173602495858421594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_70
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6443995bb04df7b0800000000000000
+      internalID: -5188920022255057811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_71
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13e4122afbf39f1b0800000000000000
+      internalID: -5622392567503958479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_72
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfb41940b6408cbd0800000000000000
+      internalID: -2609831126376559619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_73
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d19b80df1061b8b70800000000000000
+      internalID: 8902233286223903005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_74
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b988a2c78fbf56820800000000000000
+      internalID: 2911009778818517147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_75
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d106010c646431f0800000000000000
+      internalID: -1066116796743548457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_76
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a2821f62b43023d0800000000000000
+      internalID: -3233526591479709017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_77
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbf502fdbd57c4cc0800000000000000
+      internalID: -3725473204540514371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_78
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59aa326b9ebc24e50800000000000000
+      internalID: 6792215392671738517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_79
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccd18a8d49d11ed80800000000000000
+      internalID: -8223258919474553396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13e36aa43a25f3a10800000000000000
+      internalID: 1891321229804453425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_81
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41835b9306bb20610800000000000000
+      internalID: 1586036040747268116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_82
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 513d63efe2616b3b0800000000000000
+      internalID: -5497181904069799147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_83
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fbeae76dabb54ca0800000000000000
+      internalID: -6033209772345725959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_84
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eebb6e3a0a5bff40800000000000000
+      internalID: 5763299148194103016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_85
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c8591aaa0cf68bf0800000000000000
+      internalID: -322293200576751421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_86
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91bf9da78566cbae0800000000000000
+      internalID: -1532237243008550119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_87
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8522dc9b47a8a9ce0800000000000000
+      internalID: -1397652500407049640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_88
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b465e563126756310800000000000000
+      internalID: 1397653144386557515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_89
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5770b715ef87adda0800000000000000
+      internalID: -5919285726541052043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_90
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b01c11efbfe6df00800000000000000
+      internalID: 1141363162979504311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_91
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ebcdceff0e256c00800000000000000
+      internalID: 893170747337198566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_92
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eab9c0c3591328f0800000000000000
+      internalID: -566581280611124505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_93
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d688b6b0ec5fc3a0800000000000000
+      internalID: -6642988805140216112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_94
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7101d69657da1fa90800000000000000
+      internalID: -7281848402689847273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items-orescrystalsingots-transparent_95
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8825ac9dfc7a7d90800000000000000
+      internalID: -7099224433899526001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 530b1f1edf3f8406a944d657f998337e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      items-orescrystalsingots-transparent_0: -4191328360811949028
+      items-orescrystalsingots-transparent_1: 5918005158648764934
+      items-orescrystalsingots-transparent_10: -1089870110794010697
+      items-orescrystalsingots-transparent_11: -108579834202149127
+      items-orescrystalsingots-transparent_12: 4992668112419250955
+      items-orescrystalsingots-transparent_13: -6022189236277349028
+      items-orescrystalsingots-transparent_14: 5144133265926188902
+      items-orescrystalsingots-transparent_15: -5263356522526806692
+      items-orescrystalsingots-transparent_16: 8668152057802028465
+      items-orescrystalsingots-transparent_17: 1922466429150437629
+      items-orescrystalsingots-transparent_18: -3828084742913531994
+      items-orescrystalsingots-transparent_19: 5856926811172136735
+      items-orescrystalsingots-transparent_2: -951852107929109118
+      items-orescrystalsingots-transparent_20: -7245186291401411965
+      items-orescrystalsingots-transparent_21: 5773596592657995733
+      items-orescrystalsingots-transparent_22: 9078934187255497849
+      items-orescrystalsingots-transparent_23: -1249230306236047310
+      items-orescrystalsingots-transparent_24: -1503556245244542133
+      items-orescrystalsingots-transparent_25: 1912045520641953463
+      items-orescrystalsingots-transparent_26: -6954798149955658894
+      items-orescrystalsingots-transparent_27: 2320849569461723575
+      items-orescrystalsingots-transparent_28: 2986661264671827620
+      items-orescrystalsingots-transparent_29: -2758471937347865620
+      items-orescrystalsingots-transparent_3: -263435899427379639
+      items-orescrystalsingots-transparent_30: 7787299797406795766
+      items-orescrystalsingots-transparent_31: -5074997198615709425
+      items-orescrystalsingots-transparent_32: -1522844652872143968
+      items-orescrystalsingots-transparent_33: 7499902020093460301
+      items-orescrystalsingots-transparent_34: 6027455148587061776
+      items-orescrystalsingots-transparent_35: 8703461977942340724
+      items-orescrystalsingots-transparent_36: 5597483383285264705
+      items-orescrystalsingots-transparent_37: 5610877158371555816
+      items-orescrystalsingots-transparent_38: 4820680766530892116
+      items-orescrystalsingots-transparent_39: 217641126721172421
+      items-orescrystalsingots-transparent_4: -4222065141324261874
+      items-orescrystalsingots-transparent_40: -1831031370774405939
+      items-orescrystalsingots-transparent_41: -5917140444772010263
+      items-orescrystalsingots-transparent_42: 7743712794155701893
+      items-orescrystalsingots-transparent_43: -1174891918180668544
+      items-orescrystalsingots-transparent_44: 497815212292464420
+      items-orescrystalsingots-transparent_45: 8283269432946307055
+      items-orescrystalsingots-transparent_46: 5749884822987231969
+      items-orescrystalsingots-transparent_47: -7924608472576088044
+      items-orescrystalsingots-transparent_48: -2231019325446057594
+      items-orescrystalsingots-transparent_49: 9186897488927181703
+      items-orescrystalsingots-transparent_5: -6112491896816918283
+      items-orescrystalsingots-transparent_50: 5922965743900235098
+      items-orescrystalsingots-transparent_51: 3128243753392760172
+      items-orescrystalsingots-transparent_52: 5842796696343307821
+      items-orescrystalsingots-transparent_53: -7807605156288304371
+      items-orescrystalsingots-transparent_54: -764843453595347858
+      items-orescrystalsingots-transparent_55: -3155859492835498492
+      items-orescrystalsingots-transparent_56: 3088986066901587799
+      items-orescrystalsingots-transparent_57: -5788706117304517130
+      items-orescrystalsingots-transparent_58: -7123499416856381127
+      items-orescrystalsingots-transparent_59: -5697602136467165649
+      items-orescrystalsingots-transparent_6: 1533473250832102296
+      items-orescrystalsingots-transparent_60: 1761344858475890760
+      items-orescrystalsingots-transparent_61: -919678872428821419
+      items-orescrystalsingots-transparent_62: -5566931427449530156
+      items-orescrystalsingots-transparent_63: 216799876510896567
+      items-orescrystalsingots-transparent_64: 3180052030631537554
+      items-orescrystalsingots-transparent_65: -3060246127171658583
+      items-orescrystalsingots-transparent_66: 1344020981787352916
+      items-orescrystalsingots-transparent_67: 5595785107679796994
+      items-orescrystalsingots-transparent_68: -5663206433017483416
+      items-orescrystalsingots-transparent_69: -6173602495858421594
+      items-orescrystalsingots-transparent_7: 4922552491523174072
+      items-orescrystalsingots-transparent_70: -5188920022255057811
+      items-orescrystalsingots-transparent_71: -5622392567503958479
+      items-orescrystalsingots-transparent_72: -2609831126376559619
+      items-orescrystalsingots-transparent_73: 8902233286223903005
+      items-orescrystalsingots-transparent_74: 2911009778818517147
+      items-orescrystalsingots-transparent_75: -1066116796743548457
+      items-orescrystalsingots-transparent_76: -3233526591479709017
+      items-orescrystalsingots-transparent_77: -3725473204540514371
+      items-orescrystalsingots-transparent_78: 6792215392671738517
+      items-orescrystalsingots-transparent_79: -8223258919474553396
+      items-orescrystalsingots-transparent_8: -5897459711811802756
+      items-orescrystalsingots-transparent_80: 1891321229804453425
+      items-orescrystalsingots-transparent_81: 1586036040747268116
+      items-orescrystalsingots-transparent_82: -5497181904069799147
+      items-orescrystalsingots-transparent_83: -6033209772345725959
+      items-orescrystalsingots-transparent_84: 5763299148194103016
+      items-orescrystalsingots-transparent_85: -322293200576751421
+      items-orescrystalsingots-transparent_86: -1532237243008550119
+      items-orescrystalsingots-transparent_87: -1397652500407049640
+      items-orescrystalsingots-transparent_88: 1397653144386557515
+      items-orescrystalsingots-transparent_89: -5919285726541052043
+      items-orescrystalsingots-transparent_9: -6918521406019265138
+      items-orescrystalsingots-transparent_90: 1141363162979504311
+      items-orescrystalsingots-transparent_91: 893170747337198566
+      items-orescrystalsingots-transparent_92: -566581280611124505
+      items-orescrystalsingots-transparent_93: -6642988805140216112
+      items-orescrystalsingots-transparent_94: -7281848402689847273
+      items-orescrystalsingots-transparent_95: -7099224433899526001
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -8,7 +8,7 @@ public class PlayerHitScript : MonoBehaviour
 {
     [SerializeField] PlayerStats playerStats;
     private HashSet<IHittable> catchables = new HashSet<IHittable>(); // set of catchable objects at each point in time
-    public static event Action<IHittable> OnEntityHit; // signal to caught entities that they were caught 
+    public static event Action<IHittable, PlayerStats> OnEntityHit; // signal to entity it was hit (monkey, jar, etc), and to player to update stats if needed
     // (better separation of concerns this way, by using events. instead of calling methods in other classes directly when they are caught, which might require rework if the target classes change
 
     // Update is called once per frame
@@ -36,8 +36,7 @@ public class PlayerHitScript : MonoBehaviour
 
             foreach (IHittable catchable in catchables.ToHashSet()) { // call event for all objects present in catch range
                 catchables.Remove(catchable);
-                OnEntityHit?.Invoke(catchable); // signal to caught entities that they were caught
-                playerStats.modifyMonkeys(1); // add monkey to player stats
+                OnEntityHit?.Invoke(catchable, playerStats); // signal to caught entities that they were caught
             }
         }
     }

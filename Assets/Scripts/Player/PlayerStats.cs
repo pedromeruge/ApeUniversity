@@ -11,6 +11,8 @@ public class PlayerStats : MonoBehaviour
 
     [SerializeField] int maxBombs = 3;
     private int currentBombs = 0;
+
+    private int money = 0;
     private int score = 0;
 
     public void Awake()
@@ -49,6 +51,11 @@ public class PlayerStats : MonoBehaviour
         Debug.Log("this.bombs: " + this.currentBombs);
     }
 
+    public void modifyMoney(int money) {
+        this.money = Mathf.Max(0, this.money + money);
+        Debug.Log("this.money: " + this.money);
+    }
+
     public int getLives() {
         return this.currentLives;
     }
@@ -63,6 +70,10 @@ public class PlayerStats : MonoBehaviour
 
     public int getBombs() {
         return this.currentBombs;
+    }
+
+    public int getMoney() {
+        return this.money;
     }
 
     private void onDeath() {

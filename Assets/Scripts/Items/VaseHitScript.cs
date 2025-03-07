@@ -19,7 +19,7 @@ public class VaseHitScript : BaseHittable
         PlayerHitScript.OnEntityHit -= OnVaseHit;
     }
 
-    private void OnVaseHit(IHittable target)
+    private void OnVaseHit(IHittable target, PlayerStats playerStats)
     {
         // Ensure the event is intended for this player instance.
         if ((Object) target == this) {
