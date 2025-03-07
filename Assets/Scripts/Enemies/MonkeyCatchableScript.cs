@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class MonkeyCatchableScript : BaseHittable
 {
+    [SerializeField] private Animator anim;
     private void OnEnable()
     {
         PlayerHitScript.OnEntityHit += OnEntityHit;
@@ -23,7 +24,13 @@ public class MonkeyCatchableScript : BaseHittable
 
     public override void OnHit()
     {
-        Destroy(this.gameObject);
+        if (anim == null)
+        {
+            Debug.LogError("Animator is not assigned!", this);
+            return;
+        }
+        anim.SetBool("isRunning",false);
+        anim.SetBool("isDead",true);
+        Destroy(this.gameObject,5f);
     }
 }
-
