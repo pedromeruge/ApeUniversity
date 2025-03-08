@@ -13,7 +13,6 @@ public class BombThrowScript : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
 
     public void ThrowBomb(InputAction.CallbackContext context) {
-        Debug.Log("Throwing bomb, " + context.performed + " bombs: " + playerStats.getBombs());
         if (context.performed && playerStats.getBombs() > 0) {
             GameObject bombInstance = Instantiate(bombPrefab, transform.position, Quaternion.identity, parent.transform);
 

@@ -9,8 +9,8 @@ public class PlayerStats : MonoBehaviour
     [SerializeField] private int maxMonkeys = 5;
     private int currentMonkeys = 0;
 
-    [SerializeField] int maxBombs = 3;
-    private int currentBombs = 0;
+    [SerializeField] int startBombs = 3;
+    [SerializeField] private int currentBombs = 0;
 
     private int money = 0;
     private int score = 0;
@@ -19,7 +19,7 @@ public class PlayerStats : MonoBehaviour
     {
         this.currentLives = this.maxLives;
         this.currentMonkeys = 0;
-        this.currentBombs = this.maxBombs;
+        this.currentBombs = this.startBombs;
         this.score = 0;
     }
 
@@ -47,7 +47,7 @@ public class PlayerStats : MonoBehaviour
     }
 
     public void modifyBombs(int bombs) {
-        this.currentBombs = Mathf.Clamp(this.currentBombs + bombs, 0, maxBombs);
+        this.currentBombs = Mathf.Max(0, this.currentBombs + bombs);
         Debug.Log("this.bombs: " + this.currentBombs);
     }
 

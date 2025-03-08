@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: a2d02be12917144a1a1f0e1c9faf7cff
+guid: afcbc5381700649c38c076225b1bb5a4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5597840998057621364
-    second: 32x32_Circle_8_0
+      213: -3439893009949254747
+    second: bag-1.png_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,12 +46,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 64
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -113,23 +113,27 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 32x32_Circle_8_0
+      name: bag-1.png_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 1
-        width: 28
-        height: 30
+        x: 10
+        y: 4
+        width: 47
+        height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
       customData: 
       outline: []
-      physicsShape: []
-      tessellationDetail: -1
+      physicsShape:
+      - - {x: 22.5, y: -24}
+        - {x: 22.5, y: 24}
+        - {x: -22.5, y: 24}
+        - {x: -22.5, y: -24}
+      tessellationDetail: 0
       bones: []
-      spriteID: 477b756aab68fad40800000000000000
-      internalID: 5597840998057621364
+      spriteID: 5ab10a4688b0340d0800000000000000
+      internalID: -3439893009949254747
       vertices: []
       indices: 
       edges: []
@@ -138,7 +142,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 3eab7b99a0cb54d948b3dbc13707c744
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +152,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      32x32_Circle_8_0: 5597840998057621364
+      bag-1.png_0: -3439893009949254747
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
