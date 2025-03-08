@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 4855699773092928024}
   - component: {fileID: 1077241017826168601}
   - component: {fileID: 2207248540674811155}
+  - component: {fileID: 3775450550538983484}
   m_Layer: 10
   m_Name: Vase
   m_TagString: Untagged
@@ -227,3 +228,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e99f97bec443b42ec8efcc0f0304a273, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &3775450550538983484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 598947728854716358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8c8f91606b884f6cb31ad209b984021, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numberSpawnedPrefabs: 3
+  breakForce: 1.5
+  spawnPrefabs:
+  - prefab: {fileID: 512119737504889069, guid: b515487e97ac542918de5a1c7a34cfdf, type: 3}
+    probability: 0.6
+  - prefab: {fileID: 512119737504889069, guid: f53e0a1c0ae8743afaeda1c3f3e96cba, type: 3}
+    probability: 0.2
+  - prefab: {fileID: 512119737504889069, guid: 893246881b5b94880a640ca172e53f2d, type: 3}
+    probability: 0.12
+  - prefab: {fileID: 512119737504889069, guid: 9fdb6fda689664dda98708be13f225c3, type: 3}
+    probability: 0.07
+  - prefab: {fileID: 512119737504889069, guid: 695f2f11ae8d246b7bd459f6d513b91a, type: 3}
+    probability: 0.01

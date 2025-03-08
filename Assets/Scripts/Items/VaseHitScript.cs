@@ -2,11 +2,11 @@ using UnityEngine;
 
 public class VaseHitScript : BaseHittable
 {
-    private VasePickupableScript vasePickupableScript;
+    private VaseBreakLogicScript vaseBreakLogicScript;
 
     private void Awake()
     {
-        vasePickupableScript = GetComponent<VasePickupableScript>();
+        vaseBreakLogicScript = GetComponent<VaseBreakLogicScript>();
     }
 
     private void OnEnable()
@@ -29,6 +29,6 @@ public class VaseHitScript : BaseHittable
 
     public override void OnHit()
     {
-        vasePickupableScript.BreakVase();
+        vaseBreakLogicScript.BreakVase();
     }
 }

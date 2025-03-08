@@ -2,11 +2,11 @@ using UnityEngine;
 
 public class VaseDestructibleScript : MonoBehaviour, IDestructible
 {
-    private VasePickupableScript vasePickupableScript;
+    private VaseBreakLogicScript vaseBreakLogicScript;
 
     private void Awake()
     {
-        vasePickupableScript = GetComponent<VasePickupableScript>();
+        vaseBreakLogicScript = GetComponent<VaseBreakLogicScript>();
     }
 
     private void OnEnable()
@@ -31,6 +31,6 @@ public class VaseDestructibleScript : MonoBehaviour, IDestructible
     //need a function with these params to match interface
     public void Destroy(Vector3 destroyPos, float destroyRadius)
     {
-        vasePickupableScript.BreakVase();
+        vaseBreakLogicScript.BreakVase();
     }
 }
