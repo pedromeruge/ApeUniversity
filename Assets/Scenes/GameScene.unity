@@ -34264,6 +34264,22 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: f9854f81-2f27-48ce-b25b-e6ec503c3e95
     m_ActionName: 'Player/Attack3[/Mouse/rightButton,/Keyboard/t]'
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1661575970}
+        m_TargetAssemblyTypeName: GameStateManager, Assembly-CSharp
+        m_MethodName: PauseGame
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 00d9d6c2-b710-44c0-9db5-8e138f224495
+    m_ActionName: Player/New action
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: Keyboard&Mouse
   m_DefaultActionMap: Player
@@ -34533,6 +34549,50 @@ Transform:
   - {fileID: 1122904240}
   - {fileID: 1740228962}
   - {fileID: 383422046}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1661575969
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1661575971}
+  - component: {fileID: 1661575970}
+  m_Layer: 0
+  m_Name: GameStateManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1661575970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1661575969}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ed8d7fbe233748b0aa076734665d973, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1661575971
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1661575969}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.8207159, y: -0.4531594, z: -1.6728489}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1740228961
@@ -35066,6 +35126,7 @@ GameObject:
   - component: {fileID: 1832341244}
   - component: {fileID: 1832341243}
   - component: {fileID: 1832341245}
+  - component: {fileID: 1832341246}
   m_Layer: 5
   m_Name: UI (UI tookit)
   m_TagString: Untagged
@@ -35119,6 +35180,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84833f1f8ca034ecc9f3aaf9570ba888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1832341246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1832341242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58471124ad2c3414087ce94f88436b39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pauseMenuUXML: {fileID: 9197481963319205126, guid: 9afc6b222d5af4598a3b97c3210dfa04, type: 3}
+  gameOverMenuUXML: {fileID: 9197481963319205126, guid: ec94c5407200c42a58b81eb925dc0d5f, type: 3}
+  victoryMenuUXML: {fileID: 9197481963319205126, guid: 768108eba8918438f8ba2e9e74ccbcd2, type: 3}
 --- !u!1 &1853592864
 GameObject:
   m_ObjectHideFlags: 0
@@ -36014,3 +36090,4 @@ SceneRoots:
   - {fileID: 677735264}
   - {fileID: 1513179724}
   - {fileID: 1832341244}
+  - {fileID: 1661575971}

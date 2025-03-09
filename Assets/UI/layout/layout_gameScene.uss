@@ -24,12 +24,13 @@
     padding-left: 0;
     flex-direction: row;
     align-items: center;
-    align-self: auto;
+    align-self: center;
     flex-wrap: nowrap;
     justify-content: flex-start;
     margin-right: 0;
     width: 100px;
     height: auto;
+    align-content: center;
 }
 
 .statStatsLine {

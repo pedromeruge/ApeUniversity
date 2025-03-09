@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UIElements;
@@ -10,10 +11,9 @@ public class MainMenuEvents : MonoBehaviour
     private UIDocument uiDocument;
     private VisualElement root;
 
-    void Awake()
-    {
+    void Start() {
         uiDocument = GetComponent<UIDocument>();
-        ShowMainMenu();  // load main menu by default
+        ShowMainMenu();
     }
 
     void ShowMainMenu() {
@@ -28,6 +28,8 @@ public class MainMenuEvents : MonoBehaviour
         buttonCredits.clicked += ShowCredits;
         Button buttonExit = root.Q<Button>("exitButton");
         buttonExit.clicked += onPressExit;
+
+        root.Focus();
     }
 
     void ShowCredits() {

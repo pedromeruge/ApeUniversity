@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using Unity.VisualScripting;
 using UnityEngine;
 
@@ -44,6 +45,7 @@ public class PlayerStats : MonoBehaviour
 
         if (this.currentLives == 0)
         {
+            StartCoroutine(onDeath());
             return true;
         }
 
@@ -90,7 +92,8 @@ public class PlayerStats : MonoBehaviour
         return this.money;
     }
 
-    private void onDeath() {
-        // TODO: add gameOver logic
+    IEnumerator onDeath() {
+        yield return new WaitForSeconds(1f); // allow for death animation to play before toggling game over screen
+        GameStateManager.instance.gameOver();
     }
 }

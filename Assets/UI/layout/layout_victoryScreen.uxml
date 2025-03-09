@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/layout/layout_gameScene.uss?fileID=7433441132597879392&amp;guid=7ba5c0805a0c64eab9c9160cbd3860a2&amp;type=3#layout_gameScene" />
+    <Style src="project://database/Assets/UI/layout/layout_mainMenuScene.uss?fileID=7433441132597879392&amp;guid=f0f1c5bbe058d490d996329b21935107&amp;type=3#layout_mainMenuScene" />
+    <ui:VisualElement name="victoryScreen" enabled="true" style="flex-grow: 1; padding-top: 30px; padding-right: 30px; padding-bottom: 30px; padding-left: 30px; background-color: rgba(0, 0, 0, 0.29);">
+        <ui:VisualElement name="topSection" style="flex-grow: 0; justify-content: flex-end; align-items: center; align-content: flex-end; height: 30%; align-self: auto;">
+            <ui:Label text="VICTORY" name="victoryTitle" class="text" style="font-size: 80px; -unity-font-definition: url(&quot;project://database/Assets/Downloaded/UI/Pixel%20Art%20GUI%20elements/Adapa.ttf?fileID=12800000&amp;guid=d5e9d1ffe57a449a190e5ade4e7b0d91&amp;type=3#Adapa&quot;); color: rgb(255, 255, 255); align-items: center; justify-content: center; align-self: center;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="bottomSection" style="flex-grow: 0; justify-content: space-evenly; align-items: center; background-size: 100% 100%; height: 65%; background-image: none;">
+            <ui:VisualElement name="playerSprite" style="flex-grow: 0; background-image: url(&quot;project://database/Assets/Downloaded/Character%20elems/mad_scientist/laughing/frame_0.png?fileID=1398893948369281781&amp;guid=7e7f2444d70e2423e8d6f6091f777926&amp;type=3#frame_0_0&quot;); width: 150px; height: 160px;" />
+            <ui:Label text="Total score: 15230" name="scoreText" class="text" style="font-size: 40px;" />
+            <ui:Button text="RESTART" name="restartButton" class="button" />
+            <ui:Button text="QUIT" name="quitButton" class="button" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -57,3 +57,8 @@
     font-size: 20px;
     padding-right: 0;
 }
+
+.text {
+    color: rgb(255, 255, 255);
+    -unity-font-definition: url("project://database/Assets/Downloaded/UI/Pixel%20Art%20GUI%20elements/Adapa.ttf?fileID=12800000&guid=d5e9d1ffe57a449a190e5ade4e7b0d91&type=3#Adapa");
+}
