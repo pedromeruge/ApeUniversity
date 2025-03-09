@@ -19,7 +19,6 @@ public class MineExplosionScript : BaseExplosive
 
     void OnTriggerEnter2D(Collider2D collider)
     {
-        Debug.Log(collider.name + " entered explosion");
         StartCoroutine(countdownExplosion(countdown));
     }
 

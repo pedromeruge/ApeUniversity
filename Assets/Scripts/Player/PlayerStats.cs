@@ -21,12 +21,26 @@ public class PlayerStats : MonoBehaviour
         this.currentMonkeys = 0;
         this.currentBombs = this.startBombs;
         this.score = 0;
+        setupUI();
+    }
+
+    private void setupUI()
+    {
+        if (UIUpdateLogic.Instance == null)
+        {
+            Debug.LogError("UIUpdateLogic instance is null");
+            return;
+        }
+        UIUpdateLogic.Instance.changeHealth(this.currentLives);
+        UIUpdateLogic.Instance.changeBombs(this.currentBombs);
+        UIUpdateLogic.Instance.changePapers(this.currentMonkeys + "/" + maxMonkeys);
+        UIUpdateLogic.Instance.changeMoney(this.money);
     }
 
     //returns true if player is dead
     public bool modifyLives(int lives) {
         this.currentLives = Mathf.Clamp(this.currentLives - lives, 0, maxLives);
-        Debug.Log("currLives: " + this.currentLives);
+        UIUpdateLogic.Instance.changeHealth(this.currentLives);
 
         if (this.currentLives == 0)
         {
@@ -43,17 +57,17 @@ public class PlayerStats : MonoBehaviour
 
     public void modifyMonkeys(int monkeys) {
         this.currentMonkeys = Mathf.Clamp(this.currentMonkeys + monkeys, 0, maxMonkeys);
-        Debug.Log("this.monkeysCaught: " + this.currentMonkeys);
+        UIUpdateLogic.Instance.changePapers(this.currentMonkeys + "/" + maxMonkeys);
     }
 
     public void modifyBombs(int bombs) {
         this.currentBombs = Mathf.Max(0, this.currentBombs + bombs);
-        Debug.Log("this.bombs: " + this.currentBombs);
+        UIUpdateLogic.Instance.changeBombs(this.currentBombs);
     }
 
     public void modifyMoney(int money) {
         this.money = Mathf.Max(0, this.money + money);
-        Debug.Log("this.money: " + this.money);
+        UIUpdateLogic.Instance.changeMoney(this.money);
     }
 
     public int getLives() {

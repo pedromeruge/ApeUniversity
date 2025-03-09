@@ -30,14 +30,12 @@ public class PickupItemsScripts : MonoBehaviour
 
     public void Pickup(InputAction.CallbackContext context) {
         GameObject itemToPickup = null;
-        Debug.Log("Picking item" + currentPickup);
         if (context.performed && currentPickup as Object == null) {
             itemToPickup = findClosestPickup();
             if (itemToPickup != null) {
                 IPickupable pickupObj = itemToPickup.GetComponent<IPickupable>();
                 pickupObj.OnPickup(defaultPickObjectParent);
                 currentPickup = pickupObj;
-                Debug.Log("Picked up: " + itemToPickup.name);
             }
         }
     }

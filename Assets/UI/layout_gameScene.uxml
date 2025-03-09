@@ -1,0 +1,27 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/layout_gameScene.uss?fileID=7433441132597879392&amp;guid=7ba5c0805a0c64eab9c9160cbd3860a2&amp;type=3#layout_gameScene" />
+    <ui:VisualElement style="flex-grow: 1;">
+        <ui:VisualElement name="headers" style="flex-grow: 1; padding-top: 30px; padding-right: 50px; padding-bottom: 30px; padding-left: 50px;">
+            <ui:VisualElement name="header1" class="statStatsLine" style="flex-grow: 0; width: auto; flex-direction: row; height: auto; justify-content: flex-start; align-items: flex-start; margin-left: 0; padding-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; background-color: rgba(0, 0, 0, 0); flex-shrink: 1;">
+                <ui:VisualElement name="statGroupHealth" class="statGroup" style="flex-grow: 0; width: auto; height: auto; background-size: 60px 60px; align-content: auto; flex-wrap: nowrap; flex-direction: row; padding-top: 0; padding-right: 8px; padding-bottom: 0; padding-left: 0; overflow: visible; margin-right: 0;">
+                    <ui:VisualElement name="statIconHealth" class="statIcon" style="flex-grow: 0; width: 40px; height: 40px; background-image: url(&quot;project://database/Assets/Downloaded/UI/craftpix-net-703342-free-pixel-art-icons-for-mine-location/2%20Icons%20with%20back/blood_icon.png?fileID=2800000&amp;guid=c57b0ca4f62ad42f7b0895138ddb71a6&amp;type=3#blood_icon&quot;);" />
+                    <ui:Label text="10&#10;&#10;&#10;&#10;" name="statTextHealth" class="statText" style="font-size: 27px; white-space: nowrap; text-overflow: ellipsis; -unity-text-outline-width: 0; -unity-text-align: upper-center;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="statGroupBombs" class="statGroup" style="flex-grow: 0; padding-top: 0; padding-right: 8px; padding-bottom: 0; padding-left: 0;">
+                    <ui:VisualElement name="statIconBombs" class="statIcon" style="flex-grow: 0; width: 40px; height: 40px; background-image: url(&quot;project://database/Assets/Downloaded/UI/craftpix-net-703342-free-pixel-art-icons-for-mine-location/2%20Icons%20with%20back/bomb_icon.png?fileID=2800000&amp;guid=f49aaef2bc373471ea99a472789221c2&amp;type=3#bomb_icon&quot;);" />
+                    <ui:Label text="10&#10;" name="statTextBombs" class="statText" style="font-size: 27px; -unity-text-outline-color: rgb(255, 255, 255);" />
+                </ui:VisualElement>
+                <ui:VisualElement name="statGroupPapers" class="statGroup" style="flex-grow: 0; padding-right: 8px;">
+                    <ui:VisualElement name="statIconPapers" class="statIcon" style="flex-grow: 0; width: 40px; height: 40px; background-image: url(&quot;project://database/Assets/Downloaded/UI/craftpix-net-703342-free-pixel-art-icons-for-mine-location/2%20Icons%20with%20back/paper_icon.png?fileID=2800000&amp;guid=ab9190b76c71945e8b127936df792b94&amp;type=3#paper_icon&quot;); justify-content: center; align-self: center;" />
+                    <ui:Label text="1/7&#10;" name="statTextPapers" class="statText" style="font-size: 27px;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="header2" class="statStatsLine" style="flex-grow: 0; width: auto; flex-direction: row; height: auto; justify-content: flex-start; align-items: flex-start; margin-left: 0; padding-left: 0; padding-top: 20px; padding-right: 0; padding-bottom: 0; background-color: rgba(0, 0, 0, 0); flex-shrink: 1;">
+                <ui:VisualElement name="statGroupMoney" class="statGroup" style="flex-grow: 0; width: auto; height: auto; background-size: 60px 60px; align-content: auto; flex-wrap: nowrap; flex-direction: row; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; overflow: visible;">
+                    <ui:VisualElement name="statIconMoney" class="statIcon statStatsLine" style="flex-grow: 0; width: 40px; height: 40px; background-image: url(&quot;project://database/Assets/Downloaded/UI/craftpix-net-703342-free-pixel-art-icons-for-mine-location/2%20Icons%20with%20back/money_icon.png?fileID=2800000&amp;guid=f44301061eea242e0a504fcb869efd1a&amp;type=3#money_icon&quot;);" />
+                    <ui:Label text="10 &#10;&#10;&#10;&#10;" name="statTextMoney" class="statText" style="font-size: 27px; white-space: nowrap; text-overflow: ellipsis; height: 45px;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
