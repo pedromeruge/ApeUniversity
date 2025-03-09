@@ -31,6 +31,6 @@ public class MonkeyCatchableScript : BaseHittable
         }
         anim.SetBool("isRunning",false);
         anim.SetBool("isDead",true);
-        Destroy(this.gameObject,5f);
+        Destroy(this.gameObject,0.5f);
     }
 }
