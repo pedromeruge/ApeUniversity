@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/layout/layout_gameScene.uss?fileID=7433441132597879392&amp;guid=7ba5c0805a0c64eab9c9160cbd3860a2&amp;type=3#layout_gameScene" />
+    <Style src="project://database/Assets/UI/layout/layout_mainMenuScene.uss?fileID=7433441132597879392&amp;guid=f0f1c5bbe058d490d996329b21935107&amp;type=3#layout_mainMenuScene" />
+    <ui:VisualElement name="mainMenuScreen" style="flex-grow: 1;">
+        <ui:VisualElement name="topSection" style="flex-grow: 1; justify-content: flex-end; align-items: center; align-content: flex-end; height: 30%; align-self: auto;">
+            <ui:VisualElement name="gameTitle" class="gameTitle" style="flex-grow: 0; background-image: url(&quot;project://database/Assets/UI/assets/APE-UNIVERSITY-09-03-2025.png?fileID=21300000&amp;guid=436349819db7840e088be6bbca43ab64&amp;type=3#APE-UNIVERSITY-09-03-2025&quot;); justify-content: space-between; background-size: 80% 80%; align-items: auto; height: 200px; width: 800px; -unity-text-align: middle-center; align-self: auto; align-content: flex-end;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="buttonsSection" style="flex-grow: 1; justify-content: space-evenly; align-items: center; background-size: 100% 100%; height: 50%;">
+            <ui:Button text="PLAY" name="playButton" class="button" />
+            <ui:Button text="CREDITS" name="creditsButton" class="button" />
+            <ui:Button text="EXIT" name="exitButton" class="button" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,19 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/layout/layout_gameScene.uss?fileID=7433441132597879392&amp;guid=7ba5c0805a0c64eab9c9160cbd3860a2&amp;type=3#layout_gameScene" />
+    <Style src="project://database/Assets/UI/layout/layout_mainMenuScene.uss?fileID=7433441132597879392&amp;guid=f0f1c5bbe058d490d996329b21935107&amp;type=3#layout_mainMenuScene" />
+    <ui:VisualElement name="creditsScreen" enabled="true" style="flex-grow: 1; padding-top: 30px; padding-right: 30px; padding-bottom: 30px; padding-left: 30px;">
+        <ui:VisualElement name="topSection" style="flex-grow: 1; justify-content: flex-end; align-items: center; align-content: flex-end; height: 5%; align-self: auto;">
+            <ui:Label text="CREDITS" name="creditsTitle" style="font-size: 80px; -unity-font-definition: url(&quot;project://database/Assets/Downloaded/UI/Pixel%20Art%20GUI%20elements/Adapa.ttf?fileID=12800000&amp;guid=d5e9d1ffe57a449a190e5ade4e7b0d91&amp;type=3#Adapa&quot;); color: rgb(255, 255, 255);" />
+        </ui:VisualElement>
+        <ui:VisualElement name="bottomSection" style="flex-grow: 1; justify-content: space-evenly; align-items: center; background-size: 100% 100%; height: 50%; background-image: none;">
+            <ui:VisualElement name="textContent" style="flex-grow: 0; padding-top: 0; padding-right: 0; padding-bottom: 30px; padding-left: 0; justify-content: space-evenly;">
+                <ui:Label text="AUTHORS:&#10;Martim Maciel&#10;Pedro Ferreira&#10;&#10;" name="creditsText1" style="-unity-text-align: middle-center; color: rgb(255, 255, 255); font-size: 40px; -unity-font-definition: url(&quot;project://database/Assets/Downloaded/UI/Pixel%20Art%20GUI%20elements/Adapa.ttf?fileID=12800000&amp;guid=d5e9d1ffe57a449a190e5ade4e7b0d91&amp;type=3#Adapa&quot;); -unity-paragraph-spacing: -5px;" />
+                <ui:VisualElement name="creditsTextBottomSection" style="flex-grow: 0; flex-direction: row; justify-content: center; align-items: center;">
+                    <ui:Label text="Game developed for &#10;DDJD  (FEUP M.EIC 24/25)" name="creditsText2" style="-unity-font-definition: url(&quot;project://database/Assets/Downloaded/UI/Pixel%20Art%20GUI%20elements/Adapa.ttf?fileID=12800000&amp;guid=d5e9d1ffe57a449a190e5ade4e7b0d91&amp;type=3#Adapa&quot;); font-size: 25px; -unity-text-align: middle-center; color: rgb(0, 0, 0);" />
+                    <ui:VisualElement name="creditsLogo" style="flex-grow: 0; width: 160px; height: 54px; background-image: url(&quot;project://database/Assets/UI/assets/feup_logo.jpg?fileID=2800000&amp;guid=b98f9484e94094f73afa47d74350cb49&amp;type=3#feup_logo&quot;); margin-top: 0; margin-left: 20px;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:Button text="BACK" name="backButton" class="button" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
