@@ -4,7 +4,7 @@ public class VasePickupableScript : BasePickupable
 {
     [SerializeField] private float throwForce = 2.0f;
     [SerializeField] private float throwAngle = 30.0f;
-    [SerializeField] private float breakForce = 0.1f; // velocity at which the vase breaks when colliding with ground
+    [SerializeField] private float breakForce = 3.0f; // velocity at which the vase breaks when colliding with ground
     private Animator animator;
     private VaseBreakLogicScript vaseBreakLogicScript;
 

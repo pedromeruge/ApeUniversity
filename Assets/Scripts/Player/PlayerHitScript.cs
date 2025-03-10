@@ -7,6 +7,8 @@ using System.Linq;
 public class PlayerHitScript : MonoBehaviour
 {
     [SerializeField] PlayerStats playerStats;
+    [SerializeField] private Animator animator;
+
     private HashSet<IHittable> catchables = new HashSet<IHittable>(); // set of catchable objects at each point in time
     public static event Action<IHittable, PlayerStats> OnEntityHit; // signal to entity it was hit (monkey, jar, etc), and to player to update stats if needed
     // (better separation of concerns this way, by using events. instead of calling methods in other classes directly when they are caught, which might require rework if the target classes change
@@ -29,11 +31,11 @@ public class PlayerHitScript : MonoBehaviour
         }
     }
 
-    public void Catch(InputAction.CallbackContext context) {
+    public void Hit(InputAction.CallbackContext context) {
 
         // context performed because we only care when button starts being pressed, not if it is held down
         if (context.performed) {
-
+            animator.SetTrigger("isPunching");
             foreach (IHittable catchable in catchables.ToHashSet()) { // call event for all objects present in catch range
                 catchables.Remove(catchable);
                 OnEntityHit?.Invoke(catchable, playerStats); // signal to caught entities that they were caught

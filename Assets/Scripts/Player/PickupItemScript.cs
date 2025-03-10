@@ -1,3 +1,4 @@
+using System.Collections;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -6,6 +7,7 @@ public class PickupItemsScripts : MonoBehaviour
 {
     [SerializeField] private LayerMask layerMask; // layermask that intersect with pickups
     [SerializeField] private float pickupRadius = 1.0f;
+    [SerializeField] private Collider2D playerCollider = null; // player collider
     [SerializeField] private GameObject defaultPickObjectParent = null; // parent object to which picked up objects go
     [SerializeField] private GameObject defaultDropObjectParent = null; // parent object to which thrown objects go
     private IPickupable currentPickup = null; // curerntly picked up item
@@ -54,16 +56,38 @@ public class PickupItemsScripts : MonoBehaviour
 
     public void Use(InputAction.CallbackContext context) {
         if (context.performed && currentPickup != null) {
-            Debug.Log("Using item" + currentPickup);
-            if (currentPickup as Object == null) { // edge cases where pickup is destroyed, and still holding it
+
+            if (currentPickup as Object == null) { // Handle cases where item is destroyed
                 currentPickup = null;
                 return;
             }
-            bool itemDropped = currentPickup.OnUse(defaultDropObjectParent, this.transform.parent.gameObject); // hardcoded player parent, could be better ...
+
+            GameObject itemObject = (currentPickup as MonoBehaviour)?.gameObject;
+            if (itemObject != null) {
+                DisableCollisionsTemporarily(itemObject); // disable collision before using item
+            }
+
+            bool itemDropped = currentPickup.OnUse(defaultDropObjectParent, this.transform.parent.gameObject);
+
             if (itemDropped) {
                 currentPickup = null;
             }
         }
+    }
+
+    //disable collision between player and item for a short period of time, so that the item can be used without colliding with the player
+    private void DisableCollisionsTemporarily(GameObject itemObject) {
+        Collider2D itemCollider = itemObject.GetComponent<Collider2D>();
+
+        if (itemCollider != null && playerCollider != null) {
+            Physics2D.IgnoreCollision(playerCollider, itemCollider, true);
+            StartCoroutine(EnableCollisionsAfterDelay(itemCollider, 0.5f)); // re-enable after delay
+        }
+    }
+
+    private IEnumerator EnableCollisionsAfterDelay(Collider2D itemCollider, float delay) {
+        yield return new WaitForSeconds(delay);
+        Physics2D.IgnoreCollision(playerCollider, itemCollider, false); // Re-enable collision
     }
 
     void OnDrawGizmosSelected()
