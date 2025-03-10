@@ -30482,6 +30482,7 @@ GameObject:
   - component: {fileID: 684615422}
   - component: {fileID: 684615421}
   - component: {fileID: 684615427}
+  - component: {fileID: 684615428}
   m_Layer: 8
   m_Name: Monkey_1
   m_TagString: Untagged
@@ -30699,7 +30700,25 @@ MonoBehaviour:
   flashColor: {r: 0.26225072, g: 0.15896086, b: 0.05448028, a: 1}
   flashDuration: 0.25
   numberOfFlashes: 1
-  monkeyCatchableScript: {fileID: 1122904246}
+  monkeyCatchableScript: {fileID: 684615421}
+--- !u!114 &684615428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 684615419}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb32b7b807e2d49ba949caf5052f4fcc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rb: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  flashColor: {r: 1, g: 1, b: 1, a: 1}
+  flashDuration: 0.25
+  numberOfFlashes: 4
+  monkeyCatchableScript: {fileID: 0}
 --- !u!1 &687812091
 GameObject:
   m_ObjectHideFlags: 0
@@ -30716,6 +30735,7 @@ GameObject:
   - component: {fileID: 687812094}
   - component: {fileID: 687812093}
   - component: {fileID: 687812099}
+  - component: {fileID: 687812100}
   m_Layer: 8
   m_Name: Monkey_4
   m_TagString: Untagged
@@ -30933,7 +30953,25 @@ MonoBehaviour:
   flashColor: {r: 0.26225072, g: 0.15896086, b: 0.05448028, a: 1}
   flashDuration: 0.25
   numberOfFlashes: 1
-  monkeyCatchableScript: {fileID: 1122904246}
+  monkeyCatchableScript: {fileID: 687812093}
+--- !u!114 &687812100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 687812091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb32b7b807e2d49ba949caf5052f4fcc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rb: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  flashColor: {r: 1, g: 1, b: 1, a: 1}
+  flashDuration: 0.25
+  numberOfFlashes: 4
+  monkeyCatchableScript: {fileID: 0}
 --- !u!1 &697760646
 GameObject:
   m_ObjectHideFlags: 0
@@ -31137,6 +31175,7 @@ GameObject:
   - component: {fileID: 794397802}
   - component: {fileID: 794397801}
   - component: {fileID: 794397807}
+  - component: {fileID: 794397808}
   m_Layer: 8
   m_Name: Monkey_5
   m_TagString: Untagged
@@ -31354,7 +31393,25 @@ MonoBehaviour:
   flashColor: {r: 0.26225072, g: 0.15896086, b: 0.05448028, a: 1}
   flashDuration: 0.25
   numberOfFlashes: 1
-  monkeyCatchableScript: {fileID: 1122904246}
+  monkeyCatchableScript: {fileID: 794397801}
+--- !u!114 &794397808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 794397799}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb32b7b807e2d49ba949caf5052f4fcc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rb: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  flashColor: {r: 1, g: 1, b: 1, a: 1}
+  flashDuration: 0.25
+  numberOfFlashes: 4
+  monkeyCatchableScript: {fileID: 0}
 --- !u!1 &797466243
 GameObject:
   m_ObjectHideFlags: 0
@@ -31718,6 +31775,24 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &827107461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 827107453}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb32b7b807e2d49ba949caf5052f4fcc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rb: {fileID: 827107457}
+  spriteRenderer: {fileID: 827107460}
+  flashColor: {r: 0.26225072, g: 0.15896086, b: 0.05448028, a: 1}
+  flashDuration: 0.25
+  numberOfFlashes: 1
+  monkeyCatchableScript: {fileID: 827107455}
 --- !u!1 &832810786
 GameObject:
   m_ObjectHideFlags: 0
@@ -36186,6 +36261,7 @@ GameObject:
   - component: {fileID: 2035120864}
   - component: {fileID: 2035120863}
   - component: {fileID: 2035120869}
+  - component: {fileID: 2035120870}
   m_Layer: 8
   m_Name: Monkey_2
   m_TagString: Untagged
@@ -36403,7 +36479,25 @@ MonoBehaviour:
   flashColor: {r: 0.26225072, g: 0.15896086, b: 0.05448028, a: 1}
   flashDuration: 0.25
   numberOfFlashes: 1
-  monkeyCatchableScript: {fileID: 1122904246}
+  monkeyCatchableScript: {fileID: 2035120863}
+--- !u!114 &2035120870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2035120861}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb32b7b807e2d49ba949caf5052f4fcc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rb: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  flashColor: {r: 1, g: 1, b: 1, a: 1}
+  flashDuration: 0.25
+  numberOfFlashes: 4
+  monkeyCatchableScript: {fileID: 0}
 --- !u!1 &2103271256
 GameObject:
   m_ObjectHideFlags: 0
@@ -36515,3 +36609,4 @@ SceneRoots:
   - {fileID: 1513179724}
   - {fileID: 1832341244}
   - {fileID: 1881323885}
+  - {fileID: 1661575971}
