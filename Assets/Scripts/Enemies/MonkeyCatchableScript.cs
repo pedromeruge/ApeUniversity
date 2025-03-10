@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class MonkeyCatchableScript : BaseHittable
 {
+    [SerializeField] private GameObject paperPrefab;
     [SerializeField] private Animator anim;
     private void OnEnable()
     {
@@ -17,7 +18,6 @@ public class MonkeyCatchableScript : BaseHittable
     {
         // Ensure the event is intended for this player instance.
         if ((Object) target == this) {
-            playerStats.modifyMonkeys(1); // add monkey to player stats
             OnHit();
         }
     }
@@ -32,5 +32,10 @@ public class MonkeyCatchableScript : BaseHittable
         anim.SetBool("isRunning",false);
         anim.SetBool("isDead",true);
         Destroy(this.gameObject,0.5f);
+        spawnPaper();
+    }
+
+    void spawnPaper() {
+        Instantiate(paperPrefab, this.transform.position, Quaternion.identity);
     }
 }
