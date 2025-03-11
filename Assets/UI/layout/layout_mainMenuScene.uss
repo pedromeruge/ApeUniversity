@@ -6,12 +6,8 @@
 
 .button {
     font-size: 55px;
-    width: auto;
-    height: auto;
-    min-width: 300px;
-    min-height: 80px;
-    max-width: 80%;
-    max-height: 100px;
+    width: 300px;
+    height: 20%;
     align-self: auto;
     justify-content: center;
     align-items: center;
@@ -41,6 +37,11 @@
     transition-timing-function: ease-out;
     padding-bottom: 10px;
     padding-top: 0;
+    background-size: 100% 100%;
+    min-height: 60px;
+    max-height: 120px;
+    max-width: 340px;
+    min-width: 300px;
 }
 
 .statIcon {
@@ -51,11 +52,13 @@
     background-color: rgba(0, 0, 0, 0);
     width: 40px;
     height: 40px;
-    min-width: auto;
+    min-width: 40px;
     -unity-background-scale-mode: stretch-to-fill;
-    min-height: auto;
+    min-height: 40px;
     font-size: 20px;
     padding-right: 0;
+    max-width: 45px;
+    max-height: 45px;
 }
 
 .text {

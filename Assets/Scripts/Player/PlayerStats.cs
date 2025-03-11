@@ -92,6 +92,10 @@ public class PlayerStats : MonoBehaviour
         return this.money;
     }
 
+    public bool caughtAllMonkeys() {
+        return this.currentMonkeys == this.maxMonkeys;
+    }
+    
     IEnumerator onDeath() {
         yield return new WaitForSeconds(1f); // allow for death animation to play before toggling game over screen
         GameStateManager.instance.gameOver();

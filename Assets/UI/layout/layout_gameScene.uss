@@ -29,8 +29,12 @@
     justify-content: flex-start;
     margin-right: 0;
     width: 100px;
-    height: auto;
+    height: 40px;
     align-content: center;
+    max-width: 110px;
+    max-height: 50px;
+    min-width: initial;
+    min-height: initial;
 }
 
 .statStatsLine {
