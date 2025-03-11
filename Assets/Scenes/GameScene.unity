@@ -31160,7 +31160,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.627, y: 6.516, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1362042678}
@@ -31179,7 +31179,7 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDamping: 0
+  m_LinearDamping: 1.5
   m_AngularDamping: 0.05
   m_GravityScale: 0
   m_Material: {fileID: 0}
@@ -31208,6 +31208,7 @@ MonoBehaviour:
   target: {fileID: 1612024940}
   speed: 200
   nextWaypointDistance: 3
+  enemyGFX: {fileID: 1362042678}
 --- !u!58 &736858147
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -31958,7 +31959,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &832810787
 Transform:
   m_ObjectHideFlags: 0
@@ -31968,7 +31969,7 @@ Transform:
   m_GameObject: {fileID: 832810786}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.627, y: 6.516, z: 0}
+  m_LocalPosition: {x: 20.62, y: 0.06, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -36033,7 +36034,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 1
   data:
-    dataString: UEsDBBQAAAgIAAAAIewigyRThgIAAEMFAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFlVMty2jAU/RVG6+LxA2zornUI6SIJE9rJxhshXWMNsuSR5ADJ8O+VZINd6o3lc5/n3Ct/ISZ0A8RItVaMPksK6PsEuTP6NhmMT3DCeym27BOuPu+Mmso5Ye/zhg2TFo9cmJY1GMXID7Hnzjm0YCtYKVW9onvIpTbawiXmGqxJSeOihYW+JuhkX9OlCznbU5y506c9LcPJxR4JCANqcM2CxTybpb17GkTpchFms6SPioIoTOJZlqaraZj6DK0gHNcNUEdnSBTFwdI/faqFdxaWbu/nqBHJOdN9r8icG69FjhvdWqbWgTJsufsGo8A1UQHbV8YxGYe/lqUG00uj8PmBKStilxf9lJ2yNdaHrr8PzFtXaZ51FLqkz//Zp5E3l0rWT9e6UehqmIqRwxs+E6zNSPox/DBq3ct0xPyAdxzeKxAvcq1kK6g1GtW60FZD/DB83qjlFZDDgHet3oFtM+h+m3SQLGbRIk3cpLJ+fI7QxUtxyjmrd84/mHXAlksvv98VUHZQv2z3fpN0n9eirqU/Gn7j/XjlesMjU9pYU09ZuF53slXOFa28gI5aa3KpBHi4Z9CAwNycNzaNuZ/nnW1U9s7yiN3l6ov3tuuduQvx8OAfhnemjTzeJqcreXwGXb22hjMBQ9PO8GJ1yqUQ3bqNNbmGbVtVYjIK27eM/rtnCCAJkySKIaa7FM/JFMiOLsLZPIsJsReQIr+ITFiemG+6Rnt57NTEkFzYpbv+cyZrhRu/+lTh45p91nIkOROl3BIFIF67DLfGQdki9pLSFWVWoC0Yw4SfN/oqEJfkALS4JSo809XJKFwMWQrUsA9pHFKg3P9kCuTg22JvFHwwOLri12QXdPkLUEsDBBQAAAgIAAAAIew9bMclbQAAAHgAAAAJACQAbWV0YS5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0Bq1YqSy0qzszPU7JSMNEz0jM011FQSi9KLMgoBooYgjilmSkgdrRSaqqxgbGxoVGqUUqSWaJpsm5qclKKhYGJqblRcrKlhUGKUixQfUllQapfYm4qRE9AYklGWmZeSmZeup57UWaKO8hopdhaAFBLAQItABQAAAgIAAAAIewigyRThgIAAEMFAAALACQAAAAAAAAAAAAAAAAAAABncmFwaDAuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLAQItABQAAAgIAAAAIew9bMclbQAAAHgAAAAJACQAAAAAAAAAAAAAANMCAABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFQSwUGAAAAAAIAAgC4AAAAiwMAAAAA
+    dataString: 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
     upgradeData: 
     file_cachedStartup: {fileID: 0}
     data_cachedStartup: 
@@ -36083,7 +36084,7 @@ Transform:
   m_GameObject: {fileID: 1881323883}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -1.04, y: 0.07, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

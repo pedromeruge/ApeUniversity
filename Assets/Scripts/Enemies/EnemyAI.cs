@@ -6,7 +6,7 @@ public class EnemyAI : MonoBehaviour
 
     public Transform target;
     public float speed = 200f;
-    public float nextWaypointDistance = 3f;
+    public float nextWaypointDistance = 1f;
 
     public Transform enemyGFX;
 
@@ -33,7 +33,7 @@ public class EnemyAI : MonoBehaviour
     }
 
     // Update is called once per frame
-    void FixedUpdate()
+    void Update()
     {
         if(path == null){
             return;
