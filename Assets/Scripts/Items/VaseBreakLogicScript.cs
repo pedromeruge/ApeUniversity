@@ -16,6 +16,7 @@ public class VaseBreakLogicScript : MonoBehaviour
     [SerializeField] private List<PrefabProbability> spawnPrefabs;
 
     private Animator animator;
+    private Collider2D vaseCollider;
     private List<GameObject> preComputedPrefabs = new List<GameObject>(); // list of prefabs to spawn are precomputed to avoid lag when brekaing the vase
     private List<Vector3> preComputedForces = new List<Vector3>();
     private List<Vector3> preComputedPositions = new List<Vector3>();
@@ -25,6 +26,7 @@ public class VaseBreakLogicScript : MonoBehaviour
     {
         animator = GetComponent<Animator>();
         preCalculateOresAndForces();
+        vaseCollider = GetComponent<Collider2D>();
     }
 
     private void preCalculateOresAndForces() {
@@ -46,6 +48,7 @@ public class VaseBreakLogicScript : MonoBehaviour
         isBroken = true;
         animator.SetBool("isBroken", true);
         SpawnPrefabs();
+        vaseCollider.enabled = false; // disable collider to avoid collision when already broken
         Destroy(gameObject, 1f);
     }
 

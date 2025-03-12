@@ -11,6 +11,10 @@ public class ParticleEffects: MonoBehaviour
         var particlesDuration = particles.main.duration;
         particles.Play();
         sprite.enabled = false;
+        Collider2D collider = obj.GetComponent<Collider2D>();
+        if (collider != null) {
+            collider.enabled = false; // disable collider to prevent collisions when object "appears" gone but hasn't been destructed yet
+        }
         Destroy(obj, particlesDuration);
     }
 }
