@@ -11,6 +11,7 @@ public class BaseExplosive : MonoBehaviour, IExplosive
 
     [SerializeField] float cameraShakeDuration = 1.2f;
     [SerializeField] float cameraShakeStrength = 10.0f;
+    [SerializeField] protected int damage = 1;
 
     //also immediately destroy the bomb, when another explosion occurs near
     private void OnEnable()
@@ -54,58 +55,16 @@ public class BaseExplosive : MonoBehaviour, IExplosive
         Collider2D[] colliders = Physics2D.OverlapCircleAll(objPos, explosionRadius, layerMask);
         foreach (Collider2D collider in colliders) {
             // Debug.Log("Explosion hit: " + collider.name);
-            triggerExplosive(collider, objPos);
-            hitDamageable(collider, objPos);
-            signalDestructibles(collider, objPos);
-            knockbackObjects(collider, objPos);
+            CallInterfaces.triggerExplosive(collider, objPos, this.gameObject);
+            CallInterfaces.hitDamageable(collider, objPos, damage);
+            CallInterfaces.signalDestructibles(collider, objPos, explosionRadius);
+            CallInterfaces.knockbackObjects(collider, objPos, explosionKnockbackForce);
         }
     }
 
     void destroySelf(Vector3 objPos) {
         // destroy the prefab
         Destroy(this.gameObject); 
-    }
-
-    bool hitDamageable(Collider2D collider, Vector3 objPos) {
-        IDamageable damageable = collider.GetComponent<IDamageable>();
-        if (damageable == null) {
-            return false;
-        }
-
-        EventObstacle.Hit(damageable, 1);
-
-        return true;
-    }
-
-    //based on "Findable_Shelf" at https://discussions.unity.com/t/remove-tiles-given-a-point-and-a-radius/756324/6
-    bool signalDestructibles(Collider2D collider, Vector3 objPos) {
-        IDestructible destructible = collider.GetComponent<IDestructible>();
-        if (destructible == null) {
-            return false;
-        }
-        EventDestroy.Destroy(destructible, objPos, explosionRadius);
-        return true;
-    }
-
-    //trigger any other explosive objects nearby, without giving explosion cooldown
-    bool triggerExplosive(Collider2D collider, Vector3 objPos) {
-        IExplosive explosive = collider.GetComponent<IExplosive>();
-        if (explosive == null || (Object)explosive == this)
-        {
-            return false;
-        }
-        EventExplode.Explode(explosive);
-        return true;
-    }
-
-    void knockbackObjects(Collider2D collider, Vector3 objPos) {
-        IKnockbackable knockbackableObj = collider.GetComponent<IKnockbackable>();
-        if (knockbackableObj == null) {
-            return;
-        }
-        // Debug.Log("Knocking back: " + collider.name);
-        Vector3 knockbackForce = (knockbackableObj.getTransform().position - objPos) * explosionKnockbackForce;
-        knockbackableObj.Knockback(knockbackForce);
     }
 
     //debug explosion radius

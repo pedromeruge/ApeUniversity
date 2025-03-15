@@ -228,6 +228,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e99f97bec443b42ec8efcc0f0304a273, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rb: {fileID: 1093883818372542081}
+  spriteRenderer: {fileID: 2195282099458625689}
+  flashColor: {r: 1, g: 1, b: 1, a: 1}
+  flashDuration: 0.1
+  numberOfFlashes: 2
 --- !u!114 &3775450550538983484
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -42,4 +42,8 @@ public class GameStateManager : MonoBehaviour
         gamePaused = false;
         Time.timeScale = 1;
     }
+
+    public bool getGameFinished() {
+        return gameFinished;
+    }
 }
