@@ -176,5 +176,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   arrowDirection: 0
-  arrowSpeed: 30
+  arrowSpeed: 40
   damage: 1

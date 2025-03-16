@@ -72,7 +72,7 @@
                     "name": "Interact",
                     "type": "Button",
                     "id": "852140f2-7766-474d-8707-702459ba45f3",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "Hold",
                     "initialStateCheck": false
@@ -108,7 +108,7 @@
                     "name": "Next",
                     "type": "Button",
                     "id": "b7230bb6-fc9b-4f52-8b25-f5e19cb2c2ba",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -153,6 +153,15 @@
                     "name": "PauseGame",
                     "type": "Button",
                     "id": "00d9d6c2-b710-44c0-9db5-8e138f224495",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "SkipCutscene",
+                    "type": "Button",
+                    "id": "749b165a-74c3-4b49-a98c-5bc0bcea1a3e",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -740,6 +749,39 @@
                     "processors": "",
                     "groups": ";Keyboard&Mouse",
                     "action": "PauseGame",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "30082a27-ac38-4a75-b272-5236c33bf7d9",
+                    "path": "<XInputController>/buttonWest",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SkipCutscene",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "586e2fa5-9880-47bf-bbb0-8f021ef19360",
+                    "path": "<Keyboard>/enter",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SkipCutscene",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "86707d64-31af-427b-ae71-a067229d29ee",
+                    "path": "<SwitchProControllerHID>/buttonNorth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SkipCutscene",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

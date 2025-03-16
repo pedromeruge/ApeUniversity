@@ -51,7 +51,7 @@ public class MainMenuEvents : MonoBehaviour
 
     private void onPressPlay()
     {
-        SceneManager.LoadScene("GameScene");
+        SceneManager.LoadScene("IntroScene");
     }
 
     private void onPressExit()

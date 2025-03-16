@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1093883818372542081}
   - component: {fileID: 5702087951365178005}
   - component: {fileID: 2195282099458625689}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55,6 +55,7 @@ MonoBehaviour:
   explosionFxPrefab: {fileID: 480227836981032412, guid: 2b246fda13d3c45c199dc5c6476e697a, type: 3}
   cameraShakeDuration: 0.6
   cameraShakeStrength: 15
+  damage: 1
   countdown: 1.25
   flashAnim:
     serializedVersion: 2
