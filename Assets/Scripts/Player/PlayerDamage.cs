@@ -3,9 +3,15 @@ using UnityEngine;
 public class PlayerDamage : BaseDamageable
 {
     public PlayerStats playerStats;
+    AudioManager audioManager;
 
     // Animations for player
     [SerializeField] private Animator animator;
+
+    private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
 
     private void OnEnable()
     {
@@ -32,8 +38,10 @@ public class PlayerDamage : BaseDamageable
         CallDamageFlash(); // blink effect
         if (isDead) {
             animator.SetBool("isDead", true);
+            audioManager.PlaySFX(audioManager.dead);
         }
         else {
+            audioManager.PlaySFX(audioManager.bonk);
             animator.SetTrigger("isHurt");
         }
     }

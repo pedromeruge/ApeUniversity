@@ -9,6 +9,6 @@ public class BatDamageScript : BaseDamageable
     {
         bool isDead = playerStats.modifyLives(damage);
         CallDamageFlash(); // blink effect
-        //monkeyCatchableScript.OnHit();
+        
     }
 }

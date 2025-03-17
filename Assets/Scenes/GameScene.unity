@@ -21956,6 +21956,7 @@ GameObject:
   - component: {fileID: 384561691}
   - component: {fileID: 384561690}
   - component: {fileID: 384561689}
+  - component: {fileID: 384561692}
   m_Layer: 0
   m_Name: BatGFX
   m_TagString: Untagged
@@ -22068,6 +22069,24 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &384561692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 384561687}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86dc84f834efbd74d883730c8a0b0855, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rb: {fileID: 1612024938}
+  spriteRenderer: {fileID: 1612024939}
+  flashColor: {r: 1, g: 1, b: 1, a: 1}
+  flashDuration: 0.25
+  numberOfFlashes: 4
+  playerStats: {fileID: 1612024944}
 --- !u!1 &422009747
 GameObject:
   m_ObjectHideFlags: 0
@@ -44656,6 +44675,10 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 00d9d6c2-b710-44c0-9db5-8e138f224495
     m_ActionName: Player/New action
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 749b165a-74c3-4b49-a98c-5bc0bcea1a3e
+    m_ActionName: 'Player/SkipCutscene[/Keyboard/enter]'
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: Keyboard&Mouse
   m_DefaultActionMap: Player
