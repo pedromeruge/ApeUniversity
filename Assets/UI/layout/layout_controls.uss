@@ -1,0 +1,44 @@
+.keyIcon {
+    width: 8%;
+    height: 10%;
+    min-width: 80px;
+    min-height: 100px;
+    max-width: 100px;
+    max-height: 100px;
+    margin-right: 30px;
+}
+
+.controlsSection {
+    height: 5%;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-grow: 0;
+    flex-direction: row;
+    padding-bottom: 0;
+    margin-bottom: 30px;
+}
+
+.keyGroup {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: auto;
+    align-content: auto;
+}
+
+.controlsText {
+    -unity-font-definition: url("project://database/Assets/Downloaded/UI/Pixel%20Art%20GUI%20elements/Adapa.ttf?fileID=12800000&guid=d5e9d1ffe57a449a190e5ade4e7b0d91&type=3#Adapa");
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+    -unity-text-align: middle-center;
+}
+
+.middleKeysText {
+    -unity-font-definition: url("project://database/Assets/Downloaded/UI/Pixel%20Art%20GUI%20elements/Adapa.ttf?fileID=12800000&guid=d5e9d1ffe57a449a190e5ade4e7b0d91&type=3#Adapa");
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+    -unity-text-align: middle-center;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: 30px;
+}

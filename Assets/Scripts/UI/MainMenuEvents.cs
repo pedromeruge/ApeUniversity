@@ -7,6 +7,7 @@ public class MainMenuEvents : MonoBehaviour
 {
     public VisualTreeAsset mainMenuUXML;
     public VisualTreeAsset creditsUXML;
+    public VisualTreeAsset controlsUXML;
 
     private UIDocument uiDocument;
     private VisualElement root;
@@ -24,6 +25,8 @@ public class MainMenuEvents : MonoBehaviour
 
         Button buttonPlay = root.Q<Button>("playButton");
         buttonPlay.clicked += onPressPlay;
+        Button buttonControls = root.Q<Button>("controlsButton");
+        buttonControls.clicked += ShowControls;
         Button buttonCredits = root.Q<Button>("creditsButton");
         buttonCredits.clicked += ShowCredits;
         Button buttonExit = root.Q<Button>("exitButton");
@@ -34,6 +37,16 @@ public class MainMenuEvents : MonoBehaviour
 
     void ShowCredits() {
         root = creditsUXML.CloneTree();
+        ApplyFullScreenStyle(root);
+        uiDocument.rootVisualElement.Clear();
+        uiDocument.rootVisualElement.Add(root);
+
+        Button buttonBack = root.Q<Button>("backButton");
+        buttonBack.clicked += ShowMainMenu;
+    }
+
+    void ShowControls() {
+        root = controlsUXML.CloneTree();
         ApplyFullScreenStyle(root);
         uiDocument.rootVisualElement.Clear();
         uiDocument.rootVisualElement.Add(root);

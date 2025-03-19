@@ -1,0 +1,51 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/layout/layout_gameScene.uss?fileID=7433441132597879392&amp;guid=7ba5c0805a0c64eab9c9160cbd3860a2&amp;type=3#layout_gameScene" />
+    <Style src="project://database/Assets/UI/layout/layout_mainMenuScene.uss?fileID=7433441132597879392&amp;guid=f0f1c5bbe058d490d996329b21935107&amp;type=3#layout_mainMenuScene" />
+    <Style src="project://database/Assets/UI/layout/layout_controls.uss?fileID=7433441132597879392&amp;guid=e1ee902b852a449f0be39ebabb70303c&amp;type=3#layout_controls" />
+    <ui:VisualElement name="controlsScreen" enabled="true" style="flex-grow: 1; padding-top: 30px; padding-right: 30px; padding-bottom: 30px; padding-left: 30px;">
+        <ui:VisualElement name="topSection" style="flex-grow: 1; justify-content: flex-end; align-items: center; align-content: flex-end; height: 5%; align-self: auto;">
+            <ui:Label text="CONTROLS" name="controlsTitle" style="font-size: 80px; -unity-font-definition: url(&quot;project://database/Assets/Downloaded/UI/Pixel%20Art%20GUI%20elements/Adapa.ttf?fileID=12800000&amp;guid=d5e9d1ffe57a449a190e5ade4e7b0d91&amp;type=3#Adapa&quot;); color: rgb(255, 255, 255);" />
+        </ui:VisualElement>
+        <ui:VisualElement name="bottomSection" style="flex-grow: 1; justify-content: center; align-items: center; background-size: 100% 100%; height: 50%; background-image: none;">
+            <ui:VisualElement name="controlsRegion" style="flex-grow: 0; width: 100%; height: 70%; align-items: center; justify-content: flex-start; padding-top: 20px; padding-right: 100px; padding-bottom: 20px; padding-left: 100px;">
+                <ui:VisualElement name="controlsSection1" class="controlsSection" style="width: 80%; height: auto;">
+                    <ui:VisualElement name="keyGroup1" class="keyGroup" style="flex-grow: 1;">
+                        <ui:VisualElement name="key" class="keyIcon" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Downloaded/UI/Buttons%20Pack/KEYBOARD/KEYBOARD.png?fileID=-1862889234559275305&amp;guid=ee5e299528bf5400abf4ff9747442100&amp;type=3#KEYBOARD_11&quot;);" />
+                        <ui:VisualElement name="key" class="keyIcon" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Downloaded/UI/Buttons%20Pack/KEYBOARD/KEYBOARD.png?fileID=-8048616497609775166&amp;guid=ee5e299528bf5400abf4ff9747442100&amp;type=3#KEYBOARD_20&quot;);" />
+                        <ui:VisualElement name="key" class="keyIcon" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Downloaded/UI/Buttons%20Pack/KEYBOARD/KEYBOARD.png?fileID=3173158424270449248&amp;guid=ee5e299528bf5400abf4ff9747442100&amp;type=3#KEYBOARD_21&quot;);" />
+                        <ui:VisualElement name="key" class="keyIcon" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Downloaded/UI/Buttons%20Pack/KEYBOARD/KEYBOARD.png?fileID=-4834212936599313584&amp;guid=ee5e299528bf5400abf4ff9747442100&amp;type=3#KEYBOARD_22&quot;);" />
+                        <ui:Label text="or" name="separator" class="middleKeysText" />
+                        <ui:VisualElement name="key" class="keyIcon" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Downloaded/UI/Buttons%20Pack/KEYBOARD/KEYBOARD.png?fileID=768724705888326332&amp;guid=ee5e299528bf5400abf4ff9747442100&amp;type=3#KEYBOARD_44&quot;);" />
+                        <ui:VisualElement name="key" class="keyIcon" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Downloaded/UI/Buttons%20Pack/KEYBOARD/KEYBOARD.png?fileID=4132311383725308479&amp;guid=ee5e299528bf5400abf4ff9747442100&amp;type=3#KEYBOARD_51&quot;);" />
+                        <ui:VisualElement name="key" class="keyIcon" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Downloaded/UI/Buttons%20Pack/KEYBOARD/KEYBOARD.png?fileID=-6594008181433354539&amp;guid=ee5e299528bf5400abf4ff9747442100&amp;type=3#KEYBOARD_52&quot;);" />
+                        <ui:VisualElement name="key" class="keyIcon" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Downloaded/UI/Buttons%20Pack/KEYBOARD/KEYBOARD.png?fileID=1461099836945888234&amp;guid=ee5e299528bf5400abf4ff9747442100&amp;type=3#KEYBOARD_53&quot;);" />
+                    </ui:VisualElement>
+                    <ui:Label text="Movement" name="controlsText1" class="controlsText" />
+                </ui:VisualElement>
+                <ui:VisualElement name="controlsSection2" class="controlsSection" style="width: 80%; height: auto;">
+                    <ui:VisualElement name="keyGroup2" class="keyGroup" style="flex-grow: 1;">
+                        <ui:VisualElement name="key" class="keyIcon" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Downloaded/UI/Buttons%20Pack/KEYBOARD/KEYBOARD.png?fileID=-1055776315743863191&amp;guid=ee5e299528bf5400abf4ff9747442100&amp;type=3#KEYBOARD_12&quot;);" />
+                        <ui:Label text="/" name="separator" class="middleKeysText" />
+                        <ui:VisualElement name="key" class="keyIcon" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Downloaded/UI/Buttons%20Pack/KEYBOARD/KEYBOARD.png?fileID=7716526283709463168&amp;guid=ee5e299528bf5400abf4ff9747442100&amp;type=3#KEYBOARD_24&quot;);" />
+                        <ui:Label text="/" name="separator" class="middleKeysText" />
+                        <ui:VisualElement name="key" class="keyIcon" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Downloaded/UI/Buttons%20Pack/KEYBOARD/KEYBOARD.png?fileID=-4748741982855465887&amp;guid=ee5e299528bf5400abf4ff9747442100&amp;type=3#KEYBOARD_49&quot;); width: 16%; min-width: 160px; max-width: 200px;" />
+                    </ui:VisualElement>
+                    <ui:Label text="Grab / drop / throw item" name="controlsText1" class="controlsText" />
+                </ui:VisualElement>
+                <ui:VisualElement name="controlsSection2" class="controlsSection" style="width: 80%; height: auto;">
+                    <ui:VisualElement name="keyGroup2" class="keyGroup" style="flex-grow: 1;">
+                        <ui:VisualElement name="key" class="keyIcon" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Downloaded/UI/Buttons%20Pack/KEYBOARD/KEYBOARD.png?fileID=7499279597856590585&amp;guid=ee5e299528bf5400abf4ff9747442100&amp;type=3#KEYBOARD_14&quot;);" />
+                    </ui:VisualElement>
+                    <ui:Label text="Punch" name="controlsText1" class="controlsText" />
+                </ui:VisualElement>
+                <ui:VisualElement name="controlsSection2" class="controlsSection" style="width: 80%; height: auto;">
+                    <ui:VisualElement name="keyGroup2" class="keyGroup" style="flex-grow: 1;">
+                        <ui:VisualElement name="key" class="keyIcon" style="flex-grow: 0; background-image: url(&quot;project://database/Assets/Downloaded/UI/Buttons%20Pack/KEYBOARD/KEYBOARD.png?fileID=7983150010397578064&amp;guid=ee5e299528bf5400abf4ff9747442100&amp;type=3#KEYBOARD_10&quot;); width: 8%; min-width: 80px; max-width: 100px;" />
+                    </ui:VisualElement>
+                    <ui:Label text="Throw bomb" name="controlsText1" class="controlsText" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:Button text="BACK" name="backButton" class="button" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

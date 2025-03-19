@@ -35449,6 +35449,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mainMenuUXML: {fileID: 9197481963319205126, guid: 49f8173dd26a843bea5e2a6bc00e51a5, type: 3}
   creditsUXML: {fileID: 9197481963319205126, guid: ca75c96f23ce64fd5b382e5655fb0453, type: 3}
+  controlsUXML: {fileID: 9197481963319205126, guid: dbe14ee1fd3174d0292d48e548965698, type: 3}
 --- !u!1 &2103296573
 GameObject:
   m_ObjectHideFlags: 0

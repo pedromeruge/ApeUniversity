@@ -22735,7 +22735,7 @@ TilemapCollider2D:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 1
   m_LayerOverridePriority: 0
   m_ForceSendLayers:
     serializedVersion: 2
@@ -45458,7 +45458,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.1943264, y: 0.72332954}
+  m_Offset: {x: 0.1943264, y: 0.39707756}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -45468,7 +45468,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.6045723, y: 1.2375145}
+  m_Size: {x: 1.6045723, y: 1.8900185}
   m_EdgeRadius: 0
 --- !u!4 &1676394743 stripped
 Transform:

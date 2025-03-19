@@ -7,7 +7,7 @@
             <ui:Label text="VICTORY" name="victoryTitle" class="text" style="font-size: 80px; -unity-font-definition: url(&quot;project://database/Assets/Downloaded/UI/Pixel%20Art%20GUI%20elements/Adapa.ttf?fileID=12800000&amp;guid=d5e9d1ffe57a449a190e5ade4e7b0d91&amp;type=3#Adapa&quot;); color: rgb(255, 255, 255); align-items: center; justify-content: flex-end; align-self: auto; align-content: auto; -unity-text-align: lower-center;" />
         </ui:VisualElement>
         <ui:VisualElement name="bottomSection" style="flex-grow: 0; justify-content: space-evenly; align-items: center; background-size: 100% 100%; height: 65%; background-image: none;">
-            <ui:VisualElement name="playerSprite" style="flex-grow: 0; background-image: url(&quot;project://database/Assets/Downloaded/Character%20elems/mad_scientist/laughing/frame_0.png?fileID=1398893948369281781&amp;guid=7e7f2444d70e2423e8d6f6091f777926&amp;type=3#frame_0_0&quot;); width: 25%; height: 25%; min-width: 100px; max-width: 250px; max-height: 250px; min-height: 100px;" />
+            <ui:VisualElement name="playerSprite" style="flex-grow: 0; background-image: url(&quot;project://database/Assets/Downloaded/Character%20elems/mad_scientist/laughing/frame_0.png?fileID=1398893948369281781&amp;guid=7e7f2444d70e2423e8d6f6091f777926&amp;type=3#frame_0_0&quot;); width: 22%; height: 25%; min-width: 85px; max-width: 220px; max-height: 250px; min-height: 100px;" />
             <ui:VisualElement name="scoreTextSection" class="resultTextSection" style="width: auto;">
                 <ui:Label text="TOTAL SCORE:" name="scoreStaticText" class="resultTextLeft" style="padding-right: 50px;" />
                 <ui:Label text="1000000" name="scoreText1" class="resultText resultTextRight" />
