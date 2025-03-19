@@ -1,20 +1,22 @@
 .statText {
-    font-size: 35px;
+    font-size: 65px;
     color: rgb(255, 255, 255);
     -unity-text-outline-width: 0;
     -unity-font-style: normal;
     border-top-width: 0;
     -unity-text-outline-color: rgb(0, 0, 0);
     -unity-font-definition: url("project://database/Assets/Downloaded/UI/Pixel%20Art%20GUI%20elements/Adapa.ttf?fileID=12800000&guid=d5e9d1ffe57a449a190e5ade4e7b0d91&type=3#Adapa");
-    margin-left: 12px;
-    justify-content: center;
+    margin-left: 30px;
+    justify-content: flex-start;
     align-items: center;
     align-self: center;
-    align-content: center;
+    align-content: auto;
     flex-direction: row;
     -unity-text-align: upper-center;
     white-space: normal;
     letter-spacing: 3px;
+    flex-grow: 0;
+    margin-right: 0;
 }
 
 .statGroup {
@@ -27,20 +29,22 @@
     align-self: center;
     flex-wrap: nowrap;
     justify-content: flex-start;
-    margin-right: 0;
-    width: 100px;
-    height: 40px;
+    margin-right: 15px;
+    width: 240px;
+    height: 100px;
     align-content: center;
-    max-width: 110px;
-    max-height: 50px;
-    min-width: initial;
+    max-width: none;
+    max-height: none;
+    min-width: 240px;
     min-height: initial;
+    white-space: nowrap;
+    flex-grow: 1;
 }
 
 .statStatsLine {
     flex-direction: row;
-    padding-top: 20px;
-    padding-right: 20px;
+    padding-top: 0;
+    padding-right: 0;
     padding-bottom: 0;
-    padding-left: 20px;
+    padding-left: 0;
 }
