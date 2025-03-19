@@ -22,11 +22,15 @@ public class VaseBreakLogicScript : MonoBehaviour
     private List<Vector3> preComputedPositions = new List<Vector3>();
 
     private bool isBroken = false;
+
+    AudioManager audioManager;
+
     private void Awake()
     {
         animator = GetComponent<Animator>();
         preCalculateOresAndForces();
         vaseCollider = GetComponent<Collider2D>();
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
     }
 
     private void preCalculateOresAndForces() {
@@ -47,6 +51,7 @@ public class VaseBreakLogicScript : MonoBehaviour
         if (isBroken) return;
         isBroken = true;
         animator.SetBool("isBroken", true);
+        audioManager.PlaySFX(audioManager.vaseBreak);
         SpawnPrefabs();
         vaseCollider.enabled = false; // disable collider to avoid collision when already broken
         Destroy(gameObject, 1f);
