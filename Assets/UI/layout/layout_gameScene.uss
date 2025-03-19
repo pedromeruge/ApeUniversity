@@ -12,7 +12,7 @@
     align-self: center;
     align-content: auto;
     flex-direction: row;
-    -unity-text-align: upper-center;
+    -unity-text-align: middle-center;
     white-space: normal;
     letter-spacing: 3px;
     flex-grow: 0;

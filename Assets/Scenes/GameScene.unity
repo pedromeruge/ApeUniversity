@@ -41086,10 +41086,10 @@ CircleCollider2D:
   m_LayerOverridePriority: 0
   m_ForceSendLayers:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 1783
   m_ForceReceiveLayers:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 1783
   m_ContactCaptureLayers:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -45396,6 +45396,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ed8d7fbe233748b0aa076734665d973, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  averageTimeToCompleteLevel: 240
 --- !u!4 &1661575971
 Transform:
   m_ObjectHideFlags: 0
@@ -46126,6 +46127,7 @@ GameObject:
   - component: {fileID: 1832341243}
   - component: {fileID: 1832341245}
   - component: {fileID: 1832341246}
+  - component: {fileID: 1832341247}
   m_Layer: 5
   m_Name: UI (UI tookit)
   m_TagString: Untagged
@@ -46194,6 +46196,18 @@ MonoBehaviour:
   pauseMenuUXML: {fileID: 9197481963319205126, guid: 9afc6b222d5af4598a3b97c3210dfa04, type: 3}
   gameOverMenuUXML: {fileID: 9197481963319205126, guid: ec94c5407200c42a58b81eb925dc0d5f, type: 3}
   victoryMenuUXML: {fileID: 9197481963319205126, guid: 768108eba8918438f8ba2e9e74ccbcd2, type: 3}
+--- !u!114 &1832341247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1832341242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62225d01a5e29451181ad83602f57613, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1853592864
 GameObject:
   m_ObjectHideFlags: 0
@@ -47328,6 +47342,22 @@ PrefabInstance:
     - target: {fileID: 7194680361419538451, guid: 3030934c7db814f1aa14f6a8151b5493, type: 3}
       propertyPath: m_Offset.x
       value: -0.0065614386
+      objectReference: {fileID: 0}
+    - target: {fileID: 7194680361419538451, guid: 3030934c7db814f1aa14f6a8151b5493, type: 3}
+      propertyPath: m_CallbackLayers.m_Bits
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7194680361419538451, guid: 3030934c7db814f1aa14f6a8151b5493, type: 3}
+      propertyPath: m_ForceSendLayers.m_Bits
+      value: 1783
+      objectReference: {fileID: 0}
+    - target: {fileID: 7194680361419538451, guid: 3030934c7db814f1aa14f6a8151b5493, type: 3}
+      propertyPath: m_ForceReceiveLayers.m_Bits
+      value: 1783
+      objectReference: {fileID: 0}
+    - target: {fileID: 7194680361419538451, guid: 3030934c7db814f1aa14f6a8151b5493, type: 3}
+      propertyPath: m_ContactCaptureLayers.m_Bits
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8732757571353689845, guid: 3030934c7db814f1aa14f6a8151b5493, type: 3}
       propertyPath: target

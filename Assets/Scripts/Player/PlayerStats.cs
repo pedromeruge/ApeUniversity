@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class PlayerStats : MonoBehaviour
 {
+    public static PlayerStats Instance;
     [SerializeField] private int maxLives = 3;
     private int currentLives = 0;
     [SerializeField] private int maxMonkeys = 5;
@@ -18,6 +19,7 @@ public class PlayerStats : MonoBehaviour
 
     public void Awake()
     {
+        Instance = this;
         this.currentLives = this.maxLives;
         this.currentMonkeys = 0;
         this.currentBombs = this.startBombs;
@@ -27,21 +29,21 @@ public class PlayerStats : MonoBehaviour
 
     private void setupUI()
     {
-        if (UIUpdateLogic.Instance == null)
+        if (OverlayUIUpdateLogic.Instance == null)
         {
-            Debug.LogError("UIUpdateLogic instance is null");
+            Debug.LogError("OverlayUIUpdateLogic instance is null");
             return;
         }
-        UIUpdateLogic.Instance.changeHealth(this.currentLives);
-        UIUpdateLogic.Instance.changeBombs(this.currentBombs);
-        UIUpdateLogic.Instance.changePapers(this.currentMonkeys + "/" + maxMonkeys);
-        UIUpdateLogic.Instance.changeMoney(this.money);
+        OverlayUIUpdateLogic.Instance.changeHealth(this.currentLives);
+        OverlayUIUpdateLogic.Instance.changeBombs(this.currentBombs);
+        OverlayUIUpdateLogic.Instance.changePapers(this.currentMonkeys + "/" + maxMonkeys);
+        OverlayUIUpdateLogic.Instance.changeMoney(this.money);
     }
 
     //returns true if player is dead
     public bool modifyLives(int lives) {
         this.currentLives = Mathf.Clamp(this.currentLives - lives, 0, maxLives);
-        UIUpdateLogic.Instance.changeHealth(this.currentLives);
+        OverlayUIUpdateLogic.Instance.changeHealth(this.currentLives);
 
         if (this.currentLives == 0)
         {
@@ -59,17 +61,17 @@ public class PlayerStats : MonoBehaviour
 
     public void modifyMonkeys(int monkeys) {
         this.currentMonkeys = Mathf.Clamp(this.currentMonkeys + monkeys, 0, maxMonkeys);
-        UIUpdateLogic.Instance.changePapers(this.currentMonkeys + "/" + maxMonkeys);
+        OverlayUIUpdateLogic.Instance.changePapers(this.currentMonkeys + "/" + maxMonkeys);
     }
 
     public void modifyBombs(int bombs) {
         this.currentBombs = Mathf.Max(0, this.currentBombs + bombs);
-        UIUpdateLogic.Instance.changeBombs(this.currentBombs);
+        OverlayUIUpdateLogic.Instance.changeBombs(this.currentBombs);
     }
 
     public void modifyMoney(int money) {
         this.money = Mathf.Max(0, this.money + money);
-        UIUpdateLogic.Instance.changeMoney(this.money);
+        OverlayUIUpdateLogic.Instance.changeMoney(this.money);
     }
 
     public int getLives() {

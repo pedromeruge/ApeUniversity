@@ -3,9 +3,9 @@ using System.Data;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-public class UIUpdateLogic : MonoBehaviour
+public class OverlayUIUpdateLogic : MonoBehaviour
 {
-    public static UIUpdateLogic Instance;
+    public static OverlayUIUpdateLogic Instance;
     private Dictionary<string, Label> labels = new Dictionary<string, Label>();
     void Awake()
     {
@@ -15,6 +15,7 @@ public class UIUpdateLogic : MonoBehaviour
         labels.Add("statTextBombs", root.Q<Label>("statTextBombs"));
         labels.Add("statTextPapers", root.Q<Label>("statTextPapers"));
         labels.Add("statTextMoney", root.Q<Label>("statTextMoney"));
+        labels.Add("statTextTime", root.Q<Label>("statTextTime"));
     }
     public void changeHealth(int health)
     {
@@ -31,5 +32,10 @@ public class UIUpdateLogic : MonoBehaviour
     public void changeMoney(int money)
     {
         labels["statTextMoney"].text = money.ToString();
+    }
+
+    public void changeTime(string time)
+    {
+        labels["statTextTime"].text = time;
     }
 }

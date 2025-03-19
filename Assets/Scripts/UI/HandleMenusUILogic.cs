@@ -100,16 +100,16 @@ public class HandleMenusUILogic : MonoBehaviour
     }
     public void onGameOverScreen()
     {
-        Debug.Log("Game Over");
         pauseMenu.style.display = DisplayStyle.None;
         victoryMenu.style.display = DisplayStyle.None;
         gameOverMenu.style.display = DisplayStyle.Flex;
     }
 
-    public void onVictoryScreen()
+    public void onVictoryScreen(int money, string time, int score)
     {
         pauseMenu.style.display = DisplayStyle.None;
         gameOverMenu.style.display = DisplayStyle.None;
         victoryMenu.style.display = DisplayStyle.Flex;
+        VictoryUIUpdateLogic.Instance.InitializeLabels(money, time, score);
     }
 }

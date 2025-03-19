@@ -9,7 +9,6 @@ public class VictoryStateScript : MonoBehaviour
             PlayerStats playerStats = collision.gameObject.GetComponent<PlayerStats>();
             if (playerStats.caughtAllMonkeys()) {
                 GameStateManager.instance.victory();
-                Debug.Log("Player has caught all papers!");
             }
         }
     }
