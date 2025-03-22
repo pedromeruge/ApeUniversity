@@ -45406,7 +45406,6 @@ MonoBehaviour:
   maxLives: 5
   maxMonkeys: 6
   startBombs: 3
-  currentBombs: 0
 --- !u!114 &1612024945
 MonoBehaviour:
   m_ObjectHideFlags: 0

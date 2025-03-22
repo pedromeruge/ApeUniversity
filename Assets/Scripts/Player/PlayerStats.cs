@@ -12,7 +12,7 @@ public class PlayerStats : MonoBehaviour
     private int currentMonkeys = 0;
 
     [SerializeField] int startBombs = 3;
-    [SerializeField] private int currentBombs = 0;
+    private int currentBombs = 0;
 
     private int money = 0;
     private int score = 0;

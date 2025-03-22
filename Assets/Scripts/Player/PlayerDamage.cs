@@ -32,8 +32,9 @@ public class PlayerDamage : BaseDamageable
         }
     }
 
-    public override void TakeDamage(int damage = -1)
+    public override void TakeDamage(int damage = 1)
     {
+        Debug.Log("Player taking damage: " + damage);
         bool isDead = playerStats.modifyLives(damage);
         CallDamageFlash(); // blink effect
         if (isDead) {

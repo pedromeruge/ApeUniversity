@@ -12,6 +12,8 @@ public class BaseExplosive : MonoBehaviour, IExplosive
     [SerializeField] float cameraShakeDuration = 1.2f;
     [SerializeField] float cameraShakeStrength = 10.0f;
     [SerializeField] protected int damage = 1;
+    private bool hasExploded = false;
+
 
     //also immediately destroy the bomb, when another explosion occurs near
     private void OnEnable()
@@ -34,6 +36,11 @@ public class BaseExplosive : MonoBehaviour, IExplosive
     }
 
     public void Explode() {
+        if (hasExploded) {
+            return;
+        }
+        hasExploded = true; // prevent multiple explosions
+        Debug.Log("Exploding with damage: " + damage);
         Vector3 objPos = transform.position;
         playExplosionFx(objPos);
         destroySelf(objPos);
@@ -54,7 +61,6 @@ public class BaseExplosive : MonoBehaviour, IExplosive
     void checkOverlapAndDestroy(Vector3 objPos) {
         Collider2D[] colliders = Physics2D.OverlapCircleAll(objPos, explosionRadius, layerMask);
         foreach (Collider2D collider in colliders) {
-            // Debug.Log("Explosion hit: " + collider.name);
             CallInterfaces.triggerExplosive(collider, objPos, this.gameObject);
             CallInterfaces.hitDamageable(collider, objPos, damage);
             CallInterfaces.signalDestructibles(collider, objPos, explosionRadius);

@@ -133,6 +133,7 @@ MonoBehaviour:
   explosionFxPrefab: {fileID: 480227836981032412, guid: 506b748618c8b4fe4bdd5ba7cde561c0, type: 3}
   cameraShakeDuration: 0.6
   cameraShakeStrength: 15
+  damage: 1
   countdown: 2.5
   flashAnim:
     serializedVersion: 2

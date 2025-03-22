@@ -33,10 +33,13 @@ public class GameStateManager : MonoBehaviour
         }
     }
 
-    public bool togglePauseGame() {
+    public bool togglePauseGame(bool updateUi=true) {
         gamePaused = !gamePaused;
         Time.timeScale = gamePaused ? 0 : 1;
-        HandleMenusUILogic.instance.onPause(gamePaused);
+
+        if (updateUi) {
+            HandleMenusUILogic.instance.onPause(gamePaused);
+        }
         return gamePaused;
     }
 

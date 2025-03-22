@@ -40,7 +40,6 @@ public class LadderMovement : MonoBehaviour
     {
         if (collision.CompareTag("Ladder"))
         {   
-            print("entered Ladder trigger");
             isOnLadder = true;
         }
     }
@@ -49,7 +48,6 @@ public class LadderMovement : MonoBehaviour
     {
         if (collision.CompareTag("Ladder"))
         {
-            print("exited Ladder trigger");
             isOnLadder = false;
             isClimbing = false;
             animator.SetBool("isClimbing", false);
