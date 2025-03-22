@@ -49,7 +49,7 @@ public class PickupItemsScripts : MonoBehaviour
                 currentPickup = null;
                 return;
             }
-            currentPickup.OnDrop(defaultDropObjectParent);
+            currentPickup.OnDrop(defaultDropObjectParent, this.transform.parent.gameObject);
             currentPickup = null;
         }
     }

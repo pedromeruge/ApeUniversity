@@ -5,11 +5,8 @@ public class DisablePlataformScript : MonoBehaviour
 {
     [SerializeField] float disableTime = 0.2f;
     [SerializeField] private Collider2D platformCollider = null; // plataform collider
-    private Collider2D playerCollider = null;
+    [SerializeField] private Collider2D playerCollider = null; // player collider
     private bool collidingWithPlatform = false;
-    private void Awake() {
-        playerCollider = GetComponent<Collider2D>();
-    }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {

@@ -30,6 +30,7 @@ public class BombThrowScript : MonoBehaviour
             // apply intial force to bomb
             bombRigidbody.linearVelocity = new Vector2(throwForce * Mathf.Cos(throwAngle * Mathf.Deg2Rad) * playerTransform.localScale.x, throwForce * Mathf.Sin(throwAngle * Mathf.Deg2Rad));
             bombRigidbody.angularVelocity = throwRotation;
+            
             //update player state
             playerStats.modifyBombs(-1);
         }

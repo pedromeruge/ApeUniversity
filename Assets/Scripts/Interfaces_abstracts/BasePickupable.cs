@@ -32,12 +32,12 @@ public abstract class BasePickupable : MonoBehaviour, IPickupable
 
     }
     
-    public void OnDrop(GameObject dropParent) {
+    public void OnDrop(GameObject dropParent, GameObject playerParent) {
         pickupCollider.enabled = true;
+        this.transform.position = playerParent.transform.position; // make dropped object occupy center of playe position, so when dropping items next to walls, they dont fall into the map
         pickupRb.bodyType = RigidbodyType2D.Dynamic;
         this.transform.SetParent(dropParent.transform, true);
     }
-    
 
     public void setParent(Transform parent)
     {

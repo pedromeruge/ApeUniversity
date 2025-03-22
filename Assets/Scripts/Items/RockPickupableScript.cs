@@ -9,7 +9,7 @@ public class RockPickupableScript : BasePickupable
     // parent to which the item goes when dropped
     public override bool OnUse(GameObject dropParent, GameObject playerParent) {
 
-        OnDrop(dropParent);
+        OnDrop(dropParent, playerParent);
         pickupRb.linearVelocity = new Vector2(throwForce * Mathf.Cos(throwAngle * Mathf.Deg2Rad) * playerParent.transform.localScale.x, throwForce * Mathf.Sin(throwAngle * Mathf.Deg2Rad));
         pickupRb.angularVelocity = throwRotation;
         return true;

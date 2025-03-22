@@ -58,9 +58,9 @@ public class TrapCollisionTracker : MonoBehaviour
         {
             remainingDarts--;
             currentCollisionCooldown = collisionCooldown;
-            Debug.Log("Player detected within " + entityHit.distance + " units!");
-            Debug.Log("remaining darts: " + remainingDarts);
-            Debug.Log("At position: " + entityHit.point);
+            // Debug.Log("Player detected within " + entityHit.distance + " units!");
+            // Debug.Log("remaining darts: " + remainingDarts);
+            // Debug.Log("At position: " + entityHit.point);
             spawnDart();
         }
     }

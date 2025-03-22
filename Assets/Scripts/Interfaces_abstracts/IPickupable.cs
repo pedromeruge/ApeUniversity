@@ -4,7 +4,7 @@ public interface IPickupable
 {
     void OnPickup(GameObject playerParent);
 
-    void OnDrop(GameObject dropParent);
+    void OnDrop(GameObject dropParent, GameObject playerParent);
 
     // dropParent - parent object in scene to which the item goes when dropped
     // playerParent - player object in scene, from which the item is used. relevant to apply items in relation to the player position
