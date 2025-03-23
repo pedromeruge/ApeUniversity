@@ -4,6 +4,11 @@ public class MonkeyCatchableScript : BaseHittable
 {
     [SerializeField] private GameObject paperPrefab;
     [SerializeField] private Animator anim;
+    AudioManager audioManager;
+
+    void Awake() {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
     private void OnEnable()
     {
         PlayerHitScript.OnEntityHit += OnEntityHit;
@@ -31,6 +36,7 @@ public class MonkeyCatchableScript : BaseHittable
         }
         anim.SetBool("isRunning",false);
         anim.SetBool("isDead",true);
+        audioManager.PlaySFX(audioManager.punchMonkey);
         Destroy(this.gameObject,0.5f);
         spawnPaper();
     }

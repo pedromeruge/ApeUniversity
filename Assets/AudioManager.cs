@@ -18,6 +18,8 @@ public class AudioManager : MonoBehaviour
     public AudioClip laughing;
     public AudioClip punch;
     public AudioClip vaseBreak;
+    public AudioClip punchMonkey;
+    public AudioClip dart;
 
 
 

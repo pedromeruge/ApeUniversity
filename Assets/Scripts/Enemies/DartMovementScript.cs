@@ -8,6 +8,13 @@ public class DartMovementScript : MonoBehaviour
     [SerializeField] private int damage = 1;
 
     private Vector3 arrowUpdateVector;
+
+    AudioManager audioManager;
+
+    void Awake() {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
+
     void Start()
     {
         Rigidbody2D rb = GetComponent<Rigidbody2D>();
@@ -28,7 +35,7 @@ public class DartMovementScript : MonoBehaviour
         CallInterfaces.hitDamageable(collider, objPos, damage);
         CallInterfaces.signalDestructibles(collider, objPos, 0.01f);
 
-
+        audioManager.PlaySFX(audioManager.dart);
 
         Destroy(gameObject); // destroy arrow on collision, regardless if wall or damageable entity
     }
