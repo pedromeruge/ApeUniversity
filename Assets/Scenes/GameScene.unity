@@ -45452,10 +45452,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   musicSource: {fileID: 1376372295}
   SFXSource: {fileID: 589264749}
-  caveBackground: {fileID: 8300000, guid: a093c08b952d7e44584fc7997b9b227e, type: 3}
+  caveBackground: {fileID: 8300000, guid: 942c2ce7dbca01d4796f5fa7f78d4565, type: 3}
   batSqueek: {fileID: 8300000, guid: a8819ae3be52aa941a82da7b0de13ef2, type: 3}
   bombExplosion: {fileID: 8300000, guid: 30c5b67b5b65c5b4695b393601829757, type: 3}
-  bonk: {fileID: 8300000, guid: aa34a79d56463cc44b633dbe20d7f91a, type: 3}
+  bonk: {fileID: 8300000, guid: 871cd6c61ccb4874cabcc407bfe00acc, type: 3}
   collectible: {fileID: 8300000, guid: ce3fc91eeac469f4b90b93e0d9d43126, type: 3}
   dead: {fileID: 8300000, guid: cc86b15952de15d448d95aaefdbb6243, type: 3}
   intro: {fileID: 8300000, guid: ba023f92ccd2ed640932b8eb57f98d01, type: 3}

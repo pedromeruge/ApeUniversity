@@ -8,6 +8,12 @@ public class BatDamageScript : MonoBehaviour
 
     private float lastCollisionTime= -Mathf.Infinity;
 
+    AudioManager audioManager;
+
+    void Awake() {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
+
     void OnTriggerStay2D(Collider2D collider) // runs every frame while object inside trigger, to reapply damage even if still in cooldown
     {
         if (!collider.CompareTag("Player")) return; // guarantee it only hits players
@@ -19,6 +25,7 @@ public class BatDamageScript : MonoBehaviour
             //CallInterfaces.signalDestructibles(collider, objPos, 0.01f);
             Debug.Log("Colliding with: "+ collider.name);
             lastCollisionTime = Time.time;
+            audioManager.PlaySFX(audioManager.batSqueek);
         }
         //Destroy(gameObject); // destroy arrow on collision, regardless if wall or damageable entity
     }

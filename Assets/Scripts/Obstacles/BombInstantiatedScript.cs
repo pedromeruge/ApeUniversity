@@ -10,6 +10,7 @@ public class BombInstantiatedScript : BaseExplosive {
     [SerializeField] Color flashColor;
 
     private Renderer spriteRenderer = null;
+    AudioManager audioManager;
 
     void Start()
     {
@@ -21,6 +22,7 @@ public class BombInstantiatedScript : BaseExplosive {
         if (spriteRenderer == null) {
             spriteRenderer = GetComponent<Renderer>();
         }
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
     }
 
     public void startCountdown() {
@@ -31,5 +33,6 @@ public class BombInstantiatedScript : BaseExplosive {
         StartCoroutine(SpriteEffects.ColorFlasher(spriteRenderer, flashAnim, flashColor, seconds));
         yield return new WaitForSeconds(seconds);
         Explode();
+        audioManager.PlaySFX(audioManager.bombExplosion);
     }
 }

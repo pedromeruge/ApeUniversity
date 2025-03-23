@@ -11,6 +11,12 @@ public class BombThrowScript : MonoBehaviour
     [SerializeField] private float throwAngle = 45.0f;
     [SerializeField] private float throwRotation = 50.0f;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
+    //AudioManager audioManager;
+
+    //private void Awake()
+    //{
+    //    audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    //}
 
     public void ThrowBomb(InputAction.CallbackContext context) {
         if (context.performed && playerStats.getBombs() > 0) {

@@ -13,7 +13,13 @@ public class BaseExplosive : MonoBehaviour, IExplosive
     [SerializeField] float cameraShakeStrength = 10.0f;
     [SerializeField] protected int damage = 1;
     private bool hasExploded = false;
+    //AudioManager audioManager;
 
+
+    //void Awake() {
+//
+    //    audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    //}
 
     //also immediately destroy the bomb, when another explosion occurs near
     private void OnEnable()
@@ -45,7 +51,6 @@ public class BaseExplosive : MonoBehaviour, IExplosive
         playExplosionFx(objPos);
         destroySelf(objPos);
         checkOverlapAndDestroy(objPos);
-
         Debug.DrawLine(new Vector3(objPos.x - 0.2f, objPos.y + 0.2f, objPos.z), new Vector3(objPos.x + 0.2f, objPos.y - 0.2f, objPos.z), Color.red, 100); // Adjust radius as needed
     }
     

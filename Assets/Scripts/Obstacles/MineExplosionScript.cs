@@ -7,6 +7,7 @@ public class MineExplosionScript : BaseExplosive
 
     [ColorUsage(true, true)]
     [SerializeField] Color flashColor;
+    AudioManager audioManager;
 
     private Renderer spriteRenderer = null;
 
@@ -15,6 +16,7 @@ public class MineExplosionScript : BaseExplosive
         if (spriteRenderer == null) {
             spriteRenderer = GetComponent<Renderer>();
         }
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
     }
 
     void OnTriggerEnter2D(Collider2D collider)
@@ -26,5 +28,6 @@ public class MineExplosionScript : BaseExplosive
         StartCoroutine(SpriteEffects.ColorFlasher(spriteRenderer, flashAnim, flashColor, seconds));
         yield return new WaitForSeconds(seconds);
         Explode();
+        audioManager.PlaySFX(audioManager.bombExplosion);
     }
 }
