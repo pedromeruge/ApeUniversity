@@ -39395,7 +39395,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.669
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -45463,6 +45463,8 @@ MonoBehaviour:
   laughing: {fileID: 8300000, guid: 80c879b4f8e9a0d4e9c6c42b64980abe, type: 3}
   punch: {fileID: 8300000, guid: cd128c5dfe365704a952c974b00fd8c0, type: 3}
   vaseBreak: {fileID: 8300000, guid: 8c87c3ac0c3b7024fa3ef4292b4bdc37, type: 3}
+  punchMonkey: {fileID: 8300000, guid: f31af6a311c66814ba00f48d1912be0a, type: 3}
+  dart: {fileID: 8300000, guid: c584d3128275e4348b3e89c2c22b3210, type: 3}
 --- !u!4 &1633037402
 Transform:
   m_ObjectHideFlags: 0
