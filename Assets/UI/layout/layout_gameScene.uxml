@@ -2,10 +2,10 @@
     <Style src="project://database/Assets/UI/layout/layout_gameScene.uss?fileID=7433441132597879392&amp;guid=7ba5c0805a0c64eab9c9160cbd3860a2&amp;type=3#layout_gameScene" />
     <Style src="project://database/Assets/UI/layout/layout_mainMenuScene.uss?fileID=7433441132597879392&amp;guid=f0f1c5bbe058d490d996329b21935107&amp;type=3#layout_mainMenuScene" />
     <ui:VisualElement style="flex-grow: 1;">
-        <ui:VisualElement name="headers" style="flex-grow: 1; padding-top: 40px; padding-right: 50px; padding-bottom: 30px; padding-left: 50px;">
+        <ui:VisualElement name="headers" style="flex-grow: 1; padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px;">
             <ui:VisualElement name="header1" class="statStatsLine" style="flex-grow: 0; width: auto; flex-direction: row; height: auto; justify-content: flex-start; align-items: flex-start; background-color: rgba(0, 0, 0, 0); flex-shrink: 1;">
                 <ui:VisualElement name="leftSide" style="flex-grow: 1; flex-direction: row;">
-                    <ui:VisualElement name="statGroupHealth" class="statGroup" style="flex-grow: 0; align-content: auto; flex-wrap: nowrap; flex-direction: row; overflow: visible; margin-right: 0;">
+                    <ui:VisualElement name="statGroupHealth" class="statGroup" style="flex-grow: 0; align-content: auto; flex-wrap: nowrap; flex-direction: row; overflow: visible;">
                         <ui:VisualElement name="statIconHealth" class="statIcon" style="background-color: rgba(0, 0, 0, 0); background-image: url(&quot;project://database/Assets/Downloaded/UI/craftpix-net-703342-free-pixel-art-icons-for-mine-location/2%20Icons%20with%20back/health_blob_icon.png?fileID=2800000&amp;guid=dd07ffd67fc3b427c84288b63b041339&amp;type=3#health_blob_icon&quot;);" />
                         <ui:Label text="10&#10;&#10;&#10;&#10;" name="statTextHealth" class="statText" style="white-space: nowrap; text-overflow: ellipsis; -unity-text-outline-width: 0; -unity-text-align: upper-center;" />
                     </ui:VisualElement>
@@ -20,12 +20,12 @@
                 </ui:VisualElement>
                 <ui:VisualElement name="rightSide" style="flex-grow: 1; flex-direction: row; justify-content: flex-end;">
                     <ui:VisualElement name="statGroupTime" class="statGroup" style="flex-grow: 0; align-content: flex-end; flex-wrap: nowrap; flex-direction: row; overflow: visible; margin-right: 0; justify-content: flex-end; width: 240px;">
-                        <ui:Label text="01:50" name="statTextTime" class="statText" style="white-space: nowrap; text-overflow: ellipsis; -unity-text-outline-width: 0; -unity-text-align: middle-center; margin-right: 30px; margin-left: 0;" />
+                        <ui:Label text="01:50" name="statTextTime" class="statText" style="white-space: nowrap; text-overflow: ellipsis; -unity-text-outline-width: 0; -unity-text-align: middle-center; margin-right: 20px; margin-left: 0;" />
                         <ui:VisualElement name="statIconTime" class="statIcon" style="background-color: rgba(0, 0, 0, 0); background-image: url(&quot;project://database/Assets/Downloaded/UI/craftpix-net-703342-free-pixel-art-icons-for-mine-location/2%20Icons%20with%20back/lantern_icon.png?fileID=2800000&amp;guid=66f14f05cecbf452dbebfae9cdbb542b&amp;type=3#lantern_icon&quot;); justify-content: center;" />
                     </ui:VisualElement>
                 </ui:VisualElement>
             </ui:VisualElement>
-            <ui:VisualElement name="header2" class="statStatsLine" style="flex-grow: 0; width: auto; flex-direction: row; height: auto; justify-content: flex-start; align-items: flex-start; background-color: rgba(0, 0, 0, 0); flex-shrink: 1; padding-top: 30px;">
+            <ui:VisualElement name="header2" class="statStatsLine" style="flex-grow: 0; width: auto; flex-direction: row; height: auto; justify-content: flex-start; align-items: flex-start; background-color: rgba(0, 0, 0, 0); flex-shrink: 1; padding-top: 10px;">
                 <ui:VisualElement name="statGroupMoney" class="statGroup" style="flex-grow: 0; align-content: auto; flex-wrap: nowrap; flex-direction: row; overflow: visible;">
                     <ui:VisualElement name="statIconMoney" class="statIcon statStatsLine" style="background-image: url(&quot;project://database/Assets/Downloaded/UI/craftpix-net-703342-free-pixel-art-icons-for-mine-location/2%20Icons%20with%20back/money_icon.png?fileID=2800000&amp;guid=f44301061eea242e0a504fcb869efd1a&amp;type=3#money_icon&quot;);" />
                     <ui:Label text="10000 &#10;&#10;&#10;&#10;" name="statTextMoney" class="statText" style="white-space: nowrap; text-overflow: ellipsis; -unity-text-align: upper-center;" />
