@@ -1,6 +1,6 @@
 .resultTextLeft {
     color: rgb(255, 255, 255);
-    font-size: 60px;
+    font-size: 40px;
     -unity-font-definition: url("project://database/Assets/Downloaded/UI/Pixel%20Art%20GUI%20elements/Adapa.ttf?fileID=12800000&guid=d5e9d1ffe57a449a190e5ade4e7b0d91&type=3#Adapa");
     margin-right: 0;
     padding-right: 10px;
@@ -30,7 +30,7 @@
 
 .resultTextRight {
     color: rgb(255, 255, 255);
-    font-size: 60px;
+    font-size: 35px;
     -unity-font-definition: url("project://database/Assets/Downloaded/UI/Pixel%20Art%20GUI%20elements/Adapa.ttf?fileID=12800000&guid=d5e9d1ffe57a449a190e5ade4e7b0d91&type=3#Adapa");
     flex-grow: 0;
     align-content: auto;

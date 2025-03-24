@@ -7,7 +7,7 @@
             <ui:Label text="CONTROLS" name="controlsTitle" style="font-size: 80px; -unity-font-definition: url(&quot;project://database/Assets/Downloaded/UI/Pixel%20Art%20GUI%20elements/Adapa.ttf?fileID=12800000&amp;guid=d5e9d1ffe57a449a190e5ade4e7b0d91&amp;type=3#Adapa&quot;); color: rgb(255, 255, 255);" />
         </ui:VisualElement>
         <ui:VisualElement name="bottomSection" style="flex-grow: 1; justify-content: center; align-items: center; background-size: 100% 100%; height: 50%; background-image: none;">
-            <ui:VisualElement name="controlsRegion" style="flex-grow: 0; width: 100%; height: 80%; align-items: center; justify-content: space-evenly; align-content: stretch; margin-bottom: 20px;">
+            <ui:VisualElement name="controlsRegion" style="flex-grow: 0; width: 75%; height: 80%; align-items: center; justify-content: space-evenly; align-content: stretch; margin-bottom: 20px;">
                 <ui:VisualElement name="controlsSection1" class="controlsSection">
                     <ui:VisualElement name="keyGroup1" class="keyGroup">
                         <ui:VisualElement name="key" class="keyIcon" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Downloaded/UI/Buttons%20Pack/KEYBOARD/KEYBOARD.png?fileID=-1862889234559275305&amp;guid=ee5e299528bf5400abf4ff9747442100&amp;type=3#KEYBOARD_11&quot;); max-width: 50px;" />
@@ -36,7 +36,7 @@
                     <ui:VisualElement name="keyGroup1" class="keyGroup">
                         <ui:VisualElement name="key" class="keyIcon" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Downloaded/UI/Buttons%20Pack/KEYBOARD/KEYBOARD.png?fileID=7499279597856590585&amp;guid=ee5e299528bf5400abf4ff9747442100&amp;type=3#KEYBOARD_14&quot;);" />
                         <ui:Label text="or" name="separator" class="middleKeysText" style="margin-top: 0; margin-right: 10px; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;" />
-                        <ui:VisualElement name="key" class="keyIcon" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Downloaded/UI/Buttons%20Pack/MOUSE/MOUSEBUTTONRIGHT.png?fileID=2800000&amp;guid=85cfd4f99b4b84eb4bca5d78ab34f6c2&amp;type=3#MOUSEBUTTONRIGHT&quot;); min-width: 30px; min-height: 45px; max-width: 40px; max-height: 50px; padding-bottom: 0; margin-bottom: 5px;" />
+                        <ui:VisualElement name="key" class="keyIcon" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Downloaded/UI/Buttons%20Pack/MOUSE/MOUSEBUTTONRIGHT.png?fileID=2800000&amp;guid=85cfd4f99b4b84eb4bca5d78ab34f6c2&amp;type=3#MOUSEBUTTONRIGHT&quot;); min-width: 30px; min-height: 45px; max-width: 50px; max-height: 65px; padding-bottom: 0; margin-bottom: 5px; width: 4%;" />
                     </ui:VisualElement>
                     <ui:Label text="Punch" name="controlsText1" class="controlsText" />
                 </ui:VisualElement>

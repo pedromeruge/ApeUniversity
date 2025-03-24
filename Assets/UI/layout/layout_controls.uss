@@ -1,10 +1,10 @@
 .keyIcon {
-    width: 4%;
-    height: 5%;
+    width: 5%;
+    height: 6%;
     min-width: 40px;
-    min-height: 50px;
-    max-width: 50px;
-    max-height: 60px;
+    min-height: 55px;
+    max-width: 60px;
+    max-height: 70px;
     margin-right: 10px;
     flex-shrink: 0;
 }
@@ -33,7 +33,7 @@
 .controlsText {
     -unity-font-definition: url("project://database/Assets/Downloaded/UI/Pixel%20Art%20GUI%20elements/Adapa.ttf?fileID=12800000&guid=d5e9d1ffe57a449a190e5ade4e7b0d91&type=3#Adapa");
     color: rgb(255, 255, 255);
-    font-size: 40px;
+    font-size: 45px;
     -unity-text-align: middle-center;
 }
 

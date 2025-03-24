@@ -7,7 +7,7 @@
             <ui:Label text="VICTORY" name="victoryTitle" class="text" style="font-size: 80px; -unity-font-definition: url(&quot;project://database/Assets/Downloaded/UI/Pixel%20Art%20GUI%20elements/Adapa.ttf?fileID=12800000&amp;guid=d5e9d1ffe57a449a190e5ade4e7b0d91&amp;type=3#Adapa&quot;); color: rgb(255, 255, 255); align-items: center; justify-content: flex-end; align-self: auto; align-content: auto; -unity-text-align: lower-center;" />
         </ui:VisualElement>
         <ui:VisualElement name="bottomSection" style="flex-grow: 0; justify-content: space-evenly; align-items: center; background-size: 100% 100%; height: 65%; background-image: none;">
-            <ui:VisualElement name="playerSprite" style="flex-grow: 0; background-image: url(&quot;project://database/Assets/Downloaded/Character%20elems/mad_scientist/laughing/frame_0.png?fileID=1398893948369281781&amp;guid=7e7f2444d70e2423e8d6f6091f777926&amp;type=3#frame_0_0&quot;); width: 22%; height: 25%; min-width: 85px; max-width: 220px; max-height: 250px; min-height: 100px;" />
+            <ui:VisualElement name="playerSprite" style="flex-grow: 0; background-image: url(&quot;project://database/Assets/Downloaded/Character%20elems/mad_scientist/laughing/frame_0.png?fileID=1398893948369281781&amp;guid=7e7f2444d70e2423e8d6f6091f777926&amp;type=3#frame_0_0&quot;); width: 15%; height: 25%; min-width: 60px; max-width: 150px; max-height: 250px; min-height: 100px;" />
             <ui:VisualElement name="scoreTextSection" class="resultTextSection" style="width: auto;">
                 <ui:Label text="TOTAL SCORE:" name="scoreStaticText" class="resultTextLeft" style="padding-right: 50px;" />
                 <ui:Label text="1000000" name="scoreText1" class="resultText resultTextRight" />
@@ -17,16 +17,16 @@
         </ui:VisualElement>
     </ui:VisualElement>
     <ui:VisualElement name="scoreSection" style="flex-grow: 0; position: absolute; right: 0; justify-content: center; width: 35%; height: 100%; align-items: center; min-width: 500px; min-height: 100px; max-width: none; max-height: none; align-self: auto; align-content: auto; flex-direction: column; top: 0; padding-right: 80px;">
-        <ui:VisualElement name="moneyTextSection" class="resultTextSection">
+        <ui:VisualElement name="moneyTextSection" class="resultTextSection" style="width: 70%;">
             <ui:Label text="MONEY :" name="moneyStaticText" class="resultTextLeft" />
             <ui:Label text="15000" name="moneyText" class="resultText resultTextRight" />
         </ui:VisualElement>
-        <ui:VisualElement name="timeTextSection" class="resultTextSection">
+        <ui:VisualElement name="timeTextSection" class="resultTextSection" style="width: 70%;">
             <ui:Label text="TIME :" name="timeStaticText" class="resultTextLeft" />
             <ui:Label text="03:25" name="timeText" class="resultText resultTextRight" />
         </ui:VisualElement>
-        <ui:VisualElement name="barrier" style="flex-grow: 0; height: 5px; width: 65%; background-color: rgb(255, 255, 255); margin-top: 20px; margin-bottom: 20px;" />
-        <ui:VisualElement name="scoreTextSection" class="resultTextSection">
+        <ui:VisualElement name="barrier" style="flex-grow: 0; height: 5px; width: 70%; background-color: rgb(255, 255, 255); margin-top: 20px; margin-bottom: 20px;" />
+        <ui:VisualElement name="scoreTextSection" class="resultTextSection" style="width: 70%;">
             <ui:Label text="TOTAL SCORE:" name="scoreStaticText" class="resultTextLeft" />
             <ui:Label text="10000" name="scoreText2" class="resultText resultTextRight" />
         </ui:VisualElement>
